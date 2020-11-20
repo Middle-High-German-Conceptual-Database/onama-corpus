@@ -32,44 +32,11 @@ onamaObject:Q1163 a onama:Concept ;
     schema:dateModified "2019-12-18T14:53:08+00:00"^^xsd:dateTime ;
     schema:version 10008 .
 
-onamaObject:Q1235 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Helfer"@de,
-        "Entity Function Helper"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q61127496> ;
-    schema:dateModified "2020-07-07T07:29:38+00:00"^^xsd:dateTime ;
-    schema:version 14692 ;
-    skos:altLabel "Entitätsfunktion Helferin"@de .
-
-onamaObject:Q1236 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Wächter"@de,
-        "Entity Function Guardian"@en ;
-    schema:dateModified "2020-07-07T07:28:43+00:00"^^xsd:dateTime ;
-    schema:version 14689 ;
-    skos:altLabel "Figurentypus Hüter"@de .
-
 onamaObject:Q1245 a onama:Verb ;
     rdfs:label "verstopfen, v."@de,
         "clog, v."@en ;
     schema:dateModified "2020-01-23T13:18:22+00:00"^^xsd:dateTime ;
     schema:version 11052 .
-
-onamaObject:Q1260 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Übermächtiger Gegner"@de,
-        "Entity Function Overpowering Opponent"@en ;
-    schema:dateModified "2020-07-07T07:32:00+00:00"^^xsd:dateTime ;
-    schema:version 14702 .
-
-onamaObject:Q1261 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Liebende*r"@de,
-        "Entity Function Lover"@en ;
-    schema:dateModified "2020-07-07T07:31:08+00:00"^^xsd:dateTime ;
-    schema:version 14698 .
-
-onamaObject:Q1262 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Geliebte/r"@de,
-        "Entity Function Beloved"@en ;
-    schema:dateModified "2020-07-07T07:27:39+00:00"^^xsd:dateTime ;
-    schema:version 14685 .
 
 onamaObject:Q1287 a onama:Concept ;
     rdfs:label "Karl der Große entdeckt das Grab der Hll. Felix, Regula und Exuperantius"@de,
@@ -107,14 +74,6 @@ onamaObject:Q1350 a onama:Verb ;
         "carry the luggage, v."@en ;
     schema:dateModified "2020-02-13T09:48:06+00:00"^^xsd:dateTime ;
     schema:version 12192 .
-
-onamaObject:Q137 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Gefährte"@de,
-        "Entity Function Comrade"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q632316> ;
-    schema:dateModified "2020-07-07T07:38:57+00:00"^^xsd:dateTime ;
-    schema:version 14729 ;
-    skos:altLabel "Entitätsfunktion Gefährtin"@de .
 
 onamaObject:Q1424 a onama:Concept ;
     rdfs:label "Adler nimmt Opfer im Flug vom Altar"@de,
@@ -180,14 +139,6 @@ onamaObject:Q165 a onama:Person ;
     schema:dateModified "2020-05-19T08:53:16+00:00"^^xsd:dateTime ;
     schema:version 14120 .
 
-onamaObject:Q229 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Bote"@de,
-        "Entity Function Messenger"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q848466> ;
-    schema:dateModified "2020-07-07T07:43:35+00:00"^^xsd:dateTime ;
-    schema:version 14734 ;
-    skos:altLabel "Entitätsfunktion Botin"@de .
-
 onamaObject:Q257 a onama:Place ;
     rdfs:label "Fegefeuer; Purgatorium"@de,
         "purgatory"@en ;
@@ -241,18 +192,6 @@ onamaObject:Q551 a onama:Thing ;
     schema:dateModified "2019-09-24T10:16:01+00:00"^^xsd:dateTime ;
     schema:version 3976 ;
     skos:altLabel "Botschaft"@de .
-
-onamaObject:Q554 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion männlich"@de,
-        "Entity Function male"@en ;
-    schema:dateModified "2020-07-07T07:36:16+00:00"^^xsd:dateTime ;
-    schema:version 14720 .
-
-onamaObject:Q555 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion weiblich"@de,
-        "Entity Function female"@en ;
-    schema:dateModified "2020-07-07T07:35:58+00:00"^^xsd:dateTime ;
-    schema:version 14718 .
 
 onamaObject:Q590 a onama:Verb ;
     rdfs:label "treffen, v."@de,
@@ -335,12 +274,6 @@ onamaObject:Q730 a onama:Verb ;
     schema:dateModified "2020-06-22T11:13:13+00:00"^^xsd:dateTime ;
     schema:version 14630 ;
     skos:altLabel "Bewusstsein verlieren, v."@de .
-
-onamaObject:Q756 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Berater"@de,
-        "Entity Function Advisor"@en ;
-    schema:dateModified "2020-07-07T07:33:38+00:00"^^xsd:dateTime ;
-    schema:version 14711 .
 
 onamaObject:Q786 a onama:Thing ;
     rdfs:label "Wunde, n."@de,
@@ -1969,6 +1902,8 @@ onamaObject:Q1130-a83be77b-4d15-81f1-2456-d7400e87ebca a onama:Action ;
 onamaObject:Q1130-d4752d18-46e3-4271-9ea0-6deccea643e0 a onama:AgentRole ;
     onama:hasActor onamaObject:Q452 .
 
+onamaObject:Q1130-f5d15ce2-47e4-aec8-fcea-8de5ee720145 a onama:ThemeRole .
+
 onamaObject:Q1130-f9dedaa0-4b3a-5eaa-b9fb-b50f367b4b70 a onama:InstrumentRole ;
     onama:hasThing onamaObject:Q1021 .
 
@@ -2207,10 +2142,15 @@ onamaObject:Q1145-612a56d1-496e-0730-3d8d-c42eb9226d03 a onama:Action ;
     onama:hasVerb onamaObject:Q1146 .
 
 onamaObject:Q1145-886ca948-4037-c1bd-86be-709ddea30c23 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1145-8e8faf94-4375-fe12-c73c-c2e85b617bfa a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1147-199b1d56-4877-c8fc-5caa-7d4f11fec296 a onama:Action ;
     onama:hasVerb onamaObject:Q1148 .
@@ -2271,10 +2211,15 @@ onamaObject:Q1150 a onama:Verb ;
     schema:version 9849 .
 
 onamaObject:Q1151-0fa02952-4451-58e4-de31-572cbe0af0ec a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1151-10f59d43-4114-baa2-5105-3c05637137c6 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1151-8492dbac-47ee-3965-62ef-9e1cd05ee873 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -2326,6 +2271,7 @@ onamaObject:Q1154 a onama:Verb ;
     skos:altLabel "sich kleiden, v."@de .
 
 onamaObject:Q1156-29846d28-4f34-b801-4382-df785f4d26c4 a onama:ThemeRole ;
+    onama:hasTemporaryEntityFunction onamaObject:Q999 ;
     onama:hasThing onamaObject:Q1157 .
 
 onamaObject:Q1156-856f095b-4714-7e25-8250-45c37657bb1b a onama:PlaceRole ;
@@ -2335,10 +2281,15 @@ onamaObject:Q1156-8c5a4ca3-4193-eb11-d9d4-86701c0e4b95 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q1156-95620c7c-401f-ef54-4e62-8a2ae7e278c2 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1156-9f698d1b-4a91-56d8-f48a-b0d9330ff649 a onama:RecipientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1156-b4894251-4fc5-bc34-f1db-4e30d5b5f59c a onama:Action ;
     onama:hasVerb onamaObject:Q285 .
@@ -2348,6 +2299,7 @@ onamaObject:Q1158-0555e8d7-4cb3-9299-1e07-ee6a1980eaf7 a onama:PlaceRole ;
 
 onamaObject:Q1158-0f88d975-4429-270f-7f33-51d5c143a33e a onama:ThemeRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006366_8229_E32> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q999 ;
     onama:hasThing onamaObject:Q1159 .
 
 onamaObject:Q1158-3db7e6e7-4a90-2986-534e-fddef8ff9328 a onama:ThemeRole ;
@@ -2368,6 +2320,7 @@ onamaObject:Q1158-497d53d2-46ef-90c3-a19c-4e7d69996f4b a onama:PlaceRole ;
 
 onamaObject:Q1158-53ab8cd5-4a74-b474-1700-6f0cc1cceb01 a onama:ThemeRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006366_8229_E4> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q999 ;
     onama:hasThing onamaObject:Q368 .
 
 onamaObject:Q1158-8b8e3f9d-4f4a-b806-1f37-26376d38d53b a onama:PlaceRole ;
@@ -2400,7 +2353,9 @@ onamaObject:Q1160-519d5e55-46e5-5044-de02-fef0c3b25fcd a onama:Action ;
     onama:hasVerb onamaObject:Q504 .
 
 onamaObject:Q1160-86c128e3-453e-4e41-0c10-71d50743e7d9 a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q621 .
+    onama:hasActor onamaObject:Q621 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q622 .
 
 onamaObject:Q1160-94a09d91-48a8-8949-b850-47ec35535dc6 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -2462,10 +2417,13 @@ onamaObject:Q1165-d7905312-45b7-0812-1327-23c59c420501 a onama:Action ;
     onama:hasVerb onamaObject:Q212 .
 
 onamaObject:Q1166-03ad6120-4b97-46fb-461b-33bc5337c59a a onama:ExperiencerRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261 .
 
 onamaObject:Q1166-15ad3f7a-4119-4109-5da7-13311d0b33b6 a onama:StimulusRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1262 .
 
 onamaObject:Q1166-1d648198-4d11-c98f-800d-d919d90585df a onama:Action ;
     onama:hasVerb onamaObject:Q617 .
@@ -2533,7 +2491,8 @@ onamaObject:Q1170-54932a11-4b64-78e4-7a5d-0bc5e9d843bc a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q530 .
 
 onamaObject:Q1170-7da6fdbc-42f5-404e-ba52-c5cec384e153 a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q506 .
+    onama:hasActor onamaObject:Q506 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q1170-be5d6fa1-4aa1-a107-3ea1-df6b5c0e9c8d a onama:StimulusRole ;
     onama:hasActor onamaObject:Q131 ;
@@ -2682,12 +2641,6 @@ onamaObject:Q1179-9634b5fd-4369-482f-b208-6f19a4ac73fc a onama:PatientRole ;
 
 onamaObject:Q1179-b9fb3b18-4cfd-f6a9-a4d9-e73f54d93dbe a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q530 .
-
-onamaObject:Q1180 a onama:Verb ;
-    rdfs:label "anbinden, v."@de,
-        "tie, v."@en ;
-    schema:dateModified "2020-01-09T18:11:31+00:00"^^xsd:dateTime ;
-    schema:version 10180 .
 
 onamaObject:Q1181-223d1de6-4b80-ec5f-4e04-897b7d6450ac a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
@@ -2927,6 +2880,7 @@ onamaObject:Q1194-47617c53-451c-d0f0-dd8d-345b03bcc849 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
 
 onamaObject:Q1195-2aa6f8c9-4f53-a9b6-1b6f-d63e9b0630b0 a onama:AgentRole ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 ;
     onama:hasThing onamaObject:Q484 .
 
 onamaObject:Q1195-6baba054-4443-31c8-9c98-11de7e9b2a14 a onama:PatientRole ;
@@ -2936,7 +2890,8 @@ onamaObject:Q1195-7d804c88-4506-8a50-a341-003cbba3c0d1 a onama:Action ;
     onama:hasVerb onamaObject:Q471 .
 
 onamaObject:Q1195-9ad184c9-4d37-b29b-5bc5-e1c5057d7be9 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q487 .
+    onama:hasActor onamaObject:Q487 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q1195-a9144e33-43b1-82aa-7744-fa1f8f76933b a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q406 .
@@ -3096,7 +3051,8 @@ onamaObject:Q1206-d26e8b49-4430-bd7a-64b3-7b142d3cc14f a onama:AgentRole ;
     onama:hasActor onamaObject:Q131 .
 
 onamaObject:Q1206-efa6d3ef-4835-0417-5218-a886a1642f8a a onama:GoalRole ;
-    onama:hasActor onamaObject:Q266 .
+    onama:hasActor onamaObject:Q266 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1236 .
 
 onamaObject:Q1207-05feb950-4d62-d69f-a12d-8b084337f0d8 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q194 ;
@@ -3137,7 +3093,8 @@ onamaObject:Q1208-c53cc3ee-493b-5708-f67f-2f548be58eca a onama:ThemeRole ;
     onama:hasThing onamaObject:Q151 .
 
 onamaObject:Q1208-c9664a89-4d57-f846-7763-b4f196da444e a onama:AgentRole ;
-    onama:hasActor onamaObject:Q506 .
+    onama:hasActor onamaObject:Q506 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q137 .
 
 onamaObject:Q1208-d09b05f5-421f-7030-8335-8d056a773c97 a onama:ModeRole ;
     onama:hasThing onamaObject:Q510 .
@@ -3184,10 +3141,13 @@ onamaObject:Q1209-8720081a-460c-b384-0df5-eb8103679586 a onama:Action ;
 
 onamaObject:Q1209-f62ca748-4538-1977-4807-5e811a4267e4 a onama:AgentRole ;
     onama:hasActor onamaObject:Q506 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006370_8233_E15> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006370_8233_E15> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q137 .
 
 onamaObject:Q1210-0b6a79d2-4e3c-8601-1415-1f6902f0a0b9 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1210-287fad57-45e8-b74e-310d-b50f3603b296 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -3197,7 +3157,9 @@ onamaObject:Q1210-857f0660-491c-dca6-0768-0a5f29bc2138 a onama:PlaceRole ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q1210-90013138-4226-fc10-ddab-c63a6e474e14 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1210-c3a6f3e2-4db6-06ee-e6e0-730618972ce1 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -3262,10 +3224,14 @@ onamaObject:Q1213-8e4ca1d4-4ec8-a071-4e84-3818d5ff8a28 a onama:Action ;
     onama:hasVerb onamaObject:Q967 .
 
 onamaObject:Q1213-a8b45263-4a17-7973-8221-62d4c2614f87 a onama:ThemeRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1213-fb4f456b-4cde-58c4-0cf7-8ef7d608c6dd a onama:GoalRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1214 a onama:VisualRealisation ;
     rdfs:label "RO 006370A Greis schiebt Medea zu Jason hin"@de,
@@ -3305,7 +3271,8 @@ onamaObject:Q1214-5e7888b7-42f0-435b-10b3-de0c75ae189a a onama:PlaceRole ;
 
 onamaObject:Q1214-801d069d-47c4-1a1d-1513-84dd90a6c789 a onama:AgentRole ;
     onama:hasActor onamaObject:Q437 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006370A_8234_E3> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006370A_8234_E3> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q1214-9820415a-420c-da6c-c3d0-d2b50dfc0a89 a onama:PlaceRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006370A_8234_E31> ;
@@ -3315,7 +3282,9 @@ onamaObject:Q1214-f1163e8f-4190-9dfe-c78d-072f96023dea a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
 
 onamaObject:Q1215-67f45cf0-4068-b9e5-3f79-b9ea9b8e3b36 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1215-b737bb57-4459-6d27-4799-ab5a32e76d1c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -3324,7 +3293,9 @@ onamaObject:Q1215-c7551ef0-4439-8ef2-9827-11f49aae016f a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q1215-e46ee3fa-46e0-11c7-a5ec-a5676a47410b a onama:Co-AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q1215-f738d57e-4523-4657-72a2-4b0d920174da a onama:Action ;
     onama:hasVerb onamaObject:Q1216 .
@@ -3412,7 +3383,9 @@ onamaObject:Q1220-96795dac-49a9-a85b-3562-76ed46afbc92 a onama:WitnessRole ;
 
 onamaObject:Q1220-a690d03b-4007-5f62-7a68-2506bc12f0ca a onama:WitnessRole ;
     onama:hasActor onamaObject:Q621 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E84> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E84> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555,
+        onamaObject:Q622 .
 
 onamaObject:Q1220-ad2ef6ac-497a-8fb6-44c6-1985b31ed8a3 a onama:AgentRole ;
     onama:hasActor onamaObject:Q126 ;
@@ -3435,7 +3408,9 @@ onamaObject:Q1220-f977ae52-4ebe-72d3-cb83-57f4712d3da1 a onama:WitnessRole ;
 
 onamaObject:Q1220-faa68099-44ef-1a2c-8de1-76f9afa92279 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q527 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E12> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E12> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q604 .
 
 onamaObject:Q1221 a onama:Concept ;
     rdfs:label "Seemann trägt Sack von der Argo"@de,
@@ -3534,7 +3509,9 @@ onamaObject:Q1224-2929625d-4df7-ac3c-628e-a53bded8ea94 a onama:PlaceRole ;
 
 onamaObject:Q1224-2a13d3d9-4bba-7af2-9bbf-1519fb0a3d1c a onama:AgentRole ;
     onama:hasActor onamaObject:Q527 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E6> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E6> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q604 .
 
 onamaObject:Q1224-7531e166-4d3a-0a09-0fc9-a6b2293c93eb a onama:ThemeRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E8> ;
@@ -3608,7 +3585,9 @@ onamaObject:Q1226-3a3f5e37-4e8c-070b-92da-07bc3040fe7d a onama:Action ;
 
 onamaObject:Q1226-7be7f216-442c-16e3-052c-fda198efee71 a onama:AgentRole ;
     onama:hasActor onamaObject:Q527 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E12> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006372_8237_E12> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q604 .
 
 onamaObject:Q1226-cd0a9044-4fd6-06ea-47d3-a442c15b5343 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q530 .
@@ -4037,9 +4016,11 @@ onamaObject:Q1255-4d53bef6-438d-0ee1-5cd8-5feb9685b0e1 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q406 .
 
 onamaObject:Q1255-c7f76e92-4610-abed-5c9e-8c349589addb a onama:AgentRole ;
-    onama:hasActor onamaObject:Q487 .
+    onama:hasActor onamaObject:Q487 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q1255-ce819bb4-4664-40e1-552e-1c7f811f8932 a onama:AgentRole ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 ;
     onama:hasThing onamaObject:Q484 .
 
 onamaObject:Q1255-d0d64eaa-449c-5584-8401-18b9fb4917f4 a onama:Action ;
@@ -4156,14 +4137,16 @@ onamaObject:Q1265-04e996f2-4d3c-d8e3-57e3-a3b0039c48fd a onama:PlaceRole ;
     onama:hasThing onamaObject:Q358 .
 
 onamaObject:Q1265-459d498f-4cb4-263b-b841-a942dc0f970d a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261 .
 
 onamaObject:Q1265-50717786-4a91-2019-9037-cdeb8a5c521a a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q1265-6ade85bc-485b-b265-ba46-7feaea9f2f10 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261 .
 
 onamaObject:Q1265-6e82413f-4023-b0fc-0492-42b9c27eeab2 a onama:Action ;
     onama:hasVerb onamaObject:Q354 .
@@ -4633,7 +4616,9 @@ onamaObject:Q1306-4fabffe7-4ebd-f153-d2a6-267715676c12 a onama:PlaceRole ;
 onamaObject:Q1306-90c374b7-4314-8940-d218-f63be5bde7ec a onama:AgentRole ;
     onama:hasActor onamaObject:Q1301 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/008150_10566_E29>,
-        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/008150_10566_E33> .
+        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/008150_10566_E33> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q555 .
 
 onamaObject:Q1306-af588318-4ee8-8cca-c202-dfd693aa9341 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q1305 .
@@ -4641,7 +4626,9 @@ onamaObject:Q1306-af588318-4ee8-8cca-c202-dfd693aa9341 a onama:PlaceRole ;
 onamaObject:Q1306-dc191909-4b6b-e8d8-4d81-afd99d814936 a onama:AgentRole ;
     onama:hasActor onamaObject:Q1301 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/008150_10566_E29>,
-        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/008150_10566_E33> .
+        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/008150_10566_E33> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q555 .
 
 onamaObject:Q1306-dd031447-4788-6117-d36f-35ba1a27745b a onama:PlaceRole ;
     onama:hasThing onamaObject:Q1308 .
@@ -4676,6 +4663,8 @@ onamaObject:Q1310-b9e58c47-4155-2fd2-5fc2-6f78e822c148 a onama:Co-AgentRole ;
 
 onamaObject:Q1310-dc8384fe-414f-ef9f-0eb9-7df046b8f629 a onama:AgentRole ;
     onama:hasActor onamaObject:Q1040 .
+
+onamaObject:Q1310-fe59fcca-4afb-a622-a9bc-a1960f1353df a onama:PatientRole .
 
 onamaObject:Q1311 a onama:Verb ;
     rdfs:label "jem. dazu bewegen, etw. zu tun, v."@de,
@@ -4942,10 +4931,12 @@ onamaObject:Q134-1e62376c-418d-54d0-6bbc-b1a3163b07e0 a onama:Action ;
     onama:hasVerb onamaObject:Q135 .
 
 onamaObject:Q134-b359c96a-4a84-2bed-d980-1b767805537d a onama:ActantRole ;
-    onama:hasActor onamaObject:Q133 .
+    onama:hasActor onamaObject:Q133 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q129 .
 
 onamaObject:Q134-bbc492f8-4376-b9d6-d966-55d1bfaec1c6 a onama:ThemeRole ;
-    onama:hasActor onamaObject:Q133 .
+    onama:hasActor onamaObject:Q133 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q122 .
 
 onamaObject:Q1342 a onama:VisualRealisation ;
     rdfs:label "RO 001261 Adler bringt Hl. Vitus, Modestus und Crescentia eine Hostie"@de,
@@ -5028,6 +5019,8 @@ onamaObject:Q1348-828a8f9f-4c85-5efd-6181-50c54c513dde a onama:Action ;
 onamaObject:Q1348-8c6f4864-458b-adc1-9335-0ac2d83474b4 a onama:PatientRole ;
     onama:hasActor onamaObject:Q558 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/004928_6511_E111> .
+
+onamaObject:Q1349-a17f957e-45be-38de-af3c-3ff530a9d9af a onama:PatientRole .
 
 onamaObject:Q1349-a639ae11-4a80-dd33-7630-5266b5d4315d a onama:Action ;
     onama:hasVerb onamaObject:Q127 .
@@ -5424,7 +5417,8 @@ onamaObject:Q1385-bbd04085-4d3b-47a5-7d54-a44861f4d2a3 a onama:PlaceRole ;
 
 onamaObject:Q1385-c8acfe19-4265-f7ef-7bc1-2f1f630997c8 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q1390 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E3> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E3> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q1385-d4e673ac-4520-a5fd-4bd7-50275d7647a0 a onama:AgentRole ;
     onama:hasActor onamaObject:Q1339 ;
@@ -5486,7 +5480,8 @@ onamaObject:Q1394-4b05d503-4321-fa0e-bfd7-50f678da1cb2 a onama:PlaceRole ;
 
 onamaObject:Q1394-4c44d401-4d8c-5c01-663d-d9fbfcd9152e a onama:WitnessRole ;
     onama:hasActor onamaObject:Q1390 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006468_8339_E15> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006468_8339_E15> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q1394-5ab8ed1a-4bbc-9347-7e95-c0b15aa1e3cf a onama:PlaceRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006468_8339_E46> ;
@@ -8497,6 +8492,8 @@ onamaObject:Q1595-4303bc3d-4f49-959d-5a05-768b5f17d0e6 a onama:AgentRole ;
 onamaObject:Q1595-4f3d8faa-462c-4850-82ae-464db3b2b0db a onama:Action ;
     onama:hasVerb onamaObject:Q1593 .
 
+onamaObject:Q1595-ba386a18-4751-e931-03e3-fa49b593c1c5 a onama:ThemeRole .
+
 onamaObject:Q1596 a onama:TextualRealisation ;
     rdfs:label "OSW Rabe plant Flucht von den Nixen"@de,
         "OSW  Raven plans escape from the mermaids"@en ;
@@ -8504,7 +8501,8 @@ onamaObject:Q1596 a onama:TextualRealisation ;
     onama:hasSemanticRole onamaObject:Q1596-169667c3-4b1e-84bc-8114-e3f44259359c,
         onamaObject:Q1596-60b656ac-4533-f146-2d3a-2bbc061ba9ab,
         onamaObject:Q1596-63acf21b-41df-2ce0-fb27-bf40c574fec9,
-        onamaObject:Q1596-ade78a3b-4dea-ae71-e474-09d2b3cfd5f2 ;
+        onamaObject:Q1596-ade78a3b-4dea-ae71-e474-09d2b3cfd5f2,
+        onamaObject:Q1596-b61e67d2-4005-8b29-f083-a0607ba4619d ;
     onama:hasTextPassage onamaObject:Q1596-4815fb58-4b2c-f507-167f-95d57f37352c ;
     onama:partOfCollection onamaObject:Q1526 ;
     onama:realises onamaObject:Q1595 ;
@@ -8527,6 +8525,8 @@ onamaObject:Q1596-63acf21b-41df-2ce0-fb27-bf40c574fec9 a onama:PatientRole ;
 
 onamaObject:Q1596-ade78a3b-4dea-ae71-e474-09d2b3cfd5f2 a onama:AgentRole ;
     onama:hasActor onamaObject:Q103 .
+
+onamaObject:Q1596-b61e67d2-4005-8b29-f083-a0607ba4619d a onama:ThemeRole .
 
 onamaObject:Q1596-b98941e5-4807-69e6-e0f6-36db91395bd1 a onama:Action ;
     onama:hasVerb onamaObject:Q1593 .
@@ -8841,7 +8841,8 @@ onamaObject:Q1615-27763d2f-4f14-1c8e-4d57-6683ff4017f2 a onama:Action ;
 
 onamaObject:Q1615-28b1a323-4acb-30f0-0909-82bfce68088e a onama:AgentRole ;
     onama:hasActor onamaObject:Q1616 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016282_19510_E16> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016282_19510_E16> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q1615-63bcffac-4eb3-a491-f586-a8a639ff28da a onama:WitnessRole ;
     onama:hasActor onamaObject:Q1618 ;
@@ -8914,12 +8915,6 @@ onamaObject:Q162-b3da1bcf-4d1d-e8b2-f9d9-f0c11ea43729 a onama:TextPassage ;
     onama:fromToken "TRY_262_0"^^xsd:string ;
     onama:toToken "TRY_267_4"^^xsd:string .
 
-onamaObject:Q1621 a onama:Verb ;
-    rdfs:label "zwingen, v."@de,
-        "force, v."@en ;
-    schema:dateModified "2020-07-31T10:51:12+00:00"^^xsd:dateTime ;
-    schema:version 15272 .
-
 onamaObject:Q1623 a onama:Concept ;
     rdfs:label "Christen beten Götzen an"@de,
         "Christians worship idols"@en ;
@@ -8937,12 +8932,6 @@ onamaObject:Q1623-6a0d8898-470b-be82-19a4-46ec052fd45d a onama:PatientRole ;
 
 onamaObject:Q1623-b09c6d7b-4aba-769c-b3cc-02681518ecb9 a onama:AgentRole ;
     onama:hasActor onamaObject:Q1622 .
-
-onamaObject:Q1624 a onama:Verb ;
-    rdfs:label "anbeten, v."@de,
-        "worship, v."@en ;
-    schema:dateModified "2020-07-31T11:08:52+00:00"^^xsd:dateTime ;
-    schema:version 15294 .
 
 onamaObject:Q1626-66585870-4fff-b465-68c9-81f98701b5b2 a onama:ThemeRole ;
     onama:hasActor onamaObject:Q1622 ;
@@ -9539,17 +9528,6 @@ onamaObject:Q1674-c1769047-4f37-4a08-0f39-57c1e1417759 a onama:ThemeRole ;
 onamaObject:Q1674-cd4deb9b-4bb8-8c87-6f36-d44883a541c0 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q507 .
 
-onamaObject:Q1675 a onama:Concept ;
-    rdfs:label "Sieben Frauen sammeln das Blut des gefolterten Hl. Blasius"@de,
-        "Seven women collect the blood of the tortured St. Blaise"@en ;
-    onama:broader onamaObject:Q1313 ;
-    onama:hasAction onamaObject:Q1675-676d84dc-4dc1-fcb6-be4a-626a6fbc57cf ;
-    onama:hasSemanticRole onamaObject:Q1675-81c5c1e5-4f80-505c-98be-865c15ef66d7,
-        onamaObject:Q1675-8bbbf73e-4f32-5f5b-5455-f61729d65914,
-        onamaObject:Q1675-b3e028c9-4556-9c07-43c2-daca7da9510b ;
-    schema:dateModified "2020-10-02T14:54:25+00:00"^^xsd:dateTime ;
-    schema:version 15755 .
-
 onamaObject:Q1675-676d84dc-4dc1-fcb6-be4a-626a6fbc57cf a onama:Action ;
     onama:hasVerb onamaObject:Q1676 .
 
@@ -9562,11 +9540,365 @@ onamaObject:Q1675-8bbbf73e-4f32-5f5b-5455-f61729d65914 a onama:AgentRole ;
 onamaObject:Q1675-b3e028c9-4556-9c07-43c2-daca7da9510b a onama:PossessorRole ;
     onama:hasActor onamaObject:Q1040 .
 
-onamaObject:Q1676 a onama:Verb ;
-    rdfs:label "sammeln, v."@de,
-        "collect, v."@en ;
-    schema:dateModified "2020-10-02T14:53:16+00:00"^^xsd:dateTime ;
-    schema:version 15752 .
+onamaObject:Q1677-27f24b87-4aba-d8f4-f591-e0922ad9cdcb a onama:AgentRole ;
+    onama:hasActor onamaObject:Q533 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E32> .
+
+onamaObject:Q1677-3379f2fb-4ac5-7647-f6bb-9b7753896fde a onama:InstrumentRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E33> ;
+    onama:hasThing onamaObject:Q642 .
+
+onamaObject:Q1677-4563055c-41b7-c61a-7f0f-7e08e294789f a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1677-518d5b4c-4538-2bb1-a209-5eb3726442da a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E34> ;
+    onama:hasThing onamaObject:Q659 .
+
+onamaObject:Q1677-530b4c34-404b-d8fb-06d2-63d455bdb547 a onama:PossessorRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E19> .
+
+onamaObject:Q1677-604367e4-4402-91e8-dc81-2c193f3103e6 a onama:Action ;
+    onama:hasVerb onamaObject:Q1676 .
+
+onamaObject:Q1677-e20b050b-4a16-48b9-393e-c58e7be7a4e9 a onama:InstrumentRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E43> ;
+    onama:hasThing onamaObject:Q643 .
+
+onamaObject:Q1678-0c9c9d23-49fd-fc7b-9a15-9735452fd70d a onama:InstrumentRole ;
+    onama:hasThing onamaObject:Q1680 .
+
+onamaObject:Q1678-340364d9-4654-87c6-4221-fabc2bc02677 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1040 .
+
+onamaObject:Q1678-7a7d7086-4049-2d0e-57a2-625243308153 a onama:Action ;
+    onama:hasVerb onamaObject:Q1679 .
+
+onamaObject:Q1681-083f6ca9-4e44-14f3-e9ab-2edc6af32b04 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1681-0eae942f-4be7-d4fd-9231-a9b5588de63d a onama:InstrumentRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E6> ;
+    onama:hasThing onamaObject:Q1680 .
+
+onamaObject:Q1681-10b87abe-48b0-f790-22b2-a2af384568c4 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1627 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E3> .
+
+onamaObject:Q1681-bdc27623-4d3d-01b1-088c-eb8da685f695 a onama:Action ;
+    onama:hasVerb onamaObject:Q1679 .
+
+onamaObject:Q1681-ecdfd683-4506-80e6-b8af-1628f039f748 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E19> .
+
+onamaObject:Q1682-5d786b01-40f8-427f-defa-3245b72705e8 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1682-7bd1e9e6-446e-a1f0-6203-919caf2c4c93 a onama:Action ;
+    onama:hasVerb onamaObject:Q1180 .
+
+onamaObject:Q1682-7e1bc208-4f53-b14a-dca1-2cf987e7def0 a onama:GoalRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E55> ;
+    onama:hasThing onamaObject:Q1683 .
+
+onamaObject:Q1682-aef9ca88-4f9b-a62a-27e3-bceb9dcf8575 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E19> .
+
+onamaObject:Q1682-b0f4eab2-400d-a806-a8be-711c37a7f86b a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1627 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016295_19523_E13> .
+
+onamaObject:Q1683 a onama:Thing ;
+    rdfs:label "Gerüst"@de,
+        "scaffold"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q233320> ;
+    schema:dateModified "2020-11-04T09:35:02+00:00"^^xsd:dateTime ;
+    schema:version 15812 .
+
+onamaObject:Q1684-00743f90-4d81-970b-eaed-9b869bfe141c a onama:GoalRole ;
+    onama:hasNarrative onamaObject:Q1685 .
+
+onamaObject:Q1684-472417e3-4f04-8ff7-473a-1de2ce34cd0f a onama:PatientRole ;
+    onama:hasActor onamaObject:Q533 .
+
+onamaObject:Q1684-88a18096-4d8c-03ef-b117-1570b271e24e a onama:Action ;
+    onama:hasVerb onamaObject:Q1621 .
+
+onamaObject:Q1685 a onama:Concept ;
+    rdfs:label "Frauen beten Götzenbilder an"@de,
+        "Women worship idols"@en ;
+    onama:hasAction onamaObject:Q1685-14e9c3a1-4b85-966b-df80-9f85bd689f92 ;
+    onama:hasSemanticRole onamaObject:Q1685-b1618790-403e-8ca3-9f38-5e314afbedee,
+        onamaObject:Q1685-b3677df2-412a-31a6-34e1-683cc8a5479a ;
+    schema:dateModified "2020-11-04T09:58:27+00:00"^^xsd:dateTime ;
+    schema:version 15841 .
+
+onamaObject:Q1685-14e9c3a1-4b85-966b-df80-9f85bd689f92 a onama:Action ;
+    onama:hasVerb onamaObject:Q1624 .
+
+onamaObject:Q1685-b1618790-403e-8ca3-9f38-5e314afbedee a onama:AgentRole ;
+    onama:hasActor onamaObject:Q533 .
+
+onamaObject:Q1685-b3677df2-412a-31a6-34e1-683cc8a5479a a onama:PatientRole ;
+    onama:hasThing onamaObject:Q1625 .
+
+onamaObject:Q1686-278d999b-4089-9e22-9f51-25861555a596 a onama:SourceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016296_19524_E49> ;
+    onama:hasThing onamaObject:Q1625 .
+
+onamaObject:Q1686-32d2ca03-49a9-d06e-30e3-04d9d4dca164 a onama:Action ;
+    onama:hasVerb onamaObject:Q1687 .
+
+onamaObject:Q1686-37d62d4e-4489-193e-a40e-55ab53d3bf9d a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1646 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016296_19524_E38> .
+
+onamaObject:Q1686-67ad99c7-48fb-5bb4-a310-6805d379aef1 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q533 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016296_19524_E34> .
+
+onamaObject:Q1686-6d8513ea-425e-dfde-c65c-a656ad7c75ba a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q552 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016296_19524_E3> .
+
+onamaObject:Q1686-acf64e32-4000-63e4-0ec1-c34722f3eef1 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1687 a onama:Verb ;
+    rdfs:label "sich abkehren, v."@de,
+        "turn away, v."@en ;
+    schema:dateModified "2020-11-04T10:05:37+00:00"^^xsd:dateTime ;
+    schema:version 15852 ;
+    skos:altLabel "sich wegdrehen, v."@de .
+
+onamaObject:Q1688-645852ed-4afb-86b9-5a0b-994bb51bc98b a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q418 .
+
+onamaObject:Q1688-71cc8b7d-4cfc-669a-c853-73baff810a11 a onama:Action ;
+    onama:hasVerb onamaObject:Q1689 .
+
+onamaObject:Q1688-accda0c1-4dc7-15d1-5af8-ab16ea2a9a9c a onama:BenefactiveRole ;
+    onama:hasActor onamaObject:Q533 .
+
+onamaObject:Q1689 a onama:Verb ;
+    rdfs:label "unversehrt bleiben, v."@de,
+        "remain unharmed, v."@en ;
+    schema:dateModified "2020-11-04T10:30:40+00:00"^^xsd:dateTime ;
+    schema:version 15874 .
+
+onamaObject:Q1690-3e132179-4d3e-4be9-abe8-1a541edfe18b a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1690-5439eb47-4441-b233-2f26-c6ad397f2aed a onama:AgentRole ;
+    onama:hasActor onamaObject:Q533 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016297_19525_E17> .
+
+onamaObject:Q1690-58b5ff44-46b1-11fa-ca76-e7a3a6e802e4 a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016297_19525_E40> ;
+    onama:hasThing onamaObject:Q1691 .
+
+onamaObject:Q1690-5abff46b-4b46-bc9b-54c7-af51897bf74e a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1627 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016297_19525_E4> .
+
+onamaObject:Q1690-cc13a5a2-4dac-40ab-5fbf-63d60717008f a onama:Action ;
+    onama:hasVerb onamaObject:Q176 .
+
+onamaObject:Q1691 a onama:Thing ;
+    rdfs:label "Scheiterhaufen"@de,
+        "stake"@en ;
+    schema:dateModified "2020-11-04T10:40:59+00:00"^^xsd:dateTime ;
+    schema:version 15887 .
+
+onamaObject:Q1692-eed5c849-4f19-d503-ae20-792542d58d5b a onama:Action ;
+    onama:hasVerb onamaObject:Q475 .
+
+onamaObject:Q1692-f315b192-4e0e-e53b-6c42-22664d14e5be a onama:PatientRole ;
+    onama:hasActor onamaObject:Q533 .
+
+onamaObject:Q1693-1f0bbccb-495f-6673-6f06-a28b2c850b72 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1693-411b34c3-46c3-4f84-acf8-e94976a4d1cd a onama:PatientRole ;
+    onama:hasActor onamaObject:Q533 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016298_19526_E27> .
+
+onamaObject:Q1693-53220e6f-4cdb-0f64-36c1-1ebe706dd7be a onama:Action ;
+    onama:hasVerb onamaObject:Q475 .
+
+onamaObject:Q1693-c26ccbd5-4d39-bbca-bc30-d1e89db81f97 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1694 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016298_19526_E15> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
+
+onamaObject:Q1693-cba586f0-4121-fd84-75c5-cf160fb06a53 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q533 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016298_19526_E8> .
+
+onamaObject:Q1695 a onama:VisualRealisation ;
+    rdfs:label "RO 016298 Engel trägt Seelen von vier Frauen zum Himmel"@de,
+        "RO 016298 Angel carries souls of four women to heaven"@en ;
+    onama:hasAction onamaObject:Q1695-b26b8b04-42b3-46dd-efe6-647f5a958be6 ;
+    onama:hasSemanticRole onamaObject:Q1695-70ba58d8-466d-f822-e3c0-0973bcdf9880,
+        onamaObject:Q1695-b2951c82-4894-2a8c-ea14-042e89a75e14,
+        onamaObject:Q1695-bc887aeb-4a8d-1b8c-6dde-35145f20483f,
+        onamaObject:Q1695-c533b81d-4630-4b6d-0aef-c83d0d5e6e51,
+        onamaObject:Q1695-f8e93e23-4588-255e-05b4-3b8c247d65bc ;
+    onama:occursSimultaneously onamaObject:Q1693 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1696 ;
+    schema:dateModified "2020-11-04T11:17:46+00:00"^^xsd:dateTime ;
+    schema:version 15938 .
+
+onamaObject:Q1695-70ba58d8-466d-f822-e3c0-0973bcdf9880 a onama:GoalRole ;
+    onama:hasThing onamaObject:Q392 .
+
+onamaObject:Q1695-b26b8b04-42b3-46dd-efe6-647f5a958be6 a onama:Action ;
+    onama:hasVerb onamaObject:Q388 .
+
+onamaObject:Q1695-b2951c82-4894-2a8c-ea14-042e89a75e14 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1695-bc887aeb-4a8d-1b8c-6dde-35145f20483f a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016298_19526_E62> ;
+    onama:hasThing onamaObject:Q390 .
+
+onamaObject:Q1695-c533b81d-4630-4b6d-0aef-c83d0d5e6e51 a onama:AgentRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016298_19526_E57> ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1695-f8e93e23-4588-255e-05b4-3b8c247d65bc a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q392 .
+
+onamaObject:Q1696-170a6c3d-40ba-b378-4c0c-ac7493833f34 a onama:GoalRole ;
+    onama:hasThing onamaObject:Q392 .
+
+onamaObject:Q1696-43e9a2b4-40a8-7ef9-024b-c42b0a5ac669 a onama:AgentRole ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1696-53decc28-4270-07b6-8dba-4acc5fc02bdc a onama:Action ;
+    onama:hasVerb onamaObject:Q388 .
+
+onamaObject:Q1696-ab0ad7cb-43db-69a8-e48f-7c5c15bb627f a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q390 .
+
+onamaObject:Q1697-23e92433-497b-6cb3-f5df-bb13b1b80444 a onama:PatientRole ;
+    onama:hasNarrative onamaObject:Q1699 .
+
+onamaObject:Q1697-8b476c57-40aa-e783-40a9-55f0aa4f365e a onama:Action ;
+    onama:hasVerb onamaObject:Q1698 .
+
+onamaObject:Q1697-96b52be4-4072-37f6-20be-3d0dae21cadc a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1040 .
+
+onamaObject:Q1698 a onama:Verb ;
+    rdfs:label "beweisen, v."@de,
+        "demonstrate, v."@en ;
+    schema:dateModified "2020-11-04T11:37:15+00:00"^^xsd:dateTime ;
+    schema:version 15948 ;
+    skos:altLabel "zeigen, v."@de .
+
+onamaObject:Q1699 a onama:Concept ;
+    rdfs:label "Verfolger ertrinken im See"@de,
+        "Persecutors drown in the lake"@en ;
+    onama:hasAction onamaObject:Q1699-46c91518-4915-c935-8f1f-fc7e99e0e61c ;
+    onama:hasSemanticRole onamaObject:Q1699-24a3f909-427f-8cef-89e7-f1f8c0fb87e3,
+        onamaObject:Q1699-bae4f76a-4369-8cec-7769-0207291668c7 ;
+    schema:dateModified "2020-11-04T11:44:18+00:00"^^xsd:dateTime ;
+    schema:version 15965 .
+
+onamaObject:Q1699-24a3f909-427f-8cef-89e7-f1f8c0fb87e3 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1702 .
+
+onamaObject:Q1699-46c91518-4915-c935-8f1f-fc7e99e0e61c a onama:Action ;
+    onama:hasVerb onamaObject:Q1701 .
+
+onamaObject:Q1699-bae4f76a-4369-8cec-7769-0207291668c7 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1700 .
+
+onamaObject:Q1703-5ba05994-4a14-3bf8-4fa7-b30aa14959f6 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1702 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016299_19527_E45> .
+
+onamaObject:Q1703-9b5e6637-4e74-93f8-4b20-7584920515d8 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1700 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016299_19527_E26> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
+
+onamaObject:Q1703-d5a9c45f-4b67-65ad-3de9-f8d3ffc24cc1 a onama:Action ;
+    onama:hasVerb onamaObject:Q1701 .
+
+onamaObject:Q1703-ff34c2cb-46c6-900a-d907-ccc3a4d0be85 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1704-023feeb4-4a2a-6624-8cc9-1a0da9227cf7 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1704-0497601c-46a4-3086-f3fc-f4f5ec7b7d40 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016299_19527_E32> .
+
+onamaObject:Q1704-265c7bba-416f-f246-36bd-914615f2addf a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016299_19527_E45> ;
+    onama:hasThing onamaObject:Q546 .
+
+onamaObject:Q1704-a700b999-4d98-7a1e-1617-d583c0e7aa25 a onama:Action ;
+    onama:hasVerb onamaObject:Q613 .
+
+onamaObject:Q1705-1b842857-402a-73b6-cc74-4a17ac261392 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q546 .
+
+onamaObject:Q1705-b2565cca-4904-8250-973f-f641b1dac1ef a onama:Action ;
+    onama:hasVerb onamaObject:Q1706 .
+
+onamaObject:Q1705-ec30c490-4eb5-bd65-3557-164fffe9bf22 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1040 .
+
+onamaObject:Q1707-0c43a78f-49ae-8e52-4902-1eaa6510740d a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016300_19528_E21> ;
+    onama:hasThing onamaObject:Q546 .
+
+onamaObject:Q1707-1d98314c-4762-af60-fdf5-8e5343c396d7 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1702 .
+
+onamaObject:Q1707-37e2cf3b-4e93-b32d-d639-226e6429f471 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016300_19528_E7> .
+
+onamaObject:Q1707-ad245525-4964-af5a-7c64-d7b3e9892d1c a onama:Action ;
+    onama:hasVerb onamaObject:Q1706 .
+
+onamaObject:Q1707-c7137747-412a-b3c1-c63a-cd9050fcc64c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1708-16638da5-405c-bea8-9c4a-0d5f44d886b1 a onama:ExperiencerRole ;
+    onama:hasActor onamaObject:Q1040 .
+
+onamaObject:Q1708-1f393460-4bb9-e2e3-06ae-73c5a9e8eba4 a onama:Action ;
+    onama:hasVerb onamaObject:Q84 .
+
+onamaObject:Q1708-69c55e9f-471f-3d61-3e3f-75265267e9af a onama:StimulusRole ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1709-12975d18-4fa5-9a90-04ce-e79df201ff97 a onama:StimulusRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016300_19528_E3> ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1709-86b95ec1-4438-d817-2374-db02f14dd1cd a onama:ExperiencerRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016300_19528_E7> .
+
+onamaObject:Q1709-8e53c7f3-4878-996b-699d-7be249108e4c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1016 ;
+    onama:hasThing onamaObject:Q1016 .
+
+onamaObject:Q1709-b4610fbd-416e-f8f7-d8af-e6eb11868ec8 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1709-fe078069-45ef-2f08-20c1-4b5c2a4b5a2d a onama:Action ;
+    onama:hasVerb onamaObject:Q84 .
 
 onamaObject:Q171-1a1b8b63-4153-f2b0-7cef-6ac6004d7c94 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q130 .
@@ -9583,6 +9915,68 @@ onamaObject:Q171-d0802539-4a7e-b7d3-25ce-2d9e94a5570e a onama:Action ;
 onamaObject:Q171-e89ead47-4a42-738f-33d0-1d80094dce0a a onama:TextPassage ;
     onama:fromToken "TRO_6860_0"^^xsd:string ;
     onama:toToken "TRO_6864_4"^^xsd:string .
+
+onamaObject:Q1710-19f0c3fc-4589-cb06-35ab-09ef920d60ec a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1040 .
+
+onamaObject:Q1710-e0224580-40b1-936b-92a0-18a6b9c8885e a onama:Action ;
+    onama:hasVerb onamaObject:Q475 .
+
+onamaObject:Q1711-0cf21c52-48f8-8617-8322-760aa480af6c a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1040 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016301_19529_E34> .
+
+onamaObject:Q1711-52705bd3-4e17-300e-34f3-a33bbbf2f91e a onama:Action ;
+    onama:hasVerb onamaObject:Q475 .
+
+onamaObject:Q1711-9ad8e3d7-4c55-a70b-6583-7f7edea04057 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1694 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016301_19529_E23> .
+
+onamaObject:Q1711-e36f1335-4a38-198a-a379-ad580ecf1635 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1711-ed3e53b3-497f-24c5-0d90-32a4ea84ff2a a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1646 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016301_19529_E5> .
+
+onamaObject:Q1712-0f4cb8b8-49ea-c698-42e6-0562b1ccbfed a onama:GoalRole ;
+    onama:hasThing onamaObject:Q1625 .
+
+onamaObject:Q1712-693d6dcb-498c-f042-ff23-2e80de6229bb a onama:AgentRole ;
+    onama:hasActor onamaObject:Q506 .
+
+onamaObject:Q1712-8eb22485-4401-bb91-de53-90621c55f2c8 a onama:Action ;
+    onama:hasVerb onamaObject:Q1713 .
+
+onamaObject:Q1714 a onama:VisualRealisation ;
+    rdfs:label "RO 016301 Man zeigt auf Götzenbilder"@de,
+        "RO 016301 Man points to idols"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016301> ;
+    onama:hasAction onamaObject:Q1714-2cf9ab0f-48cf-e739-dc9d-40b87636a483 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016301> ;
+    onama:hasSemanticRole onamaObject:Q1714-06076190-4714-706d-887d-88f16c412621,
+        onamaObject:Q1714-144caf63-4e26-a8a7-ca98-7021a5378015,
+        onamaObject:Q1714-320dda85-4967-4b64-7179-bd50598a13e2 ;
+    onama:occursSimultaneously onamaObject:Q1711 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1712 ;
+    schema:dateModified "2020-11-06T11:28:40+00:00"^^xsd:dateTime ;
+    schema:version 16079 .
+
+onamaObject:Q1714-06076190-4714-706d-887d-88f16c412621 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1714-144caf63-4e26-a8a7-ca98-7021a5378015 a onama:GoalRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016301_19529_E48> ;
+    onama:hasThing onamaObject:Q1625 .
+
+onamaObject:Q1714-2cf9ab0f-48cf-e739-dc9d-40b87636a483 a onama:Action ;
+    onama:hasVerb onamaObject:Q1713 .
+
+onamaObject:Q1714-320dda85-4967-4b64-7179-bd50598a13e2 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q506 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016301_19529_E16> .
 
 onamaObject:Q172-30a653dc-4b23-52dd-fe74-78c927fc2fe9 a onama:TextPassage ;
     onama:fromToken "TRY_305_0"^^xsd:string ;
@@ -10123,7 +10517,8 @@ onamaObject:Q240-8b4b28d2-4aa4-7c29-ebae-386b1383b20c a onama:TextPassage ;
     onama:toToken "TRO_6935_4"^^xsd:string .
 
 onamaObject:Q240-cd9293b3-46c6-6693-b448-216ae73a67a5 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q133 .
+    onama:hasActor onamaObject:Q133 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229 .
 
 onamaObject:Q240-d3660f46-4332-c79e-aaf3-9fd293209146 a onama:TextPassage ;
     onama:fromToken "TRO_6962_0"^^xsd:string ;
@@ -10163,7 +10558,8 @@ onamaObject:Q243-7d7a2f05-4fad-abce-ec0e-28a72720c640 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q227 .
 
 onamaObject:Q243-9e19daa1-4ab0-31da-5a06-ce49e7449351 a onama:ActantRole ;
-    onama:hasActor onamaObject:Q133 .
+    onama:hasActor onamaObject:Q133 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229 .
 
 onamaObject:Q243-fbe908a3-4b57-baf1-6516-41691fc3aaad a onama:Action ;
     onama:hasVerb onamaObject:Q242 .
@@ -10172,7 +10568,8 @@ onamaObject:Q244-3c293957-4e86-aadd-0f13-ca644709bc35 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q227 .
 
 onamaObject:Q244-5137a683-4d70-33a2-7218-d103eaf5c77a a onama:ActantRole ;
-    onama:hasActor onamaObject:Q133 .
+    onama:hasActor onamaObject:Q133 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229 .
 
 onamaObject:Q244-5f27e9b8-4fc8-e476-3073-0bf69b19502b a onama:TextPassage ;
     onama:fromToken "TRO_7020_0"^^xsd:string ;
@@ -10188,7 +10585,8 @@ onamaObject:Q244-f57b809a-461f-815a-7127-4ce51dc26164 a onama:PatientRole ;
     onama:hasActor onamaObject:Q168 .
 
 onamaObject:Q246-1fde66a1-4714-e0c8-06ed-999bce8f5997 a onama:ActantRole ;
-    onama:hasActor onamaObject:Q133 .
+    onama:hasActor onamaObject:Q133 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229 .
 
 onamaObject:Q246-267dcdd2-487b-f8ce-40d6-b7fcd198d847 a onama:PatientRole ;
     onama:hasActor onamaObject:Q168 .
@@ -10432,7 +10830,8 @@ onamaObject:Q279-03122490-41c7-ea5e-a247-9ee64e6183fb a onama:PatientRole ;
     onama:hasActor onamaObject:Q131 .
 
 onamaObject:Q279-388937bf-41c9-c529-6f59-0945e1cfa041 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q266 .
+    onama:hasActor onamaObject:Q266 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1236 .
 
 onamaObject:Q279-4698d8a4-4e6a-450e-11cb-31f0a22e1d7d a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -10488,7 +10887,8 @@ onamaObject:Q284-17004c55-4b72-8bc2-0fdd-ee14a5de64a2 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q283 .
 
 onamaObject:Q284-1dd9edb7-4a86-92ed-f7ed-88be76fb474d a onama:AgentRole ;
-    onama:hasActor onamaObject:Q266 .
+    onama:hasActor onamaObject:Q266 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1236 .
 
 onamaObject:Q284-6a3efb15-4fc2-ec3e-10ce-ee887bcf721c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -10604,7 +11004,9 @@ onamaObject:Q293-130b3c9b-44a9-bf89-9598-d6494d10a369 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q296 .
 
 onamaObject:Q293-6ae41b0c-422d-d5d0-ca7f-ffa345e7dc05 a onama:ActantRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q293-a3419187-4b7c-49d9-91d8-9e226ec9f2e0 a onama:Action ;
     onama:hasVerb onamaObject:Q294 .
@@ -10616,7 +11018,9 @@ onamaObject:Q293-c9a5afef-47d6-f110-3b0c-4043b46fa321 a onama:PatientRole ;
     onama:hasActor onamaObject:Q282 .
 
 onamaObject:Q293-d0e9dd5c-4c32-fb41-2e74-5b40234a17a0 a onama:ActantRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q297-101b7330-4814-a5ad-c87b-7efbe5a24ad6 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q296 .
@@ -10665,7 +11069,8 @@ onamaObject:Q299-44fea753-4cd0-2a31-2bbb-d5e2eae717d2 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q299-9fba8932-4efd-2774-c840-a0184c74d3ed a onama:PatientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1262 .
 
 onamaObject:Q299-c467a9bc-4672-aeb7-f1e3-d491effa9c69 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
@@ -10675,7 +11080,8 @@ onamaObject:Q299-d08933a8-4708-abac-1923-a314c648c467 a onama:Action ;
     onama:hasVerb onamaObject:Q294 .
 
 onamaObject:Q299-e77e2623-4755-49aa-9178-8b9735c13d3c a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261 .
 
 onamaObject:Q300-099f64f2-485a-9e37-2bc9-9fe205e8de63 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q296 .
@@ -10708,13 +11114,15 @@ onamaObject:Q301-0419ac04-43fc-2de5-7960-4453bb921373 a onama:Action ;
     onama:hasVerb onamaObject:Q294 .
 
 onamaObject:Q301-44ea59d8-45a5-f924-8922-8e7a308ad857 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261 .
 
 onamaObject:Q301-819fad91-429f-4c63-d9cc-f906f5837e6c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q301-acd3be55-46e1-5369-c528-7745632cdaba a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1262 .
 
 onamaObject:Q301-e194a8aa-472f-a7a4-a1ba-ae658a1fd559 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
@@ -10767,10 +11175,14 @@ onamaObject:Q303-feca11c0-450d-319e-a0dc-48491e817eff a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q305-032f6269-41cb-d73b-b202-fa34bdc49b46 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q305-143c66df-4cb2-34f2-1c7c-3d4d8f2bf9ee a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q305-a3e58cb8-47ab-1393-611f-55d35460f327 a onama:Action ;
     onama:hasVerb onamaObject:Q306 .
@@ -10811,7 +11223,10 @@ onamaObject:Q308-8c3b16d0-498c-570d-a358-26aaa338466f a onama:Action ;
     onama:hasVerb onamaObject:Q306 .
 
 onamaObject:Q309-2aa01e0d-4d5c-58d3-3ac0-15fd43919901 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q309-47a7876a-4dc7-6a98-4611-70bb1cd94b2e a onama:Action ;
     onama:hasVerb onamaObject:Q310 .
@@ -10823,7 +11238,9 @@ onamaObject:Q309-823b2494-4f49-1d74-cae2-8914f69514f8 a onama:ThemeRole ;
     onama:hasTemporalEntity onamaObject:Q311 .
 
 onamaObject:Q309-8de7cca5-4271-e7e5-6837-a4d7303fd7bb a onama:PatientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q309-94635290-41d3-85d6-75b9-1bf37db793df a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
@@ -10955,7 +11372,9 @@ onamaObject:Q327-0cf1c97a-4ed2-ae17-2973-4e0ae4e6bd76 a onama:PlaceRole ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q327-23727466-4272-ef11-c26e-8ce8842babc5 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q327-446f5594-4c97-e7f1-ea1e-fd6246b19283 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q325 ;
@@ -10965,7 +11384,9 @@ onamaObject:Q327-c698fd82-4104-2a48-d231-32231b63b8fb a onama:Action ;
     onama:hasVerb onamaObject:Q326 .
 
 onamaObject:Q327-cce7e70f-4bba-fb23-c1bc-ced697130571 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q327-e45a356e-4bf1-8cf6-5ab2-57c497f23bba a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -11013,17 +11434,24 @@ onamaObject:Q330-44165567-4adb-6a6c-67ab-2a3455f31ef6 a onama:Action ;
     onama:hasVerb onamaObject:Q752 .
 
 onamaObject:Q330-4a8bdb5c-494e-0178-2cfd-378da3b23650 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q496 .
+    onama:hasActor onamaObject:Q496 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q555,
+        onamaObject:Q630 .
 
 onamaObject:Q330-8e5d2cac-4647-0114-85a3-d86ddc98c1cf a onama:BenefactiveRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q330-9ff0d8dc-49f8-a255-49b6-66573a78393c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q330-d1c58f64-4df4-bc43-8ba4-245431f2ce4f a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q330-dda38a57-4eda-a343-06aa-847a38e55ccc a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -11052,14 +11480,17 @@ onamaObject:Q331-b57b34b2-429e-4aa9-11cc-da857651fe09 a onama:TextPassage ;
     onama:toToken "TRO_8967_3"^^xsd:string .
 
 onamaObject:Q331-ccee1f1c-4ddb-a495-4645-3e1ee3757298 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q329 .
+    onama:hasActor onamaObject:Q329 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229 .
 
 onamaObject:Q331-d17adbd7-43ba-8acb-4e02-1b7a91f37963 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q332-6d57af41-49a8-337d-5786-4be7ae53c801 a onama:BenefactiveRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q332-71b47652-43a8-cdaa-1067-1ad140329ad2 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
@@ -11072,10 +11503,15 @@ onamaObject:Q332-a4a96783-4ae8-d1ef-bad4-d75f9e5e86b6 a onama:Action ;
     onama:hasVerb onamaObject:Q105 .
 
 onamaObject:Q332-b8be50f7-4b63-f67b-0e60-f59ae00892de a onama:AgentRole ;
-    onama:hasActor onamaObject:Q496 .
+    onama:hasActor onamaObject:Q496 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q555,
+        onamaObject:Q630 .
 
 onamaObject:Q332-eca5b087-4929-1b56-d9d1-b8d7e3e6f2a3 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q333 a onama:TextualRealisation ;
     rdfs:label "TRO Amme bringt Jason zu Medea"@de,
@@ -11094,7 +11530,8 @@ onamaObject:Q333 a onama:TextualRealisation ;
     schema:version 13621 .
 
 onamaObject:Q333-01648ec3-49df-2509-eec2-0989a465c71e a onama:AgentRole ;
-    onama:hasActor onamaObject:Q329 .
+    onama:hasActor onamaObject:Q329 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229 .
 
 onamaObject:Q333-2a467835-4e14-110d-00a2-12770188c574 a onama:BenefactiveRole ;
     onama:hasActor onamaObject:Q282 .
@@ -11130,10 +11567,15 @@ onamaObject:Q337-581c3593-4723-f50b-d9df-084564e68de0 a onama:Action ;
     onama:hasVerb onamaObject:Q335 .
 
 onamaObject:Q337-6b369a3e-486f-bffd-6520-4f35f3783a4a a onama:PatientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q337-95dcf233-4fe3-d11b-9de1-77dbc237e561 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q337-e18b1855-4ee3-09e3-6614-2930a525bcf9 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q292 ;
@@ -11166,10 +11608,15 @@ onamaObject:Q340-486e13f6-431f-c3a0-c0e5-b242fc6ba95e a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q340-625716cb-4fd7-e9bb-c90b-80f21d54f79c a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q340-6d77793d-484a-7531-c1db-7f643d44d084 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q340-e3494924-4489-c228-be80-429b338f6bd4 a onama:Action ;
     onama:hasVerb onamaObject:Q339 .
@@ -11232,7 +11679,8 @@ onamaObject:Q343-f273e440-4418-acbd-b646-21e7a1e52c5e a onama:PlaceRole ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q347-443ea769-4c6c-7dd4-7a55-9dae2311523b a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261 .
 
 onamaObject:Q347-5d119d60-455d-41b8-f617-73f93ca77dc9 a onama:PatientRole ;
     onama:hasActor onamaObject:Q346 .
@@ -11297,7 +11745,8 @@ onamaObject:Q352-7df2e785-4aa5-c940-572d-eca9891cfc54 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q352-8df6550c-4e94-32e1-5e52-3e9eee1314b9 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261 .
 
 onamaObject:Q352-97e81159-4fff-f332-b76e-52ff4b69b271 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q345 .
@@ -11345,13 +11794,18 @@ onamaObject:Q356-8bf3ecac-4144-f36c-c5c4-c4b08edaf9a7 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q355 .
 
 onamaObject:Q356-c58984b8-49d6-1936-151c-1ca55d87f622 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q356-d4f3fc46-4dd0-9e8b-bb43-b3758ce875db a onama:PlaceRole ;
     onama:hasThing onamaObject:Q358 .
 
 onamaObject:Q356-f9e10699-484a-6b45-7eff-9d5d813eb650 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q357-0ad482ad-413a-45ec-5ae1-b1879edfa399 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q355 .
@@ -11489,10 +11943,15 @@ onamaObject:Q365-06cac83d-4e03-da55-60e7-ad5ccf052fa6 a onama:PlaceRole ;
     onama:hasThing onamaObject:Q292 .
 
 onamaObject:Q365-1b9921ca-449a-6252-72db-4d8ad00110c7 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q365-50f4b03b-4849-f52e-d856-0da43cc90d3e a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q365-a7a06b2c-43d3-309f-7bba-b0b6f044dbb2 a onama:TemporalityRole ;
     onama:hasTemporalEntity onamaObject:Q364 .
@@ -11537,13 +11996,18 @@ onamaObject:Q369-096aed98-4775-f95b-bb8a-169ee059265b a onama:Action ;
     onama:hasVerb onamaObject:Q285 .
 
 onamaObject:Q369-0a1c5a63-4bc5-397f-42a5-1b444827111b a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q369-6ce90d1c-44b8-6cb2-ce8d-97c317d0075d a onama:InstrumentRole ;
     onama:hasThing onamaObject:Q368 .
 
 onamaObject:Q369-b25a650d-4f2c-e682-8209-36755cce4779 a onama:BenefactiveRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q369-e6997933-4b45-9466-2ffa-57f796251974 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -11601,7 +12065,10 @@ onamaObject:Q373-ddc40c67-4e08-dfbc-3ebd-3159edef0622 a onama:TextPassage ;
     onama:toToken "TRO_9899_3"^^xsd:string .
 
 onamaObject:Q375-301f17fb-4447-77f2-4a92-2d7383b58efd a onama:AgentRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1235,
+        onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q375-7c85d8c0-4010-1fd1-aea7-1d48c786348c a onama:InstrumentRole ;
     onama:hasThing onamaObject:Q374 .
@@ -11610,7 +12077,9 @@ onamaObject:Q375-7f7676fd-400b-03d2-c081-0e680894a96a a onama:Action ;
     onama:hasVerb onamaObject:Q285 .
 
 onamaObject:Q375-dbbfcb82-4831-e803-b03a-d44fdc3ee832 a onama:BenefactiveRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q376-02f70906-4846-838a-fe72-44e5ea610311 a onama:AgentRole ;
     onama:hasActor onamaObject:Q282 .
@@ -11727,13 +12196,6 @@ onamaObject:Q387-84dc941b-4ebf-3a73-9665-fd295463a39b a onama:Action ;
 onamaObject:Q387-e8c104f1-4141-c09d-3ec8-fdb52acf3a2d a onama:GoalRole ;
     onama:hasThing onamaObject:Q392 .
 
-onamaObject:Q390 a onama:Thing ;
-    rdfs:label "Seele"@de,
-        "soul"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q9165> ;
-    schema:dateModified "2019-09-03T07:57:53+00:00"^^xsd:dateTime ;
-    schema:version 2631 .
-
 onamaObject:Q393-3b4d540f-43c5-3c58-2655-4bd125a520f7 a onama:Action ;
     onama:hasVerb onamaObject:Q389 .
 
@@ -11781,7 +12243,8 @@ onamaObject:Q397-3b295a66-4ef5-bfb0-7dd7-86d51fac9734 a onama:PatientRole ;
     onama:hasActor onamaObject:Q131 .
 
 onamaObject:Q397-e8d18aec-42da-2f7b-33c3-80e846a39301 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q266 .
+    onama:hasActor onamaObject:Q266 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1236 .
 
 onamaObject:Q397-e915b323-4e7f-dde7-3638-4bf4b653868e a onama:ThemeRole ;
     onama:hasThing onamaObject:Q398 .
@@ -11818,7 +12281,8 @@ onamaObject:Q400-83a2422a-4443-c83d-280e-30eccc5bbc61 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q400-a0b82df8-4b87-0099-2a3b-a9c51b01e827 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q266 .
+    onama:hasActor onamaObject:Q266 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1236 .
 
 onamaObject:Q401-069db82e-480f-4d4e-29f0-a07efcf62ce3 a onama:PatientRole ;
     onama:hasActor onamaObject:Q266 .
@@ -12377,7 +12841,8 @@ onamaObject:Q463-45ac2a1d-4b6f-bf95-605b-5bb299fe1a7f a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q406 .
 
 onamaObject:Q463-6358f8a9-4e9f-1368-75e6-3cc26e286b52 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q452 .
+    onama:hasActor onamaObject:Q452 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q463-7cd5665b-4beb-4240-2a73-e06645ca78a2 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
@@ -12431,7 +12896,8 @@ onamaObject:Q465-e4790df8-4eab-d36d-9db2-18f5865bd69c a onama:AgentRole ;
     onama:hasActor onamaObject:Q131 .
 
 onamaObject:Q467-366d5fd2-4e2f-7951-b719-de1333d47858 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q452 .
+    onama:hasActor onamaObject:Q452 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q467-5e2270c8-42ec-849c-5514-a639bfe6c05a a onama:AgentRole ;
     onama:hasActor onamaObject:Q131 .
@@ -12492,7 +12958,8 @@ onamaObject:Q469-c127ccae-4357-ba7c-9efb-d1f88bfeabcf a onama:TextPassage ;
     onama:toToken "TRY_1110_6"^^xsd:string .
 
 onamaObject:Q472-1ad62610-4f6d-1815-e8aa-ffe456a092a8 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q452 .
+    onama:hasActor onamaObject:Q452 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q472-79159e6b-40c7-7a58-85d8-dbf9340b8a4a a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
@@ -12501,7 +12968,8 @@ onamaObject:Q472-819905c7-4635-12d5-094e-4298195f525d a onama:Action ;
     onama:hasVerb onamaObject:Q471 .
 
 onamaObject:Q472-cfd75dc6-4149-bfb7-a7f2-d6eaf5f193fe a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q122 .
 
 onamaObject:Q472-eb57a765-4612-29f4-b9b2-26ba55b896a1 a onama:InstrumentRole ;
     onama:hasThing onamaObject:Q470 .
@@ -12510,7 +12978,8 @@ onamaObject:Q472-f3b8abef-4246-2dba-550d-6553c48d3fee a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q406 .
 
 onamaObject:Q473-0ab3b033-44d7-e6c5-2518-ed70d57a54cc a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q122 .
 
 onamaObject:Q473-5babfac8-4bdb-b85c-ed36-a63157a0fff8 a onama:Action ;
     onama:hasVerb onamaObject:Q471 .
@@ -12519,7 +12988,8 @@ onamaObject:Q473-8bce3247-4822-778d-d5ba-8aef36608345 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q406 .
 
 onamaObject:Q473-8bec7e2b-4fb0-cece-5cfc-f0399c126464 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q452 .
+    onama:hasActor onamaObject:Q452 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q473-918cd71b-4355-c703-315a-111af411e3f8 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
@@ -12562,7 +13032,8 @@ onamaObject:Q474-e8c5e8b6-4cdf-9be8-406a-b0ecaab2c618 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
 
 onamaObject:Q476-2b209e9e-4f6c-dc39-5bb3-3aa3fcbeef14 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q452 .
+    onama:hasActor onamaObject:Q452 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q476-5172c120-4b71-74bd-b05b-579e91321a73 a onama:AgentRole ;
     onama:hasActor onamaObject:Q131 .
@@ -12665,6 +13136,7 @@ onamaObject:Q485 a onama:Concept ;
     schema:version 11265 .
 
 onamaObject:Q485-0c3b3729-4530-13bc-24ad-58d015421954 a onama:PatientRole ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 ;
     onama:hasThing onamaObject:Q484 .
 
 onamaObject:Q485-122e22f1-4e85-7b25-9fa6-57bd3ada8e35 a onama:PlaceRole ;
@@ -12684,7 +13156,8 @@ onamaObject:Q485-8f78df20-464c-706f-ad0f-1807bdb31745 a onama:AgentRole ;
     onama:hasThing onamaObject:Q483 .
 
 onamaObject:Q485-aa199fc5-4a2d-0820-75d4-f382dbb15316 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q487 .
+    onama:hasActor onamaObject:Q487 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q486-2aca434d-473e-001b-d19c-347abd0ad8a5 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
@@ -12720,7 +13193,8 @@ onamaObject:Q488-0c905828-4edd-cec4-4ac7-d8c9c504deea a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q406 .
 
 onamaObject:Q488-49d67a97-403e-093f-26f8-b13e9f5d38f2 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q487 .
+    onama:hasActor onamaObject:Q487 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 .
 
 onamaObject:Q488-63158d0c-4da0-b189-2992-866903f8a64e a onama:Action ;
     onama:hasVerb onamaObject:Q471 .
@@ -12729,6 +13203,7 @@ onamaObject:Q488-c46ce600-4041-2baa-3638-3388916c7172 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q442 .
 
 onamaObject:Q488-daa4a650-40ed-f143-dcd2-e1d8936e4211 a onama:PatientRole ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1260 ;
     onama:hasThing onamaObject:Q484 .
 
 onamaObject:Q488-e08bdb78-464d-57d7-3d11-d7e65a2ea711 a onama:AgentRole ;
@@ -12884,7 +13359,8 @@ onamaObject:Q513-56065128-42e5-c42e-cdbc-11e13b0f21b5 a onama:RecipientRole ;
 
 onamaObject:Q513-9d22e233-4973-2f12-5833-e2870f9060f9 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q506 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006345_8207_E11> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006345_8207_E11> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q513-a174dd7a-4071-08fb-594a-c51419ca555e a onama:Action ;
     onama:hasVerb onamaObject:Q127 .
@@ -13165,7 +13641,9 @@ onamaObject:Q550-1dc6d983-4332-2dfe-65f8-3dfb6a564a45 a onama:PlaceRole ;
 
 onamaObject:Q550-479e1114-44f7-853a-4829-c85e4f180987 a onama:AgentRole ;
     onama:hasActor onamaObject:Q498 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E36> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E36> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q554 .
 
 onamaObject:Q550-50a5b05f-4c24-074b-6351-e78aa96d1749 a onama:Action ;
     onama:hasVerb onamaObject:Q566 .
@@ -13174,7 +13652,9 @@ onamaObject:Q550-9a956517-4464-8a11-37a0-7d1c02f060e3 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q542 .
 
 onamaObject:Q550-b6db9db4-4eae-8817-b708-a55a2e8d0220 a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q552 .
+    onama:hasActor onamaObject:Q552 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q553,
+        onamaObject:Q554 .
 
 onamaObject:Q550-bba12ced-46ca-6458-92fc-25b5260c37e9 a onama:Co-AgentRole ;
     onama:hasActor onamaObject:Q194 ;
@@ -13185,7 +13665,9 @@ onamaObject:Q550-f4e01e59-43bb-40e8-128f-9a2211039a31 a onama:WitnessRole ;
 
 onamaObject:Q557-00cd5e78-419d-fd92-28f4-af77493213e8 a onama:AgentRole ;
     onama:hasActor onamaObject:Q552 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E48> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E48> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q553,
+        onamaObject:Q554 .
 
 onamaObject:Q557-1fafad6c-414a-ab1c-b74e-4797f2c2b56b a onama:Action ;
     onama:hasVerb onamaObject:Q107 .
@@ -13202,11 +13684,15 @@ onamaObject:Q557-f5a1bfc2-49ff-db9a-01b9-fe7e2b1f82c4 a onama:PlaceRole ;
 
 onamaObject:Q557-ff1bddcf-44d7-f0c1-8bfd-f1f12ee23141 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q552 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E59> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E59> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q553,
+        onamaObject:Q554 .
 
 onamaObject:Q559-343a9886-4798-5d0d-bd83-1dd05afcd402 a onama:Co-AgentRole ;
     onama:hasActor onamaObject:Q498 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E36> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E36> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q554 .
 
 onamaObject:Q559-961c2c93-422f-7eba-54c9-fa80f04821eb a onama:Action ;
     onama:hasVerb onamaObject:Q561 .
@@ -13223,7 +13709,9 @@ onamaObject:Q559-e327379c-45f4-1a28-727e-569f5c94348e a onama:AgentRole ;
 
 onamaObject:Q559-f52d50b2-4329-89c5-cf2a-98e4df19738c a onama:Co-AgentRole ;
     onama:hasActor onamaObject:Q552 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E48> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006350_8212_E48> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q553,
+        onamaObject:Q554 .
 
 onamaObject:Q562-0129dc99-452e-188f-1226-b561da703968 a onama:AgentRole ;
     onama:hasActor onamaObject:Q194 .
@@ -13261,7 +13749,9 @@ onamaObject:Q567-2f8d49fa-41d3-0593-974e-a05f5fed2001 a onama:WitnessRole ;
 
 onamaObject:Q567-3a7d42eb-4fa4-3b72-b616-90818ad3711b a onama:AgentRole ;
     onama:hasActor onamaObject:Q527 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006351_8213_E32> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006351_8213_E32> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q604 .
 
 onamaObject:Q567-56c94d39-4b27-c67a-0697-d8acd5c59b79 a onama:PatientRole ;
     onama:hasPlace onamaObject:Q116 ;
@@ -13527,10 +14017,14 @@ onamaObject:Q592 a onama:Thing ;
     schema:version 14093 .
 
 onamaObject:Q593-3b4ec8d7-4f89-bfc9-488c-05c82dbbbb7f a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q593-847d5b94-47fd-d8b7-c5d9-daef4032af82 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q593-ae01527f-4735-5f4f-8621-07666a9b6491 a onama:Action ;
     onama:hasVerb onamaObject:Q591 .
@@ -13607,7 +14101,9 @@ onamaObject:Q599-f3ddb083-47d1-0038-cc58-a0fc02668cd8 a onama:PatientRole ;
     onama:hasActor onamaObject:Q266 .
 
 onamaObject:Q600-6545b69f-450f-eaa6-7670-f84322b41cfc a onama:PatientRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q600-9fb14f69-4318-cce0-c1fb-4dd618ad93d1 a onama:Action ;
     onama:hasVerb onamaObject:Q596 .
@@ -13622,7 +14118,9 @@ onamaObject:Q600-bce3d476-4da5-751b-7846-fa83759ef42c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
 
 onamaObject:Q600-da8b1dda-4dc8-1a50-1e2e-f035b47f4ab0 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q601-067cd2b8-4907-74e3-33f8-a7b6575f76b3 a onama:Action ;
     onama:hasVerb onamaObject:Q596 .
@@ -13658,7 +14156,8 @@ onamaObject:Q605-695819b6-40c1-e339-9379-5d4e9989c084 a onama:AgentRole ;
 
 onamaObject:Q605-875d9ffb-4fb3-2db7-7805-be1042c02afe a onama:WitnessRole ;
     onama:hasActor onamaObject:Q533 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E180> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E180> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555 .
 
 onamaObject:Q605-ab32fe35-4bd2-5727-3a52-ad9bff2a6a1e a onama:ModeRole ;
     onama:hasActor onamaObject:Q558 ;
@@ -13677,7 +14176,8 @@ onamaObject:Q605-eceab074-4088-5fe5-565a-f69e669d0fad a onama:GoalRole ;
 
 onamaObject:Q605-f8b9c6b1-4bd6-01f1-c734-499b89a06fa8 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q506 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E183> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E183> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q606 a onama:Verb ;
     rdfs:label "reiten, v."@de,
@@ -13694,7 +14194,9 @@ onamaObject:Q607-aa677c9e-46a0-0574-a04a-e42be6443ffb a onama:ModeRole ;
 
 onamaObject:Q607-dc4282a4-4399-769e-8bdb-331fadb5f320 a onama:AgentRole ;
     onama:hasActor onamaObject:Q608 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E47> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E47> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q609 .
 
 onamaObject:Q607-fd471cfd-461d-152b-d191-74c2446acd39 a onama:Action ;
     onama:hasVerb onamaObject:Q610 .
@@ -13719,7 +14221,8 @@ onamaObject:Q615-26a3a5c2-4aa5-d561-0d76-6a124e8b0b3b a onama:StimulusRole ;
 
 onamaObject:Q615-61ace0d7-4c17-de06-30c3-9e9b1df23afd a onama:ExperiencerRole ;
     onama:hasActor onamaObject:Q506 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E173> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E173> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q615-63450437-418a-39de-93c1-f9c6d0db05c2 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
@@ -13733,7 +14236,8 @@ onamaObject:Q615-d960462d-4c6a-e5c1-109a-5c78af2ed053 a onama:SourceRole ;
 
 onamaObject:Q615-f5eb0d2f-4893-6489-bfa1-9283f098faa4 a onama:ExperiencerRole ;
     onama:hasActor onamaObject:Q533 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E177> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006352_8214_E177> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555 .
 
 onamaObject:Q619-52d1dc07-478d-24d7-f7e6-4a25cc31fdbf a onama:Co-AgentRole ;
     onama:hasActor onamaObject:Q194 ;
@@ -13760,12 +14264,16 @@ onamaObject:Q619-b79c4948-4684-bbbb-fdde-2f849e2decef a onama:AgentRole ;
 
 onamaObject:Q619-c717eb2e-4163-e367-cc7f-9c28cc0b8396 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q621 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E72> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E72> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q620-1fbd8d24-4ae4-8264-dfdd-b8dd261bcd84 a onama:ExperiencerRole ;
     onama:hasActor onamaObject:Q621 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E151>,
-        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E155> .
+        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E155> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q555,
+        onamaObject:Q622 .
 
 onamaObject:Q620-76896030-436a-ee29-11ea-685d6ca105a9 a onama:SourceRole ;
     onama:hasPlace onamaObject:Q325 ;
@@ -13783,7 +14291,10 @@ onamaObject:Q620-940636dc-4054-9c8d-e9f1-565a89590fde a onama:Action ;
 onamaObject:Q620-f2f70e1f-4a35-13bc-d1ad-cafbb245d89b a onama:ExperiencerRole ;
     onama:hasActor onamaObject:Q621 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E151>,
-        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E155> .
+        <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E155> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q555,
+        onamaObject:Q622 .
 
 onamaObject:Q620-ffec76a1-4ec5-da08-9ad6-0ed170d1115f a onama:StimulusRole ;
     onama:hasActor onamaObject:Q168 .
@@ -13801,7 +14312,8 @@ onamaObject:Q623-7039192b-4a39-2559-0198-2a97ec0bfd6d a onama:PlaceRole ;
 
 onamaObject:Q623-9de08c1c-49d3-6260-7305-f144bfd442f5 a onama:AgentRole ;
     onama:hasActor onamaObject:Q506 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E9> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006353_8215_E9> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q625-709f2fb7-423f-9f2f-37f5-897a33ea53a2 a onama:AgentRole ;
     onama:hasActor onamaObject:Q131 .
@@ -13813,7 +14325,8 @@ onamaObject:Q625-ac049bfa-442c-fc82-b1ac-0928a3328e26 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q625-d6898859-4cc7-6748-dd87-a492066077e6 a onama:RecipientRole ;
-    onama:hasActor onamaObject:Q266 .
+    onama:hasActor onamaObject:Q266 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1236 .
 
 onamaObject:Q625-e059401b-4fcc-a79d-99c7-4e92d6dc8c05 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -13828,7 +14341,9 @@ onamaObject:Q627-1a3a18a3-437e-3a73-558b-d72eac3451da a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q507 .
 
 onamaObject:Q627-557522be-43fe-971d-ba9e-3e78844ca57a a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q621 .
+    onama:hasActor onamaObject:Q621 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q622 .
 
 onamaObject:Q627-7de3de36-4d6b-ae9a-861f-8e0ebfde146e a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -13888,7 +14403,9 @@ onamaObject:Q629-2fea18f7-4314-9b94-280d-75ec7dc06c92 a onama:PlaceRole ;
 
 onamaObject:Q629-5f397683-4c3b-bb75-5a1e-b2405af44e55 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q621 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006354_8216_E51> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006354_8216_E51> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q622 .
 
 onamaObject:Q629-865c7e9d-46d5-db9f-6c13-2b07fdbfe0e0 a onama:InstrumentRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006354_8216_E31> ;
@@ -13896,7 +14413,9 @@ onamaObject:Q629-865c7e9d-46d5-db9f-6c13-2b07fdbfe0e0 a onama:InstrumentRole ;
 
 onamaObject:Q629-891928bf-4227-35c5-69c3-cf22336d12f7 a onama:AgentRole ;
     onama:hasActor onamaObject:Q496 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006354_8216_E29> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006354_8216_E29> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q630 .
 
 onamaObject:Q629-b5c64759-4578-fc81-202a-d2e0bc09a3e6 a onama:InstrumentRole ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006354_8216_E81> ;
@@ -13931,10 +14450,14 @@ onamaObject:Q637-7779bdc1-497b-19ee-385c-e4fe6432775b a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q637-9f9fdae5-4dfe-ff33-db0c-cf637a94d2d1 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q131 .
+    onama:hasActor onamaObject:Q131 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q637-b4c8ca4a-4d8d-08d5-63fe-50b7bd8c6dc1 a onama:PatientRole ;
-    onama:hasActor onamaObject:Q282 .
+    onama:hasActor onamaObject:Q282 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q1261,
+        onamaObject:Q1262 .
 
 onamaObject:Q638-2c05e963-4b8a-db87-fd34-4831346f1970 a onama:PatientRole ;
     onama:hasActor onamaObject:Q282 .
@@ -14011,22 +14534,11 @@ onamaObject:Q641-e29db505-40b7-f634-d1f9-5be2e00b66f8 a onama:PlaceRole ;
 onamaObject:Q641-f8e1f797-4608-6978-045e-4a51f56b7dab a onama:ParticipatorRole ;
     onama:hasActor onamaObject:Q282 .
 
-onamaObject:Q642 a onama:Thing ;
-    rdfs:label "goldener Becher"@de,
-        "golden cup"@en ;
-    onama:hasGeneralEntityFunction onamaObject:Q938 ;
-    schema:dateModified "2020-01-23T10:23:28+00:00"^^xsd:dateTime ;
-    schema:version 10953 .
-
-onamaObject:Q643 a onama:Thing ;
-    rdfs:label "goldene Schüssel"@de,
-        "golden bowl"@en ;
-    schema:dateModified "2019-09-30T13:46:01+00:00"^^xsd:dateTime ;
-    schema:version 4770 .
-
 onamaObject:Q644-216d137d-4ca8-1579-5a2e-c39b995c0c7a a onama:WitnessRole ;
     onama:hasActor onamaObject:Q621 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006355_8217_E4> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006355_8217_E4> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555,
+        onamaObject:Q622 .
 
 onamaObject:Q644-37c8f2e1-449a-576f-072b-f55ab705acc6 a onama:Action ;
     onama:hasVerb onamaObject:Q646 .
@@ -14043,7 +14555,9 @@ onamaObject:Q644-a08610bd-4ea8-f34c-5fba-1b1ba521b6c6 a onama:PlaceRole ;
 
 onamaObject:Q644-c174835b-4be7-5f9b-db8d-31425eb0608d a onama:AgentRole ;
     onama:hasActor onamaObject:Q496 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006355_8217_E36> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006355_8217_E36> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q630 .
 
 onamaObject:Q644-fa2a779d-48d0-467e-4f7f-1ccc73b876ec a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -14511,7 +15025,9 @@ onamaObject:Q693-88238a78-41ca-170c-d8fd-d181fc147a35 a onama:PlaceRole ;
 
 onamaObject:Q693-95e35761-49b3-8bce-5278-e836c82a89e4 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q621 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006356_8218_E13> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006356_8218_E13> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q622 .
 
 onamaObject:Q693-be7a2553-4b49-da39-b18f-ed417f1e97cf a onama:ThemeRole ;
     onama:hasActor onamaObject:Q266 ;
@@ -14522,7 +15038,9 @@ onamaObject:Q693-d8cef905-42af-2943-4e09-1a4c07a952f6 a onama:PlaceRole ;
 
 onamaObject:Q693-ee47c761-4700-8e27-ea41-327d91afd4d5 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q496 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006356_8218_E52> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006356_8218_E52> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q630 .
 
 onamaObject:Q694-26582c5f-4a0e-1c59-b638-31baf33c6869 a onama:PatientRole ;
     onama:hasActor onamaObject:Q452 .
@@ -14623,7 +15141,9 @@ onamaObject:Q700-2539e395-4e73-8382-801c-738c7cdc089e a onama:PlaceRole ;
 
 onamaObject:Q700-298ac5cb-4fa2-b324-7916-f490fc9563ca a onama:AgentRole ;
     onama:hasActor onamaObject:Q496 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006356_8218_E76> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006356_8218_E76> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q630 .
 
 onamaObject:Q700-4a5149c1-40a9-0712-3deb-e1292fa8751e a onama:Action ;
     onama:hasVerb onamaObject:Q701 .
@@ -14729,7 +15249,9 @@ onamaObject:Q710-4202c7ab-4ca6-9812-a6b0-80f24f794f98 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q711 .
 
 onamaObject:Q710-6fe6ea4b-4ded-58e3-21e9-0739246124b7 a onama:AgentRole ;
-    onama:hasActor onamaObject:Q496 .
+    onama:hasActor onamaObject:Q496 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q630 .
 
 onamaObject:Q710-8e190396-4804-6ff2-b5bd-bdae3bf39a62 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q507 .
@@ -14746,6 +15268,8 @@ onamaObject:Q711 a onama:Thing ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q153988> ;
     schema:dateModified "2019-10-02T14:22:56+00:00"^^xsd:dateTime ;
     schema:version 5321 .
+
+onamaObject:Q712-047bf0c8-4cc2-6944-edc6-89eb6c81f8ff a onama:PatientRole .
 
 onamaObject:Q712-34a2cba7-4f86-91b7-7b95-0e52eb6a3c9f a onama:Co-AgentRole ;
     onama:hasActor onamaObject:Q282 .
@@ -15119,7 +15643,9 @@ onamaObject:Q738-bb45ed93-4b1f-e796-2322-aa1ccd8672aa a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
 
 onamaObject:Q738-e2fe9086-40e1-1fd0-004a-4d1b3ca296c8 a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q621 .
+    onama:hasActor onamaObject:Q621 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555,
+        onamaObject:Q622 .
 
 onamaObject:Q738-ea9f6f27-4bb6-568c-bba9-a91889fec15a a onama:WitnessRole ;
     onama:hasActor onamaObject:Q194 ;
@@ -15275,7 +15801,9 @@ onamaObject:Q747-3aeaa592-4153-d906-e1ef-ae9eab34eb3c a onama:PlaceRole ;
 
 onamaObject:Q747-6913c4bf-4220-82f5-2266-2f5ed5bd41af a onama:AgentRole ;
     onama:hasActor onamaObject:Q498 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006358_8220_E23> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006358_8220_E23> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q554 .
 
 onamaObject:Q747-9be70a6f-4a57-4506-56fc-59ef1bfd1b8a a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -15334,7 +15862,9 @@ onamaObject:Q751-71d38477-4430-c96e-ef1e-9c779cc97562 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q507 .
 
 onamaObject:Q751-82892ce2-4bed-a8dd-627e-f80cf7f7ea71 a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q621 .
+    onama:hasActor onamaObject:Q621 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q622 .
 
 onamaObject:Q751-8c66a135-4c1b-bc65-9ad9-30ef8c7c67b4 a onama:AgentRole ;
     onama:hasActor onamaObject:Q266 ;
@@ -15345,7 +15875,9 @@ onamaObject:Q751-d1571817-4396-84ac-3db2-585ed8ef950e a onama:Action ;
 
 onamaObject:Q751-f44635ba-4a92-087b-ef55-b8c1d13be830 a onama:PatientRole ;
     onama:hasActor onamaObject:Q498 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006358_8220_E23> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006358_8220_E23> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q554 .
 
 onamaObject:Q753-137aa0d0-4af0-8e95-3861-08bffb860b9a a onama:AgentRole ;
     onama:hasActor onamaObject:Q282 ;
@@ -15381,10 +15913,18 @@ onamaObject:Q754-4740932f-4b98-1c7c-df61-ffe4bdbcc054 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
 
 onamaObject:Q754-5b12cee5-474a-7ae0-5a16-ed4d142b525a a onama:Co-AgentRole ;
-    onama:hasActor onamaObject:Q755 .
+    onama:hasActor onamaObject:Q755 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q756 .
 
 onamaObject:Q754-f2b5ee3a-4d27-f80d-9290-4cf50408c17c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
+
+onamaObject:Q756 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Berater"@de,
+        "Entity Function Advisor"@en ;
+    schema:dateModified "2020-07-07T07:33:38+00:00"^^xsd:dateTime ;
+    schema:version 14711 .
 
 onamaObject:Q757-15a8f0cd-4001-b633-a2d7-f4b890ab519b a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q262 .
@@ -15396,7 +15936,8 @@ onamaObject:Q757-90a09f0f-4973-c8ee-adec-e7e9a1b0d17c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
 
 onamaObject:Q757-a9f8250f-4be7-b305-00e3-d2057ab90880 a onama:Co-AgentRole ;
-    onama:hasActor onamaObject:Q506 .
+    onama:hasActor onamaObject:Q506 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q757-ea96bc57-423b-8992-58dc-5a2afa74af9d a onama:AgentRole ;
     onama:hasActor onamaObject:Q194 ;
@@ -15423,19 +15964,24 @@ onamaObject:Q758-8690f745-417a-4011-b520-b2fe1686b664 a onama:PlaceRole ;
     onama:hasThing onamaObject:Q325 .
 
 onamaObject:Q758-c00b8a34-49a4-439a-25d0-d2899ecc8cbb a onama:StimulusRole ;
-    onama:hasActor onamaObject:Q506 .
+    onama:hasActor onamaObject:Q506 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q758-c67af9d4-480a-60b5-cf6a-7ccc4683b030 a onama:Action ;
     onama:hasVerb onamaObject:Q617 .
 
 onamaObject:Q758-cbfe505e-4da6-9f64-a755-b1ed7cbb5c29 a onama:ExperiencerRole ;
-    onama:hasActor onamaObject:Q424 .
+    onama:hasActor onamaObject:Q424 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555,
+        onamaObject:Q759 .
 
 onamaObject:Q758-d46325d7-4d5d-f610-de9c-25c6a8ab7373 a onama:StimulusRole ;
     onama:hasActor onamaObject:Q131 .
 
 onamaObject:Q758-e06d4017-4694-e528-83e9-9f7f846a395c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
+
+onamaObject:Q76-51df008f-4e68-a142-2c58-4d070a6bd1aa a onama:PatientRole .
 
 onamaObject:Q76-62e179b5-4a4b-4489-085f-ca1e32888291 a onama:RecipientRole ;
     onama:hasActor onamaObject:Q77 .
@@ -15460,7 +16006,9 @@ onamaObject:Q761-2f7ea9a5-445d-45bf-57e8-a21360059037 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q507 .
 
 onamaObject:Q761-461d0705-4816-8fcc-3b13-b6cf467a72f9 a onama:WitnessRole ;
-    onama:hasActor onamaObject:Q621 .
+    onama:hasActor onamaObject:Q621 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554,
+        onamaObject:Q622 .
 
 onamaObject:Q761-61d625a2-4bc7-c48b-1fa1-56f639a50af4 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -15496,7 +16044,8 @@ onamaObject:Q762-7db14856-4a1d-d012-e340-2109e32d1ac4 a onama:Action ;
 
 onamaObject:Q762-8754580a-454e-5351-f19a-dbf4e13cb5c4 a onama:ExperiencerRole ;
     onama:hasActor onamaObject:Q506 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006346_8208_E7> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006346_8208_E7> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q554 .
 
 onamaObject:Q762-a8791d1f-41e8-c5c6-aff4-dd9eeda8eeaa a onama:ExperiencerRole ;
     onama:hasActor onamaObject:Q126 ;
@@ -15506,7 +16055,9 @@ onamaObject:Q762-b5efa537-43b4-f5ac-fa7d-76cd5ff71901 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
 
 onamaObject:Q762-c2cb7c91-4444-7d4e-d9b5-37607a971e6c a onama:ExperiencerRole ;
-    onama:hasActor onamaObject:Q424 .
+    onama:hasActor onamaObject:Q424 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q555,
+        onamaObject:Q759 .
 
 onamaObject:Q762-d7972ee2-4cd0-05e3-a08c-5eb90a6b343f a onama:StimulusRole ;
     onama:hasThing onamaObject:Q136 .
@@ -15559,7 +16110,10 @@ onamaObject:Q765-a5dd28fb-444d-459c-5eb9-318ac8fba7f9 a onama:PlaceRole ;
 
 onamaObject:Q765-acc4f1fc-44bb-0b60-8b52-c53f4af2d614 a onama:AgentRole ;
     onama:hasActor onamaObject:Q496 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006362_8224_E2> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006362_8224_E2> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q555,
+        onamaObject:Q630 .
 
 onamaObject:Q765-c740f1c7-46fd-043d-8122-ac37ab263cc9 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q274 .
@@ -15583,7 +16137,10 @@ onamaObject:Q767-4327716f-4b4c-36d5-daba-17300dce15fd a onama:PlaceRole ;
 
 onamaObject:Q767-7e2d3f14-4ee4-bc5a-ba7e-59800d31f940 a onama:AgentRole ;
     onama:hasActor onamaObject:Q496 ;
-    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006362_8224_E33> .
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006362_8224_E33> ;
+    onama:hasTemporaryEntityFunction onamaObject:Q229,
+        onamaObject:Q555,
+        onamaObject:Q630 .
 
 onamaObject:Q767-a8885f0a-445c-ac34-81dc-e1ec34a4605b a onama:GoalRole ;
     onama:hasPlace onamaObject:Q500 ;
@@ -18423,6 +18980,7 @@ onamaObject:Q1130 a onama:TextualRealisation ;
     onama:hasAction onamaObject:Q1130-a83be77b-4d15-81f1-2456-d7400e87ebca ;
     onama:hasSemanticRole onamaObject:Q1130-65ea721e-4d82-1b13-710b-e827d82d6875,
         onamaObject:Q1130-d4752d18-46e3-4271-9ea0-6deccea643e0,
+        onamaObject:Q1130-f5d15ce2-47e4-aec8-fcea-8de5ee720145,
         onamaObject:Q1130-f9dedaa0-4b3a-5eaa-b9fb-b50f367b4b70 ;
     onama:partOfCollection onamaObject:Q1126 ;
     onama:previous onamaObject:Q1129 ;
@@ -18724,6 +19282,12 @@ onamaObject:Q1175 a onama:Concept ;
     onama:isRealisedBy onamaObject:Q1178 ;
     schema:dateModified "2020-01-09T18:16:30+00:00"^^xsd:dateTime ;
     schema:version 10193 .
+
+onamaObject:Q1180 a onama:Verb ;
+    rdfs:label "anbinden, v."@de,
+        "tie, v."@en ;
+    schema:dateModified "2020-01-09T18:11:31+00:00"^^xsd:dateTime ;
+    schema:version 10180 .
 
 onamaObject:Q1184 a onama:Concept ;
     rdfs:label "Jason spannt die feuerspeienden Ochsen vor den Pflug"@de,
@@ -19376,6 +19940,14 @@ onamaObject:Q1369 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1367 ;
     schema:dateModified "2020-06-12T07:34:34+00:00"^^xsd:dateTime ;
     schema:version 14350 .
+
+onamaObject:Q137 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Gefährte"@de,
+        "Entity Function Comrade"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q632316> ;
+    schema:dateModified "2020-07-07T07:38:57+00:00"^^xsd:dateTime ;
+    schema:version 14729 ;
+    skos:altLabel "Entitätsfunktion Gefährtin"@de .
 
 onamaObject:Q1370 a onama:Person,
         onama:Thing ;
@@ -20208,7 +20780,8 @@ onamaObject:Q1595 a onama:Concept ;
         "Raven plans escape"@en ;
     onama:broader onamaObject:Q1529 ;
     onama:hasAction onamaObject:Q1595-4f3d8faa-462c-4850-82ae-464db3b2b0db ;
-    onama:hasSemanticRole onamaObject:Q1595-4303bc3d-4f49-959d-5a05-768b5f17d0e6 ;
+    onama:hasSemanticRole onamaObject:Q1595-4303bc3d-4f49-959d-5a05-768b5f17d0e6,
+        onamaObject:Q1595-ba386a18-4751-e931-03e3-fa49b593c1c5 ;
     onama:isRealisedBy onamaObject:Q1596 ;
     schema:dateModified "2020-07-08T13:40:38+00:00"^^xsd:dateTime ;
     schema:version 15064 .
@@ -20348,20 +20921,17 @@ onamaObject:Q1620 a onama:Person ;
     schema:dateModified "2020-07-31T10:50:23+00:00"^^xsd:dateTime ;
     schema:version 15269 .
 
-onamaObject:Q1625 a onama:Thing ;
-    rdfs:label "Götzenbild"@de,
-        "idol"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2820111> ;
-    schema:dateModified "2020-07-31T11:12:02+00:00"^^xsd:dateTime ;
-    schema:version 15300 ;
-    skos:altLabel "cult image"@en .
+onamaObject:Q1621 a onama:Verb ;
+    rdfs:label "zwingen, v."@de,
+        "force, v."@en ;
+    schema:dateModified "2020-07-31T10:51:12+00:00"^^xsd:dateTime ;
+    schema:version 15272 .
 
-onamaObject:Q1627 a onama:Person ;
-    rdfs:label "Scherge"@de,
-        "henchman"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q247297> ;
-    schema:dateModified "2020-07-31T12:12:00+00:00"^^xsd:dateTime ;
-    schema:version 15310 .
+onamaObject:Q1624 a onama:Verb ;
+    rdfs:label "anbeten, v."@de,
+        "worship, v."@en ;
+    schema:dateModified "2020-07-31T11:08:52+00:00"^^xsd:dateTime ;
+    schema:version 15294 .
 
 onamaObject:Q1629 a onama:Concept ;
     rdfs:label "Hl. Blasius versteckt sich in einer Höhle im Wald"@de,
@@ -20526,25 +21096,173 @@ onamaObject:Q1673 a onama:Thing ;
     schema:dateModified "2020-10-02T14:22:38+00:00"^^xsd:dateTime ;
     schema:version 15720 .
 
-onamaObject:Q1674 a onama:VisualRealisation ;
-    rdfs:label "RO 016294 Arme Frau bringt Hl. Blasius Schweinskopf, Brot und Kerze in den Kerker"@de,
-        "RO 016294 Poor woman brings St. Blaise a pig's head, bread and a candle into prison"@en ;
-    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016294> ;
-    onama:hasAction onamaObject:Q1674-0c8f952c-4858-9b5b-5f96-d458202fbce3 ;
-    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016294> ;
-    onama:hasSemanticRole onamaObject:Q1674-05eddec9-426b-1fd7-c9ad-50474a9a254e,
-        onamaObject:Q1674-0ecaaead-4dcf-2a86-88c7-1c3de41d3279,
-        onamaObject:Q1674-16fb7f4d-4df2-f7aa-932a-882c1405534d,
-        onamaObject:Q1674-8e7f3de6-4641-665f-a30f-c876ff78b8a4,
-        onamaObject:Q1674-978ec993-4f56-d54e-7b95-07d9418b7b28,
-        onamaObject:Q1674-98617e89-482d-7409-edec-bcf2f374d7c6,
-        onamaObject:Q1674-c1769047-4f37-4a08-0f39-57c1e1417759,
-        onamaObject:Q1674-cd4deb9b-4bb8-8c87-6f36-d44883a541c0 ;
+onamaObject:Q1675 a onama:Concept ;
+    rdfs:label "Sieben Frauen sammeln das Blut des gefolterten Hl. Blasius"@de,
+        "Seven women collect the blood of the tortured St. Blaise"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1675-676d84dc-4dc1-fcb6-be4a-626a6fbc57cf ;
+    onama:hasSemanticRole onamaObject:Q1675-81c5c1e5-4f80-505c-98be-865c15ef66d7,
+        onamaObject:Q1675-8bbbf73e-4f32-5f5b-5455-f61729d65914,
+        onamaObject:Q1675-b3e028c9-4556-9c07-43c2-daca7da9510b ;
+    onama:isRealisedBy onamaObject:Q1677 ;
+    schema:dateModified "2020-11-04T09:50:16+00:00"^^xsd:dateTime ;
+    schema:version 15831 .
+
+onamaObject:Q1676 a onama:Verb ;
+    rdfs:label "sammeln, v."@de,
+        "collect, v."@en ;
+    schema:dateModified "2020-10-02T14:53:16+00:00"^^xsd:dateTime ;
+    schema:version 15752 .
+
+onamaObject:Q1679 a onama:Verb ;
+    rdfs:label "foltern, v."@de,
+        "torture, v."@en ;
+    schema:dateModified "2020-11-04T09:01:13+00:00"^^xsd:dateTime ;
+    schema:version 15779 .
+
+onamaObject:Q1680 a onama:Thing ;
+    rdfs:label "Klaue"@de,
+        "iron claw"@en ;
+    schema:dateModified "2020-11-04T09:13:08+00:00"^^xsd:dateTime ;
+    schema:description "Waffe"@de,
+        "weapon"@en ;
+    schema:version 15786 .
+
+onamaObject:Q1684 a onama:Concept ;
+    rdfs:label "Sieben Frauen werden zur Götzenanbetung gezwungen"@de,
+        "Seven women are forced to worship idols"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1684-88a18096-4d8c-03ef-b117-1570b271e24e ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28BLAISE%296> ;
+    onama:hasSemanticRole onamaObject:Q1684-00743f90-4d81-970b-eaed-9b869bfe141c,
+        onamaObject:Q1684-472417e3-4f04-8ff7-473a-1de2ce34cd0f ;
+    onama:isRealisedBy onamaObject:Q1686 ;
+    schema:dateModified "2020-11-04T09:58:47+00:00"^^xsd:dateTime ;
+    schema:version 15842 .
+
+onamaObject:Q1688 a onama:Concept ;
+    rdfs:label "Sieben Frauen bleiben im Feuer unversehrt"@de,
+        "Seven women remain unharmed in the fire"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1688-71cc8b7d-4cfc-669a-c853-73baff810a11 ;
+    onama:hasSemanticRole onamaObject:Q1688-645852ed-4afb-86b9-5a0b-994bb51bc98b,
+        onamaObject:Q1688-accda0c1-4dc7-15d1-5af8-ab16ea2a9a9c ;
+    onama:isRealisedBy onamaObject:Q1690 ;
+    schema:dateModified "2020-11-04T10:31:23+00:00"^^xsd:dateTime ;
+    schema:version 15876 .
+
+onamaObject:Q1690 a onama:VisualRealisation ;
+    rdfs:label "RO 016297 Sieben Frauen beten auf den Scheiterhaufen"@de,
+        "RO 016297 Seven women pray at the stake"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016297> ;
+    onama:hasAction onamaObject:Q1690-cc13a5a2-4dac-40ab-5fbf-63d60717008f ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016297> ;
+    onama:hasSemanticRole onamaObject:Q1690-3e132179-4d3e-4be9-abe8-1a541edfe18b,
+        onamaObject:Q1690-5439eb47-4441-b233-2f26-c6ad397f2aed,
+        onamaObject:Q1690-58b5ff44-46b1-11fa-ca76-e7a3a6e802e4,
+        onamaObject:Q1690-5abff46b-4b46-bc9b-54c7-af51897bf74e ;
+    onama:nextFabula onamaObject:Q1693 ;
     onama:partOfCollection onamaObject:Q1112 ;
-    onama:previousFabula onamaObject:Q1669 ;
-    onama:realises onamaObject:Q1670 ;
-    schema:dateModified "2020-10-02T14:35:44+00:00"^^xsd:dateTime ;
-    schema:version 15741 .
+    onama:realises onamaObject:Q1688 ;
+    schema:dateModified "2020-11-04T10:43:59+00:00"^^xsd:dateTime ;
+    schema:version 15893 .
+
+onamaObject:Q1692 a onama:Concept ;
+    rdfs:label "Sieben Frauen werden enthauptet"@de,
+        "Seven women are beheaded"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1692-eed5c849-4f19-d503-ae20-792542d58d5b ;
+    onama:hasSemanticRole onamaObject:Q1692-f315b192-4e0e-e53b-6c42-22664d14e5be ;
+    onama:hasSupplementaryConcept onamaObject:Q1696 ;
+    onama:isRealisedBy onamaObject:Q1693 ;
+    schema:dateModified "2020-11-04T11:15:59+00:00"^^xsd:dateTime ;
+    schema:version 15932 .
+
+onamaObject:Q1694 a onama:Person ;
+    rdfs:label "Scharfrichter"@de,
+        "executioner"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q207651> ;
+    schema:dateModified "2020-11-04T10:55:53+00:00"^^xsd:dateTime ;
+    schema:version 15907 .
+
+onamaObject:Q1696 a onama:Concept ;
+    rdfs:label "Engel trägt Seelen von vier Frauen zum Himmel"@de,
+        "Angel carries souls of four women to heaven"@en ;
+    onama:hasAction onamaObject:Q1696-53decc28-4270-07b6-8dba-4acc5fc02bdc ;
+    onama:hasSemanticRole onamaObject:Q1696-170a6c3d-40ba-b378-4c0c-ac7493833f34,
+        onamaObject:Q1696-43e9a2b4-40a8-7ef9-024b-c42b0a5ac669,
+        onamaObject:Q1696-ab0ad7cb-43db-69a8-e48f-7c5c15bb627f ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1695 ;
+    schema:dateModified "2020-11-04T11:17:11+00:00"^^xsd:dateTime ;
+    schema:version 15937 .
+
+onamaObject:Q1700 a onama:Person ;
+    rdfs:label "Verfolger"@de,
+        "Persecutor"@en ;
+    schema:dateModified "2020-11-04T11:40:43+00:00"^^xsd:dateTime ;
+    schema:version 15955 .
+
+onamaObject:Q1701 a onama:Verb ;
+    rdfs:label "ertrinken, v."@de,
+        "drown, v."@en ;
+    schema:dateModified "2020-11-04T11:42:20+00:00"^^xsd:dateTime ;
+    schema:version 15959 .
+
+onamaObject:Q1705 a onama:Concept ;
+    rdfs:label "Hl. Blasius geht auf dem Wasser"@de,
+        "St. Blaise walks on water"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1705-b2565cca-4904-8250-973f-f641b1dac1ef ;
+    onama:hasSemanticRole onamaObject:Q1705-1b842857-402a-73b6-cc74-4a17ac261392,
+        onamaObject:Q1705-ec30c490-4eb5-bd65-3557-164fffe9bf22 ;
+    onama:isRealisedBy onamaObject:Q1707 ;
+    schema:dateModified "2020-11-06T10:46:01+00:00"^^xsd:dateTime ;
+    schema:version 16002 .
+
+onamaObject:Q1706 a onama:Verb ;
+    rdfs:label "gehen, v."@de,
+        "walk, v."@en ;
+    schema:dateModified "2020-11-06T10:45:44+00:00"^^xsd:dateTime ;
+    schema:version 16000 .
+
+onamaObject:Q1708 a onama:Concept ;
+    rdfs:label "Engel des Herrn erscheit dem Hl. Blasius"@de,
+        "Angel of the Lord appears to St. Blaise"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1708-1f393460-4bb9-e2e3-06ae-73c5a9e8eba4 ;
+    onama:hasSemanticRole onamaObject:Q1708-16638da5-405c-bea8-9c4a-0d5f44d886b1,
+        onamaObject:Q1708-69c55e9f-471f-3d61-3e3f-75265267e9af ;
+    onama:isRealisedBy onamaObject:Q1709 ;
+    schema:dateModified "2020-11-06T10:55:00+00:00"^^xsd:dateTime ;
+    schema:version 16019 .
+
+onamaObject:Q1710 a onama:Concept ;
+    rdfs:label "Hl. Blasius wird enthauptet"@de,
+        "St. Blaise is beheaded"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1710-e0224580-40b1-936b-92a0-18a6b9c8885e ;
+    onama:hasIconClassEquivalent <http://iconclass.org/11H%28BLAISE%2968> ;
+    onama:hasSemanticRole onamaObject:Q1710-19f0c3fc-4589-cb06-35ab-09ef920d60ec ;
+    onama:hasSupplementaryConcept onamaObject:Q1712 ;
+    onama:isRealisedBy onamaObject:Q1711 ;
+    schema:dateModified "2020-11-06T11:24:42+00:00"^^xsd:dateTime ;
+    schema:version 16068 .
+
+onamaObject:Q1712 a onama:Concept ;
+    rdfs:label "Mann zeigt auf Götzenbilder"@de,
+        "Man points to idols"@en ;
+    onama:hasAction onamaObject:Q1712-8eb22485-4401-bb91-de53-90621c55f2c8 ;
+    onama:hasSemanticRole onamaObject:Q1712-0f4cb8b8-49ea-c698-42e6-0562b1ccbfed,
+        onamaObject:Q1712-693d6dcb-498c-f042-ff23-2e80de6229bb ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1714 ;
+    schema:dateModified "2020-11-06T11:24:28+00:00"^^xsd:dateTime ;
+    schema:version 16067 .
+
+onamaObject:Q1713 a onama:Verb ;
+    rdfs:label "zeigen, v."@de,
+        "point, v."@en ;
+    schema:dateModified "2020-11-06T11:24:10+00:00"^^xsd:dateTime ;
+    schema:version 16065 .
 
 onamaObject:Q198 a onama:Concept ;
     rdfs:label "Jason fragt Herakles um Begleitung"@de,
@@ -20684,8 +21402,8 @@ onamaObject:Q299 a onama:Concept ;
         onamaObject:Q299-c467a9bc-4672-aeb7-f1e3-d491effa9c69,
         onamaObject:Q299-e77e2623-4755-49aa-9178-8b9735c13d3c ;
     onama:isRealisedBy onamaObject:Q300 ;
-    schema:dateModified "2020-01-27T15:59:36+00:00"^^xsd:dateTime ;
-    schema:version 11282 .
+    schema:dateModified "2020-11-19T10:18:30+00:00"^^xsd:dateTime ;
+    schema:version 16080 .
 
 onamaObject:Q311 a onama:TemporalEntity ;
     rdfs:label "Besuch"@de,
@@ -21233,6 +21951,19 @@ onamaObject:Q641 a onama:TextualRealisation ;
     schema:dateModified "2020-03-18T14:04:22+00:00"^^xsd:dateTime ;
     schema:version 13457 .
 
+onamaObject:Q642 a onama:Thing ;
+    rdfs:label "goldener Becher"@de,
+        "golden cup"@en ;
+    onama:hasGeneralEntityFunction onamaObject:Q938 ;
+    schema:dateModified "2020-01-23T10:23:28+00:00"^^xsd:dateTime ;
+    schema:version 10953 .
+
+onamaObject:Q643 a onama:Thing ;
+    rdfs:label "goldene Schüssel"@de,
+        "golden bowl"@en ;
+    schema:dateModified "2019-09-30T13:46:01+00:00"^^xsd:dateTime ;
+    schema:version 4770 .
+
 onamaObject:Q660 a onama:Verb ;
     rdfs:label "baden, v."@de,
         "bathe, v."@en ;
@@ -21386,7 +22117,8 @@ onamaObject:Q712 a onama:Concept ;
         "Aeëtes allows Medea to leave after the banquet"@en ;
     onama:broader onamaObject:Q919 ;
     onama:hasAction onamaObject:Q712-9492f126-4e4e-a098-0d4f-0eb8a5132828 ;
-    onama:hasSemanticRole onamaObject:Q712-34a2cba7-4f86-91b7-7b95-0e52eb6a3c9f,
+    onama:hasSemanticRole onamaObject:Q712-047bf0c8-4cc2-6944-edc6-89eb6c81f8ff,
+        onamaObject:Q712-34a2cba7-4f86-91b7-7b95-0e52eb6a3c9f,
         onamaObject:Q712-63a0d53d-4b97-8d5a-933d-5641d5a3c469 ;
     onama:isRealisedBy onamaObject:Q738 ;
     schema:dateModified "2020-01-22T16:23:36+00:00"^^xsd:dateTime ;
@@ -21526,7 +22258,8 @@ onamaObject:Q76 a onama:Concept ;
         "St. Paul the Hermit's existence is revealed to St. Antony Abbot in a dream"@en ;
     onama:broader onamaObject:Q1290 ;
     onama:hasAction onamaObject:Q76-82ad4217-484b-42ae-fefa-1dd355496109 ;
-    onama:hasSemanticRole onamaObject:Q76-62e179b5-4a4b-4489-085f-ca1e32888291,
+    onama:hasSemanticRole onamaObject:Q76-51df008f-4e68-a142-2c58-4d070a6bd1aa,
+        onamaObject:Q76-62e179b5-4a4b-4489-085f-ca1e32888291,
         onamaObject:Q76-ef3eb3f5-475f-e657-3c70-d65d6097339b ;
     onama:isRealisedBy onamaObject:Q81 ;
     schema:dateModified "2020-05-20T09:45:48+00:00"^^xsd:dateTime ;
@@ -23095,7 +23828,8 @@ onamaObject:Q1310 a onama:Concept ;
     onama:hasAction onamaObject:Q1310-615ca1f6-4397-7577-5240-8b6888c05ebd ;
     onama:hasIconClassEquivalent <http://iconclass.org/11H%28BLAISE%2952> ;
     onama:hasSemanticRole onamaObject:Q1310-b9e58c47-4155-2fd2-5fc2-6f78e822c148,
-        onamaObject:Q1310-dc8384fe-414f-ef9f-0eb9-7df046b8f629 ;
+        onamaObject:Q1310-dc8384fe-414f-ef9f-0eb9-7df046b8f629,
+        onamaObject:Q1310-fe59fcca-4afb-a622-a9bc-a1960f1353df ;
     onama:isRealisedBy onamaObject:Q1314,
         onamaObject:Q1319 ;
     schema:dateModified "2020-02-11T11:44:18+00:00"^^xsd:dateTime ;
@@ -24006,6 +24740,38 @@ onamaObject:Q1669 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1666 ;
     schema:dateModified "2020-10-02T14:03:49+00:00"^^xsd:dateTime ;
     schema:version 15700 .
+
+onamaObject:Q1678 a onama:Concept ;
+    rdfs:label "Hl. Blasius wird mit Klauen gefoltert"@de,
+        "St. Blaise is tortured with iron claws"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1678-7a7d7086-4049-2d0e-57a2-625243308153 ;
+    onama:hasIconClassEquivalent <http://iconclass.org/11H%28BLAISE%2961> ;
+    onama:hasSemanticRole onamaObject:Q1678-0c9c9d23-49fd-fc7b-9a15-9735452fd70d,
+        onamaObject:Q1678-340364d9-4654-87c6-4221-fabc2bc02677 ;
+    onama:isRealisedBy onamaObject:Q1681,
+        onamaObject:Q1682 ;
+    schema:dateModified "2020-11-04T09:49:53+00:00"^^xsd:dateTime ;
+    schema:version 15830 .
+
+onamaObject:Q1697 a onama:Concept ;
+    rdfs:label "Hl. Blasius beweist, dass seine Verfolger im See ertrinken"@de,
+        "St. Blaise demonstrates that his persecutors are drowning in the lake"@en ;
+    onama:broader onamaObject:Q1313 ;
+    onama:hasAction onamaObject:Q1697-8b476c57-40aa-e783-40a9-55f0aa4f365e ;
+    onama:hasSemanticRole onamaObject:Q1697-23e92433-497b-6cb3-f5df-bb13b1b80444,
+        onamaObject:Q1697-96b52be4-4072-37f6-20be-3d0dae21cadc ;
+    onama:isRealisedBy onamaObject:Q1703,
+        onamaObject:Q1704 ;
+    schema:dateModified "2020-11-04T11:44:32+00:00"^^xsd:dateTime ;
+    schema:version 15966 .
+
+onamaObject:Q1702 a onama:Place ;
+    rdfs:label "See"@de,
+        "lake"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q23397> ;
+    schema:dateModified "2020-11-04T11:43:57+00:00"^^xsd:dateTime ;
+    schema:version 15964 .
 
 onamaObject:Q171 a onama:TextualRealisation ;
     rdfs:label "TRO Jason wählt Argonauten aus"@de,
@@ -25235,12 +26001,12 @@ onamaObject:Q386 a onama:TextualRealisation ;
     schema:dateModified "2020-03-18T16:59:31+00:00"^^xsd:dateTime ;
     schema:version 13637 .
 
-onamaObject:Q392 a onama:Thing ;
-    rdfs:label "Himmel"@de,
-        "heaven"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4489450> ;
-    schema:dateModified "2019-09-03T08:10:55+00:00"^^xsd:dateTime ;
-    schema:version 2663 .
+onamaObject:Q390 a onama:Thing ;
+    rdfs:label "Seele"@de,
+        "soul"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q9165> ;
+    schema:dateModified "2019-09-03T07:57:53+00:00"^^xsd:dateTime ;
+    schema:version 2631 .
 
 onamaObject:Q395 a onama:TextualRealisation ;
     rdfs:label "TRO Jason opfert den Göttern"@de,
@@ -26014,13 +26780,6 @@ onamaObject:Q658 a onama:Collection ;
     schema:dateModified "2019-10-01T12:24:53+00:00"^^xsd:dateTime ;
     schema:version 4906 .
 
-onamaObject:Q659 a onama:Thing ;
-    rdfs:label "Blut, n."@de,
-        "blood, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q7873> ;
-    schema:dateModified "2019-10-01T12:27:58+00:00"^^xsd:dateTime ;
-    schema:version 4910 .
-
 onamaObject:Q667 a onama:TextualRealisation ;
     rdfs:label "NLB Siegfried badet im heißen Drachenblut"@de,
         "NLB Sigurd baths in hot dragon's blood"@en ;
@@ -26379,13 +27138,6 @@ onamaObject:Q826 a onama:Verb ;
     schema:version 14618 ;
     skos:altLabel "zerbrechen, v."@de .
 
-onamaObject:Q83 a onama:Thing ;
-    rdfs:label "Engel"@de,
-        "Angel"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q235113> ;
-    schema:dateModified "2020-05-20T09:42:30+00:00"^^xsd:dateTime ;
-    schema:version 14145 .
-
 onamaObject:Q837 a onama:TextualRealisation ;
     rdfs:label "TRY Argonauten schicken matrosen von der Argo"@de,
         "TRY Argonauts sent sailors off the Argo"@en ;
@@ -26421,13 +27173,6 @@ onamaObject:Q839 a onama:TextualRealisation ;
     onama:realises onamaObject:Q210 ;
     schema:dateModified "2020-03-18T14:36:49+00:00"^^xsd:dateTime ;
     schema:version 13515 .
-
-onamaObject:Q84 a onama:Verb ;
-    rdfs:label "erscheinen, v."@de,
-        "appear, v."@en ;
-    onama:hasIconClassEquivalent ic:13A35 ;
-    schema:dateModified "2020-02-03T13:04:53+00:00"^^xsd:dateTime ;
-    schema:version 11813 .
 
 onamaObject:Q844 a onama:TextualRealisation ;
     rdfs:label "TRY Starker Wind bläst Argo nach Troja"@de,
@@ -26576,14 +27321,6 @@ onamaObject:Q101 a onama:Concept ;
         onamaObject:Q1263 ;
     schema:dateModified "2020-01-30T09:53:50+00:00"^^xsd:dateTime ;
     schema:version 11630 .
-
-onamaObject:Q1016 a onama:Place,
-        onama:Thing ;
-    rdfs:label "Himmel, n."@de,
-        "sky, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q527> ;
-    schema:dateModified "2019-11-15T11:13:59+00:00"^^xsd:dateTime ;
-    schema:version 8471 .
 
 onamaObject:Q1024 a onama:Concept ;
     rdfs:label "Bilbo Beutlin stiehlt Schatz"@de,
@@ -26848,7 +27585,8 @@ onamaObject:Q1349 a onama:Concept ;
         "St. Corbinian orders the bear to carry his luggage"@en ;
     onama:broader onamaObject:Q1344 ;
     onama:hasAction onamaObject:Q1349-a639ae11-4a80-dd33-7630-5266b5d4315d ;
-    onama:hasSemanticRole onamaObject:Q1349-bccda761-4325-1cd3-23f7-af97b8ca046f,
+    onama:hasSemanticRole onamaObject:Q1349-a17f957e-45be-38de-af3c-3ff530a9d9af,
+        onamaObject:Q1349-bccda761-4325-1cd3-23f7-af97b8ca046f,
         onamaObject:Q1349-d1eb15aa-4a39-2d6a-bd2b-d234e5a931f6 ;
     onama:isRealisedBy onamaObject:Q1352,
         onamaObject:Q1355,
@@ -26998,6 +27736,60 @@ onamaObject:Q1665 a onama:VisualRealisation ;
     schema:dateModified "2020-10-02T13:46:18+00:00"^^xsd:dateTime ;
     schema:version 15673 .
 
+onamaObject:Q1686 a onama:VisualRealisation ;
+    rdfs:label "RO 016296 Sieben Frauen wenden sich von Götzenbildern ab"@de,
+        "RO 016296 Seven women turn away from idols"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016296> ;
+    onama:hasAction onamaObject:Q1686-32d2ca03-49a9-d06e-30e3-04d9d4dca164 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016296> ;
+    onama:hasSemanticRole onamaObject:Q1686-278d999b-4089-9e22-9f51-25861555a596,
+        onamaObject:Q1686-37d62d4e-4489-193e-a40e-55ab53d3bf9d,
+        onamaObject:Q1686-67ad99c7-48fb-5bb4-a310-6805d379aef1,
+        onamaObject:Q1686-6d8513ea-425e-dfde-c65c-a656ad7c75ba,
+        onamaObject:Q1686-acf64e32-4000-63e4-0ec1-c34722f3eef1 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1677,
+        onamaObject:Q1681,
+        onamaObject:Q1682 ;
+    onama:realises onamaObject:Q1684 ;
+    schema:dateModified "2020-11-04T10:14:17+00:00"^^xsd:dateTime ;
+    schema:version 15864 .
+
+onamaObject:Q1704 a onama:VisualRealisation ;
+    rdfs:label "RO 016299 Hl. Blasius sitzt auf der Wasseroberfläche"@de,
+        "RO 016299 St. Blaise sitting on the water surface"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016299> ;
+    onama:hasAction onamaObject:Q1704-a700b999-4d98-7a1e-1617-d583c0e7aa25 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016299> ;
+    onama:hasSemanticRole onamaObject:Q1704-023feeb4-4a2a-6624-8cc9-1a0da9227cf7,
+        onamaObject:Q1704-0497601c-46a4-3086-f3fc-f4f5ec7b7d40,
+        onamaObject:Q1704-265c7bba-416f-f246-36bd-914615f2addf ;
+    onama:nextFabula onamaObject:Q1707,
+        onamaObject:Q1709 ;
+    onama:occursSimultaneously onamaObject:Q1703 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1693 ;
+    onama:realises onamaObject:Q1697 ;
+    schema:dateModified "2020-11-06T08:38:11+00:00"^^xsd:dateTime ;
+    schema:version 15992 .
+
+onamaObject:Q1711 a onama:VisualRealisation ;
+    rdfs:label "RO 016301 Scharfrichter enthauptet Hl. Blasius"@de,
+        "RO 016301 Executioner beheads St. Blaise"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016301> ;
+    onama:hasAction onamaObject:Q1711-52705bd3-4e17-300e-34f3-a33bbbf2f91e ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016301> ;
+    onama:hasSemanticRole onamaObject:Q1711-0cf21c52-48f8-8617-8322-760aa480af6c,
+        onamaObject:Q1711-9ad8e3d7-4c55-a70b-6583-7f7edea04057,
+        onamaObject:Q1711-e36f1335-4a38-198a-a379-ad580ecf1635,
+        onamaObject:Q1711-ed3e53b3-497f-24c5-0d90-32a4ea84ff2a ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1707,
+        onamaObject:Q1709 ;
+    onama:realises onamaObject:Q1710 ;
+    schema:dateModified "2020-11-06T11:21:38+00:00"^^xsd:dateTime ;
+    schema:version 16058 .
+
 onamaObject:Q174 a onama:Verb ;
     rdfs:label "vorbereiten, v."@de,
         "prepare, v."@en ;
@@ -27010,12 +27802,6 @@ onamaObject:Q175 a onama:Verb ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q331055> ;
     schema:dateModified "2020-05-19T08:51:36+00:00"^^xsd:dateTime ;
     schema:version 14118 .
-
-onamaObject:Q176 a onama:Verb ;
-    rdfs:label "beten, v."@de,
-        "pray, v."@en ;
-    schema:dateModified "2020-05-19T08:51:15+00:00"^^xsd:dateTime ;
-    schema:version 14117 .
 
 onamaObject:Q177 a onama:VisualRealisation ;
     rdfs:label "RO 012059 Hl. Antonius Abbas betet für den verstorbenen Hl. Paulus Eremita"@de,
@@ -27546,6 +28332,13 @@ onamaObject:Q649 a onama:Thing ;
     schema:dateModified "2019-09-30T14:39:28+00:00"^^xsd:dateTime ;
     schema:version 4805 .
 
+onamaObject:Q659 a onama:Thing ;
+    rdfs:label "Blut, n."@de,
+        "blood, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q7873> ;
+    schema:dateModified "2019-10-01T12:27:58+00:00"^^xsd:dateTime ;
+    schema:version 4910 .
+
 onamaObject:Q688 a onama:Thing ;
     rdfs:label "Rachen, n."@de,
         "throat, n."@en ;
@@ -27780,13 +28573,6 @@ onamaObject:Q968 a onama:Place,
     schema:dateModified "2019-11-11T10:09:42+00:00"^^xsd:dateTime ;
     schema:version 8091 .
 
-onamaObject:Q999 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Magisches Objekt"@de,
-        "Entity Function Magic Object"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q30237636> ;
-    schema:dateModified "2020-07-07T07:31:39+00:00"^^xsd:dateTime ;
-    schema:version 14700 .
-
 onamaObject:Q102 a onama:Verb ;
     rdfs:label "speisen, v."@de,
         "feed, v."@en ;
@@ -27875,12 +28661,6 @@ onamaObject:Q127 a onama:Verb ;
     schema:dateModified "2019-08-27T12:03:20+00:00"^^xsd:dateTime ;
     schema:version 1473 .
 
-onamaObject:Q129 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Herrscher*in"@de,
-        "Entity Function Ruler"@en ;
-    schema:dateModified "2020-07-07T07:43:56+00:00"^^xsd:dateTime ;
-    schema:version 14736 .
-
 onamaObject:Q1323 a onama:Person ;
     rdfs:label "Hl. Vitus"@de,
         "St. Vitus"@en ;
@@ -27925,12 +28705,12 @@ onamaObject:Q159 a onama:Concept ;
     schema:dateModified "2019-10-28T12:50:30+00:00"^^xsd:dateTime ;
     schema:version 7064 .
 
-onamaObject:Q1646 a onama:Person ;
-    rdfs:label "Statthalter"@de,
-        "Roman governor"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1190123> ;
-    schema:dateModified "2020-08-03T14:11:55+00:00"^^xsd:dateTime ;
-    schema:version 15496 .
+onamaObject:Q1627 a onama:Person ;
+    rdfs:label "Scherge"@de,
+        "henchman"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q247297> ;
+    schema:dateModified "2020-07-31T12:12:00+00:00"^^xsd:dateTime ;
+    schema:version 15310 .
 
 onamaObject:Q1660 a onama:VisualRealisation ;
     rdfs:label "RO 016290 Hl. Blasius legt dem Buben die Hand auf"@de,
@@ -27953,6 +28733,167 @@ onamaObject:Q1660 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1659 ;
     schema:dateModified "2020-10-02T13:13:47+00:00"^^xsd:dateTime ;
     schema:version 15646 .
+
+onamaObject:Q1674 a onama:VisualRealisation ;
+    rdfs:label "RO 016294 Arme Frau bringt Hl. Blasius Schweinskopf, Brot und Kerze in den Kerker"@de,
+        "RO 016294 Poor woman brings St. Blaise a pig's head, bread and a candle into prison"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016294> ;
+    onama:hasAction onamaObject:Q1674-0c8f952c-4858-9b5b-5f96-d458202fbce3 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016294> ;
+    onama:hasSemanticRole onamaObject:Q1674-05eddec9-426b-1fd7-c9ad-50474a9a254e,
+        onamaObject:Q1674-0ecaaead-4dcf-2a86-88c7-1c3de41d3279,
+        onamaObject:Q1674-16fb7f4d-4df2-f7aa-932a-882c1405534d,
+        onamaObject:Q1674-8e7f3de6-4641-665f-a30f-c876ff78b8a4,
+        onamaObject:Q1674-978ec993-4f56-d54e-7b95-07d9418b7b28,
+        onamaObject:Q1674-98617e89-482d-7409-edec-bcf2f374d7c6,
+        onamaObject:Q1674-c1769047-4f37-4a08-0f39-57c1e1417759,
+        onamaObject:Q1674-cd4deb9b-4bb8-8c87-6f36-d44883a541c0 ;
+    onama:nextFabula onamaObject:Q1677,
+        onamaObject:Q1681,
+        onamaObject:Q1682 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1669 ;
+    onama:realises onamaObject:Q1670 ;
+    schema:dateModified "2020-10-02T14:35:44+00:00"^^xsd:dateTime ;
+    schema:version 15741 .
+
+onamaObject:Q1677 a onama:VisualRealisation ;
+    rdfs:label "RO 016295 Sieben Frauen sammeln das Blut des gefolterten Hl. Blasius in goldenen Bechern und Schalen"@de,
+        "RO 016295 Seven women collect the blood of the tortured St. Blaise in golden cups and bowls"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016295> ;
+    onama:hasAction onamaObject:Q1677-604367e4-4402-91e8-dc81-2c193f3103e6 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016295> ;
+    onama:hasSemanticRole onamaObject:Q1677-27f24b87-4aba-d8f4-f591-e0922ad9cdcb,
+        onamaObject:Q1677-3379f2fb-4ac5-7647-f6bb-9b7753896fde,
+        onamaObject:Q1677-4563055c-41b7-c61a-7f0f-7e08e294789f,
+        onamaObject:Q1677-518d5b4c-4538-2bb1-a209-5eb3726442da,
+        onamaObject:Q1677-530b4c34-404b-d8fb-06d2-63d455bdb547,
+        onamaObject:Q1677-e20b050b-4a16-48b9-393e-c58e7be7a4e9 ;
+    onama:nextFabula onamaObject:Q1686 ;
+    onama:occursSimultaneously onamaObject:Q1681,
+        onamaObject:Q1682 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1674 ;
+    onama:realises onamaObject:Q1675 ;
+    schema:dateModified "2020-11-04T09:38:35+00:00"^^xsd:dateTime ;
+    schema:version 15823 .
+
+onamaObject:Q1681 a onama:VisualRealisation ;
+    rdfs:label "RO 016295 Scherge foltert Hl. Blasius mit Klaue"@de,
+        "RO 016295 Henchman tortures St. Blaise with iron claw"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016295> ;
+    onama:hasAction onamaObject:Q1681-bdc27623-4d3d-01b1-088c-eb8da685f695 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016295> ;
+    onama:hasSemanticRole onamaObject:Q1681-083f6ca9-4e44-14f3-e9ab-2edc6af32b04,
+        onamaObject:Q1681-0eae942f-4be7-d4fd-9231-a9b5588de63d,
+        onamaObject:Q1681-10b87abe-48b0-f790-22b2-a2af384568c4,
+        onamaObject:Q1681-ecdfd683-4506-80e6-b8af-1628f039f748 ;
+    onama:nextFabula onamaObject:Q1686 ;
+    onama:occursSimultaneously onamaObject:Q1677,
+        onamaObject:Q1682 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1674 ;
+    onama:realises onamaObject:Q1678 ;
+    schema:dateModified "2020-11-04T09:38:14+00:00"^^xsd:dateTime ;
+    schema:version 15821 .
+
+onamaObject:Q1682 a onama:VisualRealisation ;
+    rdfs:label "RO 016295 Scherge bindet Hl. Blasius an Gerüst"@de,
+        "RO 016295 Henchman ties St. Blaise to scaffold"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016295> ;
+    onama:hasAction onamaObject:Q1682-7bd1e9e6-446e-a1f0-6203-919caf2c4c93 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016295> ;
+    onama:hasSemanticRole onamaObject:Q1682-5d786b01-40f8-427f-defa-3245b72705e8,
+        onamaObject:Q1682-7e1bc208-4f53-b14a-dca1-2cf987e7def0,
+        onamaObject:Q1682-aef9ca88-4f9b-a62a-27e3-bceb9dcf8575,
+        onamaObject:Q1682-b0f4eab2-400d-a806-a8be-711c37a7f86b ;
+    onama:nextFabula onamaObject:Q1686 ;
+    onama:occursSimultaneously onamaObject:Q1677,
+        onamaObject:Q1681 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1674 ;
+    onama:realises onamaObject:Q1678 ;
+    schema:dateModified "2020-11-04T09:39:09+00:00"^^xsd:dateTime ;
+    schema:version 15824 .
+
+onamaObject:Q1693 a onama:VisualRealisation ;
+    rdfs:label "RO 016298 Scherge enthauptet Frau"@de,
+        "RO 016298 Henchman beheads woman"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016298> ;
+    onama:hasAction onamaObject:Q1693-53220e6f-4cdb-0f64-36c1-1ebe706dd7be ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016298> ;
+    onama:hasSemanticRole onamaObject:Q1693-1f0bbccb-495f-6673-6f06-a28b2c850b72,
+        onamaObject:Q1693-411b34c3-46c3-4f84-acf8-e94976a4d1cd,
+        onamaObject:Q1693-c26ccbd5-4d39-bbca-bc30-d1e89db81f97,
+        onamaObject:Q1693-cba586f0-4121-fd84-75c5-cf160fb06a53 ;
+    onama:nextFabula onamaObject:Q1703,
+        onamaObject:Q1704 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1690 ;
+    onama:realises onamaObject:Q1692 ;
+    schema:dateModified "2020-11-04T11:01:31+00:00"^^xsd:dateTime ;
+    schema:version 15917 .
+
+onamaObject:Q1703 a onama:VisualRealisation ;
+    rdfs:label "RO 016299 Verfolger des Hl. Blasius ertrinken im See"@de,
+        "RO 016299 Persecutors of St. Blaise drown in the lake"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016299> ;
+    onama:hasAction onamaObject:Q1703-d5a9c45f-4b67-65ad-3de9-f8d3ffc24cc1 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016299> ;
+    onama:hasSemanticRole onamaObject:Q1703-5ba05994-4a14-3bf8-4fa7-b30aa14959f6,
+        onamaObject:Q1703-9b5e6637-4e74-93f8-4b20-7584920515d8,
+        onamaObject:Q1703-ff34c2cb-46c6-900a-d907-ccc3a4d0be85 ;
+    onama:nextFabula onamaObject:Q1707,
+        onamaObject:Q1709 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1693 ;
+    onama:realises onamaObject:Q1697 ;
+    schema:dateModified "2020-11-06T08:25:06+00:00"^^xsd:dateTime ;
+    schema:version 15979 .
+
+onamaObject:Q1707 a onama:VisualRealisation ;
+    rdfs:label "RO 016300 Hl. Blasius geht auf dem Wasser"@de,
+        "RO 016300 St. Blaise walks on water"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016300> ;
+    onama:hasAction onamaObject:Q1707-ad245525-4964-af5a-7c64-d7b3e9892d1c ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016300> ;
+    onama:hasSemanticRole onamaObject:Q1707-0c43a78f-49ae-8e52-4902-1eaa6510740d,
+        onamaObject:Q1707-1d98314c-4762-af60-fdf5-8e5343c396d7,
+        onamaObject:Q1707-37e2cf3b-4e93-b32d-d639-226e6429f471,
+        onamaObject:Q1707-c7137747-412a-b3c1-c63a-cd9050fcc64c ;
+    onama:nextFabula onamaObject:Q1711 ;
+    onama:occursSimultaneously onamaObject:Q1709 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1703,
+        onamaObject:Q1704 ;
+    onama:realises onamaObject:Q1705 ;
+    schema:dateModified "2020-11-06T11:01:57+00:00"^^xsd:dateTime ;
+    schema:version 16038 .
+
+onamaObject:Q1709 a onama:VisualRealisation ;
+    rdfs:label "RO 016300 Engel des Herrn erscheint dem Hl. Blasius"@de,
+        "RO 016300 Angel of the Lord appears to St. Blaise"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/016300> ;
+    onama:hasAction onamaObject:Q1709-fe078069-45ef-2f08-20c1-4b5c2a4b5a2d ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=016300> ;
+    onama:hasSemanticRole onamaObject:Q1709-12975d18-4fa5-9a90-04ce-e79df201ff97,
+        onamaObject:Q1709-86b95ec1-4438-d817-2374-db02f14dd1cd,
+        onamaObject:Q1709-8e53c7f3-4878-996b-699d-7be249108e4c,
+        onamaObject:Q1709-b4610fbd-416e-f8f7-d8af-e6eb11868ec8 ;
+    onama:nextFabula onamaObject:Q1711 ;
+    onama:occursSimultaneously onamaObject:Q1707 ;
+    onama:partOfCollection onamaObject:Q1112 ;
+    onama:previousFabula onamaObject:Q1703,
+        onamaObject:Q1704 ;
+    onama:realises onamaObject:Q1708 ;
+    schema:dateModified "2020-11-06T11:00:33+00:00"^^xsd:dateTime ;
+    schema:version 16033 .
+
+onamaObject:Q176 a onama:Verb ;
+    rdfs:label "beten, v."@de,
+        "pray, v."@en ;
+    schema:dateModified "2020-05-19T08:51:15+00:00"^^xsd:dateTime ;
+    schema:version 14117 .
 
 onamaObject:Q210 a onama:Concept ;
     rdfs:label "Argonauten reisen auf dem Meer"@de,
@@ -28093,12 +29034,6 @@ onamaObject:Q427 a onama:Verb ;
     schema:dateModified "2020-02-03T10:11:01+00:00"^^xsd:dateTime ;
     schema:version 11799 .
 
-onamaObject:Q475 a onama:Verb ;
-    rdfs:label "enthaupten, v."@de,
-        "behead, v."@en ;
-    schema:dateModified "2020-02-03T09:50:23+00:00"^^xsd:dateTime ;
-    schema:version 11797 .
-
 onamaObject:Q483 a onama:Thing ;
     rdfs:label "Drachenzahn, n."@de,
         "dragon tooth, n."@en ;
@@ -28190,13 +29125,6 @@ onamaObject:Q512 a onama:Verb ;
     schema:dateModified "2019-09-18T09:25:02+00:00"^^xsd:dateTime ;
     schema:version 3644 .
 
-onamaObject:Q546 a onama:Thing ;
-    rdfs:label "Wasser"@de,
-        "water"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q283> ;
-    schema:dateModified "2020-02-03T09:44:27+00:00"^^xsd:dateTime ;
-    schema:version 11787 .
-
 onamaObject:Q560 a onama:Animal ;
     rdfs:label "Hund"@de,
         "dog"@en ;
@@ -28226,12 +29154,6 @@ onamaObject:Q584 a onama:Thing ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q35872> ;
     schema:dateModified "2019-09-26T12:07:20+00:00"^^xsd:dateTime ;
     schema:version 4259 .
-
-onamaObject:Q613 a onama:Verb ;
-    rdfs:label "sitzen, v."@de,
-        "sit, v."@en ;
-    schema:dateModified "2019-09-27T09:22:17+00:00"^^xsd:dateTime ;
-    schema:version 4474 .
 
 onamaObject:Q633 a onama:VisualRealisation ;
     rdfs:label "RO 006354 Aietes überwacht das Decken der Tische"@de,
@@ -28294,6 +29216,13 @@ onamaObject:Q74 a onama:VisualRealisation ;
     schema:dateModified "2020-07-07T10:49:00+00:00"^^xsd:dateTime ;
     schema:version 14885 .
 
+onamaObject:Q84 a onama:Verb ;
+    rdfs:label "erscheinen, v."@de,
+        "appear, v."@en ;
+    onama:hasIconClassEquivalent ic:13A35 ;
+    schema:dateModified "2020-02-03T13:04:53+00:00"^^xsd:dateTime ;
+    schema:version 11813 .
+
 onamaObject:Q853 a onama:Person ;
     rdfs:label "Michael"@de,
         "Michael"@en ;
@@ -28317,6 +29246,14 @@ onamaObject:Q902 a onama:Verb ;
         "save, v."@en ;
     schema:dateModified "2019-10-30T11:12:55+00:00"^^xsd:dateTime ;
     schema:version 7540 .
+
+onamaObject:Q1016 a onama:Place,
+        onama:Thing ;
+    rdfs:label "Himmel, n."@de,
+        "sky, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q527> ;
+    schema:dateModified "2019-11-15T11:13:59+00:00"^^xsd:dateTime ;
+    schema:version 8471 .
 
 onamaObject:Q1042 a onama:VisualRealisation ;
     rdfs:label "RO 016286 Jäger finden Hl. Blasius"@de,
@@ -28372,6 +29309,13 @@ onamaObject:Q1156 a onama:Concept ;
     schema:dateModified "2020-01-27T16:22:31+00:00"^^xsd:dateTime ;
     schema:version 11312 .
 
+onamaObject:Q1236 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Wächter"@de,
+        "Entity Function Guardian"@en ;
+    schema:dateModified "2020-07-07T07:28:43+00:00"^^xsd:dateTime ;
+    schema:version 14689 ;
+    skos:altLabel "Figurentypus Hüter"@de .
+
 onamaObject:Q1268 a onama:Concept ;
     rdfs:label "Leben des Hl. Antonius Abbas (der Große) von Ägypten"@de,
         "Life of St. Antony Abbot (Antonius Abbas) of Egypt, also called the Great"@en ;
@@ -28385,6 +29329,12 @@ onamaObject:Q1268 a onama:Concept ;
         onamaObject:Q320 ;
     schema:dateModified "2020-01-30T13:38:24+00:00"^^xsd:dateTime ;
     schema:version 11738 .
+
+onamaObject:Q129 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Herrscher*in"@de,
+        "Entity Function Ruler"@en ;
+    schema:dateModified "2020-07-07T07:43:56+00:00"^^xsd:dateTime ;
+    schema:version 14736 .
 
 onamaObject:Q133 a onama:Person ;
     rdfs:label "Anonymus"@de,
@@ -28448,6 +29398,14 @@ onamaObject:Q1540 a onama:Thing ;
     schema:dateModified "2020-06-10T10:23:47+00:00"^^xsd:dateTime ;
     schema:version 14329 .
 
+onamaObject:Q1625 a onama:Thing ;
+    rdfs:label "Götzenbild"@de,
+        "idol"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2820111> ;
+    schema:dateModified "2020-07-31T11:12:02+00:00"^^xsd:dateTime ;
+    schema:version 15300 ;
+    skos:altLabel "cult image"@en .
+
 onamaObject:Q204 a onama:TemporalEntity ;
     rdfs:label "Reise"@de,
         "journey"@en ;
@@ -28494,6 +29452,13 @@ onamaObject:Q384 a onama:Thing ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1999796> ;
     schema:dateModified "2019-09-02T14:39:56+00:00"^^xsd:dateTime ;
     schema:version 2595 .
+
+onamaObject:Q392 a onama:Thing ;
+    rdfs:label "Himmel"@de,
+        "heaven"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4489450> ;
+    schema:dateModified "2019-09-03T08:10:55+00:00"^^xsd:dateTime ;
+    schema:version 2663 .
 
 onamaObject:Q421 a onama:MythicalBeing,
         onama:Person ;
@@ -28586,6 +29551,12 @@ onamaObject:Q567 a onama:VisualRealisation ;
     onama:realises onamaObject:Q263 ;
     schema:dateModified "2020-07-07T11:56:09+00:00"^^xsd:dateTime ;
     schema:version 14916 .
+
+onamaObject:Q613 a onama:Verb ;
+    rdfs:label "sitzen, v."@de,
+        "sit, v."@en ;
+    schema:dateModified "2019-09-27T09:22:17+00:00"^^xsd:dateTime ;
+    schema:version 4474 .
 
 onamaObject:Q627 a onama:VisualRealisation ;
     rdfs:label "RO x002 Jason berichtet Aietes den Grund für seinen Aufenthalt in Kolchis"@de,
@@ -28864,6 +29835,13 @@ onamaObject:Q160 a onama:Concept ;
         "quest of the Golden Fleece"@en ;
     schema:dateModified "2019-10-18T13:22:01+00:00"^^xsd:dateTime ;
     schema:version 6821 .
+
+onamaObject:Q1646 a onama:Person ;
+    rdfs:label "Statthalter"@de,
+        "Roman governor"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1190123> ;
+    schema:dateModified "2020-08-03T14:11:55+00:00"^^xsd:dateTime ;
+    schema:version 15496 .
 
 onamaObject:Q239 a onama:Concept ;
     rdfs:label "Laomedon vertreibt Argonauten"@de,
@@ -29217,6 +30195,20 @@ onamaObject:Q758 a onama:VisualRealisation ;
     schema:dateModified "2020-03-18T14:18:54+00:00"^^xsd:dateTime ;
     schema:version 13488 .
 
+onamaObject:Q83 a onama:Thing ;
+    rdfs:label "Engel"@de,
+        "Angel"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q235113> ;
+    schema:dateModified "2020-05-20T09:42:30+00:00"^^xsd:dateTime ;
+    schema:version 14145 .
+
+onamaObject:Q999 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Magisches Objekt"@de,
+        "Entity Function Magic Object"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q30237636> ;
+    schema:dateModified "2020-07-07T07:31:39+00:00"^^xsd:dateTime ;
+    schema:version 14700 .
+
 onamaObject:Q1015 a onama:Verb ;
     rdfs:label "fliegen, v."@de,
         "fly, v."@en ;
@@ -29418,6 +30410,13 @@ onamaObject:Q539 a onama:VisualRealisation ;
     onama:realises onamaObject:Q210 ;
     schema:dateModified "2020-07-07T10:59:31+00:00"^^xsd:dateTime ;
     schema:version 14893 .
+
+onamaObject:Q546 a onama:Thing ;
+    rdfs:label "Wasser"@de,
+        "water"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q283> ;
+    schema:dateModified "2020-02-03T09:44:27+00:00"^^xsd:dateTime ;
+    schema:version 11787 .
 
 onamaObject:Q547 a onama:Thing ;
     rdfs:label "Quelle, n."@de,
@@ -29744,6 +30743,12 @@ onamaObject:Q460 a onama:Concept ;
     schema:dateModified "2019-10-18T11:29:13+00:00"^^xsd:dateTime ;
     schema:version 6726 .
 
+onamaObject:Q475 a onama:Verb ;
+    rdfs:label "enthaupten, v."@de,
+        "behead, v."@en ;
+    schema:dateModified "2020-02-03T09:50:23+00:00"^^xsd:dateTime ;
+    schema:version 11797 .
+
 onamaObject:Q498 a onama:Person ;
     rdfs:label "Bote"@de,
         "messenger"@en ;
@@ -29757,14 +30762,6 @@ onamaObject:Q527 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q45199> ;
     schema:dateModified "2019-09-18T14:20:33+00:00"^^xsd:dateTime ;
     schema:version 3766 .
-
-onamaObject:Q533 a onama:Person ;
-    rdfs:label "Frau"@de,
-        "woman"@en ;
-    onama:hasIconClassEquivalent ic:31D15 ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q467> ;
-    schema:dateModified "2019-09-18T15:36:02+00:00"^^xsd:dateTime ;
-    schema:version 3815 .
 
 onamaObject:Q550 a onama:VisualRealisation ;
     rdfs:label "RO 006350 Jason und Herakles diskutieren mit Laomedons Boten"@de,
@@ -29869,12 +30866,6 @@ onamaObject:Q278 a onama:Verb ;
     schema:version 14614 ;
     skos:altLabel "erhalten, v."@de .
 
-onamaObject:Q388 a onama:Verb ;
-    rdfs:label "tragen, befördern, v."@de,
-        "carry, v."@en ;
-    schema:dateModified "2020-02-03T10:12:08+00:00"^^xsd:dateTime ;
-    schema:version 11801 .
-
 onamaObject:Q580 a onama:Verb ;
     rdfs:label "nehmen, v."@de,
         "take, v."@en ;
@@ -29904,6 +30895,14 @@ onamaObject:Q95 a onama:Verb ;
     schema:dateModified "2020-07-08T13:49:58+00:00"^^xsd:dateTime ;
     schema:version 15081 ;
     skos:altLabel "speak, v."@en .
+
+onamaObject:Q1235 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Helfer"@de,
+        "Entity Function Helper"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q61127496> ;
+    schema:dateModified "2020-07-07T07:29:38+00:00"^^xsd:dateTime ;
+    schema:version 14692 ;
+    skos:altLabel "Entitätsfunktion Helferin"@de .
 
 onamaObject:Q1339 a onama:Animal ;
     rdfs:label "Adler"@de,
@@ -30034,19 +31033,18 @@ onamaObject:Q374 a onama:Thing ;
     schema:dateModified "2019-11-15T10:32:03+00:00"^^xsd:dateTime ;
     schema:version 8354 .
 
+onamaObject:Q388 a onama:Verb ;
+    rdfs:label "tragen, befördern, v."@de,
+        "carry, v."@en ;
+    schema:dateModified "2020-02-03T10:12:08+00:00"^^xsd:dateTime ;
+    schema:version 11801 .
+
 onamaObject:Q496 a onama:Person ;
     rdfs:label "Diener"@de,
         "servant"@en ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q54128> ;
     schema:dateModified "2019-09-16T15:31:05+00:00"^^xsd:dateTime ;
     schema:version 3561 .
-
-onamaObject:Q552 a onama:Person ;
-    rdfs:label "Soldat"@de,
-        "soldier"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4991371> ;
-    schema:dateModified "2019-09-24T10:29:46+00:00"^^xsd:dateTime ;
-    schema:version 3987 .
 
 onamaObject:Q569 a onama:MythicalBeing ;
     rdfs:label "Goldener Widder"@de,
@@ -30063,6 +31061,12 @@ onamaObject:Q695 a onama:Place,
     schema:dateModified "2019-10-02T12:38:45+00:00"^^xsd:dateTime ;
     schema:version 5180 .
 
+onamaObject:Q1260 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Übermächtiger Gegner"@de,
+        "Entity Function Overpowering Opponent"@en ;
+    schema:dateModified "2020-07-07T07:32:00+00:00"^^xsd:dateTime ;
+    schema:version 14702 .
+
 onamaObject:Q218 a onama:Verb ;
     rdfs:label "finden, v."@de,
         "find, v."@en ;
@@ -30077,26 +31081,20 @@ onamaObject:Q451 a onama:Verb ;
     schema:dateModified "2019-09-12T13:15:10+00:00"^^xsd:dateTime ;
     schema:version 3145 .
 
-onamaObject:Q1313 a onama:Concept ;
-    rdfs:label "Leben des Hl. Blasius, Bischof von Sebaste"@de,
-        "Life of St. Blaise, bishop of Sebaste"@en ;
-    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28BLAISE%29> ;
-    onama:narrower onamaObject:Q1310,
-        onamaObject:Q1613,
-        onamaObject:Q1619,
-        onamaObject:Q1629,
-        onamaObject:Q1632,
-        onamaObject:Q1637,
-        onamaObject:Q1640,
-        onamaObject:Q1645,
-        onamaObject:Q1652,
-        onamaObject:Q1659,
-        onamaObject:Q1664,
-        onamaObject:Q1666,
-        onamaObject:Q1670,
-        onamaObject:Q1675 ;
-    schema:dateModified "2020-02-11T11:43:07+00:00"^^xsd:dateTime ;
-    schema:version 11856 .
+onamaObject:Q552 a onama:Person ;
+    rdfs:label "Soldat"@de,
+        "soldier"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4991371> ;
+    schema:dateModified "2019-09-24T10:29:46+00:00"^^xsd:dateTime ;
+    schema:version 3987 .
+
+onamaObject:Q229 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Bote"@de,
+        "Entity Function Messenger"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q848466> ;
+    schema:dateModified "2020-07-07T07:43:35+00:00"^^xsd:dateTime ;
+    schema:version 14734 ;
+    skos:altLabel "Entitätsfunktion Botin"@de .
 
 onamaObject:Q358 a onama:Thing ;
     rdfs:label "Bett, n."@de,
@@ -30132,6 +31130,12 @@ onamaObject:Q419 a onama:Verb ;
     skos:altLabel "Feuer spucken, v"@de,
         "breath fire, v."@en .
 
+onamaObject:Q555 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion weiblich"@de,
+        "Entity Function female"@en ;
+    schema:dateModified "2020-07-07T07:35:58+00:00"^^xsd:dateTime ;
+    schema:version 14718 .
+
 onamaObject:Q558 a onama:Animal ;
     rdfs:label "Pferd, n."@de,
         "horse, n."@en ;
@@ -30154,12 +31158,6 @@ onamaObject:Q888 a onama:Person ;
     schema:dateModified "2019-10-30T10:19:58+00:00"^^xsd:dateTime ;
     schema:version 7442 ;
     skos:altLabel "Iwein"@en .
-
-onamaObject:Q1112 a onama:Collection ;
-    rdfs:label "Blasiuszyklus, Kaufbeuren"@de,
-        "St. Blaise cycle, Kaufbeuren"@en ;
-    schema:dateModified "2019-11-28T09:37:40+00:00"^^xsd:dateTime ;
-    schema:version 9307 .
 
 onamaObject:Q179 a onama:Animal ;
     rdfs:label "Löwe, n."@de,
@@ -30184,15 +31182,6 @@ onamaObject:Q921 a onama:Place,
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2042028> ;
     schema:dateModified "2019-10-31T14:00:11+00:00"^^xsd:dateTime ;
     schema:version 7719 .
-
-onamaObject:Q122 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Held"@de,
-        "Entity Function Hero"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q162244> ;
-    schema:dateModified "2020-07-07T07:30:34+00:00"^^xsd:dateTime ;
-    schema:version 14696 ;
-    skos:altLabel "Entitätsfunktion Heldin"@de,
-        "Entity Function Heroine"@en .
 
 onamaObject:Q1407 a onama:Person ;
     rdfs:label "Hl. Oswald"@de,
@@ -30260,6 +31249,14 @@ onamaObject:Q416 a onama:Animal ;
     schema:dateModified "2019-09-17T09:26:40+00:00"^^xsd:dateTime ;
     schema:version 3584 .
 
+onamaObject:Q533 a onama:Person ;
+    rdfs:label "Frau"@de,
+        "woman"@en ;
+    onama:hasIconClassEquivalent ic:31D15 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q467> ;
+    schema:dateModified "2019-09-18T15:36:02+00:00"^^xsd:dateTime ;
+    schema:version 3815 .
+
 onamaObject:Q1577 a onama:MythicalBeing ;
     rdfs:label "Nixe"@de,
         "mermaid"@en ;
@@ -30273,12 +31270,14 @@ onamaObject:Q285 a onama:Verb ;
     schema:dateModified "2019-09-02T12:39:22+00:00"^^xsd:dateTime ;
     schema:version 2471 .
 
-onamaObject:Q418 a onama:Thing ;
-    rdfs:label "Feuer, n."@de,
-        "fire, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2723512> ;
-    schema:dateModified "2019-09-03T15:09:41+00:00"^^xsd:dateTime ;
-    schema:version 2905 .
+onamaObject:Q122 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Held"@de,
+        "Entity Function Hero"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q162244> ;
+    schema:dateModified "2020-07-07T07:30:34+00:00"^^xsd:dateTime ;
+    schema:version 14696 ;
+    skos:altLabel "Entitätsfunktion Heldin"@de,
+        "Entity Function Heroine"@en .
 
 onamaObject:Q454 a onama:Thing ;
     rdfs:label "Schatz, n."@de,
@@ -30297,6 +31296,35 @@ onamaObject:Q782 a onama:Collection ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q50379155> ;
     schema:dateModified "2019-10-04T14:28:50+00:00"^^xsd:dateTime ;
     schema:version 6041 .
+
+onamaObject:Q1313 a onama:Concept ;
+    rdfs:label "Leben des Hl. Blasius, Bischof von Sebaste"@de,
+        "Life of St. Blaise, bishop of Sebaste"@en ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28BLAISE%29> ;
+    onama:narrower onamaObject:Q1310,
+        onamaObject:Q1613,
+        onamaObject:Q1619,
+        onamaObject:Q1629,
+        onamaObject:Q1632,
+        onamaObject:Q1637,
+        onamaObject:Q1640,
+        onamaObject:Q1645,
+        onamaObject:Q1652,
+        onamaObject:Q1659,
+        onamaObject:Q1664,
+        onamaObject:Q1666,
+        onamaObject:Q1670,
+        onamaObject:Q1675,
+        onamaObject:Q1678,
+        onamaObject:Q1684,
+        onamaObject:Q1688,
+        onamaObject:Q1692,
+        onamaObject:Q1697,
+        onamaObject:Q1705,
+        onamaObject:Q1708,
+        onamaObject:Q1710 ;
+    schema:dateModified "2020-02-11T11:43:07+00:00"^^xsd:dateTime ;
+    schema:version 11856 .
 
 onamaObject:Q1601 a onama:Place,
         onama:Thing ;
@@ -30321,6 +31349,13 @@ onamaObject:Q414 a onama:Place,
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q67080458> ;
     schema:dateModified "2019-09-03T14:36:35+00:00"^^xsd:dateTime ;
     schema:version 2874 .
+
+onamaObject:Q418 a onama:Thing ;
+    rdfs:label "Feuer, n."@de,
+        "fire, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2723512> ;
+    schema:dateModified "2019-09-03T15:09:41+00:00"^^xsd:dateTime ;
+    schema:version 2905 .
 
 onamaObject:Q685 a onama:Person ;
     rdfs:label "Tristan"@de,
@@ -30376,6 +31411,12 @@ onamaObject:Q63 a onama:Verb ;
         "fight, v."@en ;
     schema:dateModified "2019-09-12T09:35:11+00:00"^^xsd:dateTime ;
     schema:version 3074 .
+
+onamaObject:Q1112 a onama:Collection ;
+    rdfs:label "Blasiuszyklus, Kaufbeuren"@de,
+        "St. Blaise cycle, Kaufbeuren"@en ;
+    schema:dateModified "2019-11-28T09:37:40+00:00"^^xsd:dateTime ;
+    schema:version 9307 .
 
 onamaObject:Q1155 a onama:Collection ;
     rdfs:label "Ägidius Colonna. Trojanischer Krieg, Wien, ÖNB, cod. 2773"@de,
@@ -30477,15 +31518,6 @@ onamaObject:Q919 a onama:Concept ;
     schema:dateModified "2020-01-23T12:40:40+00:00"^^xsd:dateTime ;
     schema:version 11011 .
 
-onamaObject:Q1040 a onama:Person ;
-    rdfs:label "Hl. Blasius"@de,
-        "St. Blaise"@en ;
-    onama:hasGeneralEntityFunction onamaObject:Q656 ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q151967> ;
-    schema:dateModified "2020-02-12T15:37:31+00:00"^^xsd:dateTime ;
-    schema:description "Bishop of Sebaste"@en ;
-    schema:version 12138 .
-
 onamaObject:Q116 a onama:Place,
         onama:Thing ;
     rdfs:label "Argo"@de,
@@ -30507,6 +31539,13 @@ onamaObject:Q1526 a onama:Collection ;
     schema:dateModified "2020-06-10T09:24:20+00:00"^^xsd:dateTime ;
     schema:version 14240 .
 
+onamaObject:Q1000 a onama:MythicalBeing ;
+    rdfs:label "Smaug"@de,
+        "Smaug (HOB)"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q46302> ;
+    schema:dateModified "2019-12-05T12:19:22+00:00"^^xsd:dateTime ;
+    schema:version 9539 .
+
 onamaObject:Q506 a onama:Person ;
     rdfs:label "Mann"@de,
         "man"@en ;
@@ -30514,13 +31553,6 @@ onamaObject:Q506 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q8441> ;
     schema:dateModified "2020-02-03T09:48:01+00:00"^^xsd:dateTime ;
     schema:version 11795 .
-
-onamaObject:Q1000 a onama:MythicalBeing ;
-    rdfs:label "Smaug"@de,
-        "Smaug (HOB)"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q46302> ;
-    schema:dateModified "2019-12-05T12:19:22+00:00"^^xsd:dateTime ;
-    schema:version 9539 .
 
 onamaObject:Q77 a onama:Person ;
     rdfs:label "Hl. Antonius Abbas"@de,
@@ -30552,13 +31584,6 @@ onamaObject:Q471 a onama:Verb ;
     schema:dateModified "2019-10-23T13:19:42+00:00"^^xsd:dateTime ;
     schema:version 6913 .
 
-onamaObject:Q507 a onama:Place ;
-    rdfs:label "Innenraum"@de,
-        "interior space"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1299240> ;
-    schema:dateModified "2020-05-19T08:37:58+00:00"^^xsd:dateTime ;
-    schema:version 14097 .
-
 onamaObject:Q266 a onama:Person ;
     rdfs:label "Aietes"@de,
         "Aeëtes"@en ;
@@ -30567,6 +31592,13 @@ onamaObject:Q266 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q241971> ;
     schema:dateModified "2019-09-03T08:28:16+00:00"^^xsd:dateTime ;
     schema:version 2696 .
+
+onamaObject:Q507 a onama:Place ;
+    rdfs:label "Innenraum"@de,
+        "interior space"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1299240> ;
+    schema:dateModified "2020-05-19T08:37:58+00:00"^^xsd:dateTime ;
+    schema:version 14097 .
 
 onamaObject:Q1161 a onama:Concept ;
     rdfs:label "Jasons Aufgaben zur Erringung des Goldenen Vlieses"@de,
@@ -30618,6 +31650,27 @@ onamaObject:Q1161 a onama:Concept ;
     schema:dateModified "2020-05-15T15:06:30+00:00"^^xsd:dateTime ;
     schema:version 14074 .
 
+onamaObject:Q1040 a onama:Person ;
+    rdfs:label "Hl. Blasius"@de,
+        "St. Blaise"@en ;
+    onama:hasGeneralEntityFunction onamaObject:Q656 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q151967> ;
+    schema:dateModified "2020-02-12T15:37:31+00:00"^^xsd:dateTime ;
+    schema:description "Bishop of Sebaste"@en ;
+    schema:version 12138 .
+
+onamaObject:Q554 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion männlich"@de,
+        "Entity Function male"@en ;
+    schema:dateModified "2020-07-07T07:36:16+00:00"^^xsd:dateTime ;
+    schema:version 14720 .
+
+onamaObject:Q1262 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Geliebte/r"@de,
+        "Entity Function Beloved"@en ;
+    schema:dateModified "2020-07-07T07:27:39+00:00"^^xsd:dateTime ;
+    schema:version 14685 .
+
 onamaObject:Q130 a onama:Place ;
     rdfs:label "Iolkos"@de,
         "Iolcus"@en ;
@@ -30640,6 +31693,12 @@ onamaObject:Q792 a onama:Place,
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q39816> ;
     schema:dateModified "2019-10-07T11:01:17+00:00"^^xsd:dateTime ;
     schema:version 6090 .
+
+onamaObject:Q1261 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Liebende*r"@de,
+        "Entity Function Lover"@en ;
+    schema:dateModified "2020-07-07T07:31:08+00:00"^^xsd:dateTime ;
+    schema:version 14698 .
 
 onamaObject:Q442 a onama:Place ;
     rdfs:label "Feld des Mars"@de,
@@ -30674,13 +31733,6 @@ onamaObject:Q103 a onama:Animal ;
     schema:dateModified "2020-05-20T09:28:18+00:00"^^xsd:dateTime ;
     schema:version 14131 .
 
-onamaObject:Q82 a onama:Place ;
-    rdfs:label "Landschaft, n."@de,
-        "landscape, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q107425> ;
-    schema:dateModified "2020-02-10T12:12:18+00:00"^^xsd:dateTime ;
-    schema:version 11816 .
-
 onamaObject:Q194 a onama:Person ;
     rdfs:label "Herakles"@de,
         "Heracles"@en ;
@@ -30703,6 +31755,13 @@ onamaObject:Q262 a onama:Place ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q183150> ;
     schema:dateModified "2019-08-27T12:17:45+00:00"^^xsd:dateTime ;
     schema:version 1510 .
+
+onamaObject:Q82 a onama:Place ;
+    rdfs:label "Landschaft, n."@de,
+        "landscape, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q107425> ;
+    schema:dateModified "2020-02-10T12:12:18+00:00"^^xsd:dateTime ;
+    schema:version 11816 .
 
 onamaObject:Q406 a onama:Place ;
     rdfs:label "Insel des Goldenen Vlieses"@de,
