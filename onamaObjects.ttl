@@ -139,6 +139,12 @@ onamaObject:Q165 a onama:Person ;
     schema:dateModified "2020-05-19T08:53:16+00:00"^^xsd:dateTime ;
     schema:version 14120 .
 
+onamaObject:Q1759 a onama:Verb ;
+    rdfs:label "Frieden wahren, v."@de,
+        "uphold peace, v."@en ;
+    schema:dateModified "2021-01-25T14:51:38+00:00"^^xsd:dateTime ;
+    schema:version 16498 .
+
 onamaObject:Q257 a onama:Place ;
     rdfs:label "Fegefeuer; Purgatorium"@de,
         "purgatory"@en ;
@@ -325,16 +331,6 @@ onamaObject:Q831 rdfs:label "MKT Maria verbietet Mädchen dreizehnte Tür zu öf
     schema:dateModified "2019-10-15T14:08:18+00:00"^^xsd:dateTime ;
     schema:version 6539 .
 
-onamaObject:Q832 a onama:Person ;
-    rdfs:label "Maria"@de,
-        "Mary"@en ;
-    schema:dateModified "2019-10-15T13:34:04+00:00"^^xsd:dateTime ;
-    schema:description "Mutter von Jesus"@de,
-        "Mother of Jesus"@en ;
-    schema:version 6531 ;
-    skos:altLabel "Muttergottes"@de,
-        "Mother of Jesus"@en .
-
 onamaObject:Q834 a onama:Thing ;
     rdfs:label "Regel"@de,
         "rule, n."@en ;
@@ -397,12 +393,6 @@ onamaObject:Q964 a onama:EntityFunction ;
         "Entity Function Rejected Lover"@en ;
     schema:dateModified "2020-07-07T07:37:10+00:00"^^xsd:dateTime ;
     schema:version 14723 .
-
-onamaObject:Q976 a onama:Verb ;
-    rdfs:label "spinnen, v."@de,
-        "spin, v."@en ;
-    schema:dateModified "2019-11-11T15:12:48+00:00"^^xsd:dateTime ;
-    schema:version 8149 .
 
 onamaObject:Q977 a onama:Thing ;
     rdfs:label "Garn"@de,
@@ -5179,13 +5169,6 @@ onamaObject:Q1363-d2f0e60b-4e7f-f016-0ccb-fab76af7ab8f a onama:PatientRole ;
 onamaObject:Q1363-f8d86a95-41a3-3371-cba8-9ed06c576b1c a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
 
-onamaObject:Q1364 a onama:Animal ;
-    rdfs:label "Esel"@de,
-        "donkey"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q3537778> ;
-    schema:dateModified "2020-02-13T15:53:18+00:00"^^xsd:dateTime ;
-    schema:version 12332 .
-
 onamaObject:Q1366-322ff54a-4f32-d99c-3907-af5279f7c89e a onama:BenefactiveRole ;
     onama:hasActor onamaObject:Q1345 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/000135_145_E4> .
@@ -5426,14 +5409,6 @@ onamaObject:Q1385-d4e673ac-4520-a5fd-4bd7-50275d7647a0 a onama:AgentRole ;
 
 onamaObject:Q1385-f1949b92-4914-44de-a125-cf5068cce398 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q1389 .
-
-onamaObject:Q1389 a onama:Place ;
-    rdfs:label "Minervatempel"@de,
-        "Temple of Minerva"@en ;
-    schema:dateModified "2020-02-17T13:38:57+00:00"^^xsd:dateTime ;
-    schema:description "Tempel in Troja, Schauplatz in Narrativen des trojanischen Krieges"@de,
-        "Temple in Troy appearing in narratives of the Trojan War"@en ;
-    schema:version 12532 .
 
 onamaObject:Q139-0b0e5b13-4b0c-0561-4eae-c43fcc5bc172 a onama:Action ;
     onama:hasVerb onamaObject:Q127 .
@@ -8822,12 +8797,6 @@ onamaObject:Q1613-6956e480-4253-aa42-6df9-382fd7212a61 a onama:Action ;
 onamaObject:Q1613-f2be60a6-4cf0-0ff9-5584-791645375c68 a onama:BenefactiveRole ;
     onama:hasActor onamaObject:Q1040 .
 
-onamaObject:Q1614 a onama:Verb ;
-    rdfs:label "jmd./etw. weihen, v."@de,
-        "consecrate so./sth., v."@en ;
-    schema:dateModified "2020-07-31T09:00:51+00:00"^^xsd:dateTime ;
-    schema:version 15222 .
-
 onamaObject:Q1615-104355bf-4584-d0f0-f555-702c3dff5b58 a onama:WitnessRole ;
     onama:hasActor onamaObject:Q506 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016282_19510_E9> .
@@ -8864,28 +8833,6 @@ onamaObject:Q1615-c094e6ae-450f-7321-1657-b85ef34b3cb4 a onama:PlaceRole ;
 
 onamaObject:Q1615-ea353039-45dd-0591-6366-7a5a3bbf7f81 a onama:GoalRole ;
     onama:hasThing onamaObject:Q785 .
-
-onamaObject:Q1616 a onama:Person ;
-    rdfs:label "Konsekrator"@de,
-        "consecrator"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4231232> ;
-    schema:dateModified "2020-07-31T09:28:36+00:00"^^xsd:dateTime ;
-    schema:version 15234 .
-
-onamaObject:Q1617 a onama:Thing ;
-    rdfs:label "Mitra"@de,
-        "mitre"@en ;
-    onama:hasRelatedIconClassEntry ic:11P31131 ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q193888> ;
-    schema:dateModified "2020-07-31T09:33:28+00:00"^^xsd:dateTime ;
-    schema:version 15243 .
-
-onamaObject:Q1618 a onama:Person ;
-    rdfs:label "Geistlicher"@de,
-        "clergyman"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2259532> ;
-    schema:dateModified "2020-07-31T10:35:10+00:00"^^xsd:dateTime ;
-    schema:version 15258 .
 
 onamaObject:Q1619-238b0e90-4e93-317f-5b99-f05a143e0d3e a onama:Action ;
     onama:hasVerb onamaObject:Q1621 .
@@ -8951,14 +8898,6 @@ onamaObject:Q1626-87f5abd7-46eb-2f04-7ec8-b13104a15adc a onama:Action ;
 onamaObject:Q1626-e12d44a5-4539-bf1d-d960-38e26b26eb7b a onama:WitnessRole ;
     onama:hasActor onamaObject:Q1620 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016283_19511_E50> .
-
-onamaObject:Q1628 a onama:Verb ;
-    rdfs:label "ziehen, v."@de,
-        "drag, v."@en ;
-    schema:dateModified "2020-07-31T12:13:49+00:00"^^xsd:dateTime ;
-    schema:version 15316 ;
-    skos:altLabel "schleifen, v."@de,
-        "zerren, v."@de .
 
 onamaObject:Q1629-50b43f84-4afc-89e3-a4b6-82963c8287fc a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q923 ;
@@ -9978,6 +9917,43 @@ onamaObject:Q1714-320dda85-4967-4b64-7179-bd50598a13e2 a onama:AgentRole ;
     onama:hasActor onamaObject:Q506 ;
     onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/016301_19529_E16> .
 
+onamaObject:Q1715-2fffe2a9-4856-ac8b-c22a-e50995684ec0 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1717 .
+
+onamaObject:Q1715-8f72e140-4c5e-34bf-d0da-410733dfe5e6 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1716 .
+
+onamaObject:Q1715-949a5c9e-499d-2783-c617-8969b49893a3 a onama:Action ;
+    onama:hasVerb onamaObject:Q1624 .
+
+onamaObject:Q1715-e69a9497-4a18-ea4c-548f-bea5df38eef3 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q832 .
+
+onamaObject:Q1718-07120153-43e1-c015-4c2d-b36feb335abb a onama:WitnessRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E25> ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1718-40b715ca-49ab-9a8f-9c20-3f1f59de7593 a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E34> ;
+    onama:hasThing onamaObject:Q1719 .
+
+onamaObject:Q1718-68f20185-447f-5ea7-6c8c-dbf7f245bb4f a onama:Action ;
+    onama:hasVerb onamaObject:Q946 .
+
+onamaObject:Q1718-cb120947-450d-e442-5403-9121a563ceac a onama:RecipientRole ;
+    onama:hasActor onamaObject:Q1717 .
+
+onamaObject:Q1718-ebf33a5d-4f7b-7149-5d40-35fb9db0284a a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E32> ;
+    onama:hasThing onamaObject:Q1723 .
+
+onamaObject:Q1718-f091cc1d-497d-eada-120d-9f3975eec838 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q832 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E21> .
+
+onamaObject:Q1718-ff63e0c2-4a43-52c5-b191-f6fd1a5b4d6c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1724 .
+
 onamaObject:Q172-30a653dc-4b23-52dd-fe74-78c927fc2fe9 a onama:TextPassage ;
     onama:fromToken "TRY_305_0"^^xsd:string ;
     onama:toToken "TRY_311_4"^^xsd:string .
@@ -9994,6 +9970,91 @@ onamaObject:Q172-8c985cad-484a-f7b7-7737-b23a55a87759 a onama:PlaceRole ;
 onamaObject:Q172-a5641833-422e-8807-34a1-4a82123757c6 a onama:ActantRole ;
     onama:hasActor onamaObject:Q131 .
 
+onamaObject:Q1721-06af3013-43fe-7fca-0566-f834e2b6b4c8 a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q749 .
+
+onamaObject:Q1721-2d6ae2d5-4fe0-3ff0-2934-b02105178630 a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E32> ;
+    onama:hasThing onamaObject:Q1723 .
+
+onamaObject:Q1721-30fd7964-48ed-73cb-45be-5c6b6420b1b7 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1716 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E4> .
+
+onamaObject:Q1721-666b5004-4cb3-bef7-f1d6-d93e26801c7f a onama:Action ;
+    onama:hasVerb onamaObject:Q1722 .
+
+onamaObject:Q1721-82aef1c5-41be-c04c-c9ff-3b4e74d722e2 a onama:WitnessRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E25> ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1721-9138a09f-4de4-5429-04e1-546e6a2b5e01 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1724 .
+
+onamaObject:Q1721-f52aee9d-4783-18b9-05e0-351d0e59145d a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E34> ;
+    onama:hasThing onamaObject:Q1719 .
+
+onamaObject:Q1722 a onama:Verb ;
+    rdfs:label "etw. anheben, v."@de,
+        "raise sth., v."@en ;
+    schema:dateModified "2020-12-09T12:34:44+00:00"^^xsd:dateTime ;
+    schema:version 16144 ;
+    skos:altLabel "etw. heben, v."@de .
+
+onamaObject:Q1725-50cc6806-4ecb-4ce5-78f2-9015e6c95989 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1292 .
+
+onamaObject:Q1725-5930ddde-40d9-fa42-05dd-e16ca4c586cc a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1364 .
+
+onamaObject:Q1725-598f6603-453b-1906-9cf1-3178c6fe5a2c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1724 .
+
+onamaObject:Q1725-8336b5d6-4ecc-5723-5620-d11fd5d40ae1 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1723 .
+
+onamaObject:Q1725-d300e82c-4e06-bce6-aff5-3805b328cc81 a onama:Action ;
+    onama:hasVerb onamaObject:Q427 .
+
+onamaObject:Q1726-16b8a0a2-4d48-3d62-90fd-44a56b210b7c a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1717 .
+
+onamaObject:Q1726-4ede35ad-4e98-191a-4abf-872bbb17f582 a onama:Action ;
+    onama:hasVerb onamaObject:Q1727 .
+
+onamaObject:Q1727 a onama:Verb ;
+    rdfs:label "geboren werden, v."@de,
+        "be born, v."@en ;
+    schema:dateModified "2020-12-09T14:40:53+00:00"^^xsd:dateTime ;
+    schema:version 16194 .
+
+onamaObject:Q1729-316280e3-450f-b1d4-ccec-4534bb07a819 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1717 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E19> .
+
+onamaObject:Q1729-7243eac7-4120-d770-3423-171f6df5b916 a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E32> ;
+    onama:hasThing onamaObject:Q1723 .
+
+onamaObject:Q1729-9df64c09-428d-c62f-23f7-8ed89ac14759 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1292 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E31> .
+
+onamaObject:Q1729-af535657-47fc-5724-3076-f846400dc4cd a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E34> ;
+    onama:hasThing onamaObject:Q1719 .
+
+onamaObject:Q1729-b4833456-4cd5-f9d5-9837-dd8376f0facd a onama:Action ;
+    onama:hasVerb onamaObject:Q1624 .
+
+onamaObject:Q1729-b68c3fc1-4ef0-1a35-0a64-ae31f6ec111d a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1364 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E29> .
+
+onamaObject:Q1729-bc0fa743-4b01-bbfa-950d-c73c5ed4bb1e a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1724 .
+
 onamaObject:Q173-04e83967-45d0-d406-3e99-8d318175c693 a onama:Action ;
     onama:hasVerb onamaObject:Q175 .
 
@@ -10003,6 +10064,413 @@ onamaObject:Q173-0b467b14-4944-6d7a-ae28-c0eda31990ae a onama:PatientRole ;
 onamaObject:Q173-cdf55a18-4328-448b-247b-28f939131241 a onama:AgentRole ;
     onama:hasActor onamaObject:Q77 .
 
+onamaObject:Q1731-4e4cf6da-4443-3512-5c24-992da4884971 a onama:AgentRole ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1731-7862de70-490d-df7a-60e2-37abdeff52a7 a onama:RecipientRole ;
+    onama:hasActor onamaObject:Q1086 .
+
+onamaObject:Q1731-a77b50fe-4858-161e-9731-83b34211f9c6 a onama:PatientRole ;
+    onama:hasNarrative onamaObject:Q1726 .
+
+onamaObject:Q1731-eb279991-4d71-1379-64a9-4f2d7517baca a onama:Action ;
+    onama:hasVerb onamaObject:Q1732 .
+
+onamaObject:Q1732 a onama:Verb ;
+    rdfs:label "verkündigen, v."@de,
+        "announce, v."@en ;
+    schema:dateModified "2020-12-09T15:43:34+00:00"^^xsd:dateTime ;
+    schema:version 16254 ;
+    skos:altLabel "bekanntgeben, v."@de,
+        "verkünden, v."@de .
+
+onamaObject:Q1733-0113ee2e-4036-c9be-bce8-42f898010226 a onama:StimulusRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E48> ;
+    onama:hasThing onamaObject:Q83 .
+
+onamaObject:Q1733-0ad71658-4f16-5219-4aa0-e286625b7743 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1733-59628da7-46fa-70c3-39e7-770ce6ac8911 a onama:ExperiencerRole ;
+    onama:hasActor onamaObject:Q1086 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/001041_1102_E42> .
+
+onamaObject:Q1733-9314d1f4-43af-4073-e970-e8d8d7f82144 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1016 ;
+    onama:hasThing onamaObject:Q1016 .
+
+onamaObject:Q1733-dfa3f24f-42fd-1818-34b1-8931582c603a a onama:Action ;
+    onama:hasVerb onamaObject:Q84 .
+
+onamaObject:Q1735 a onama:Verb ;
+    rdfs:label "erkennen, v."@de,
+        "recognise, v."@en ;
+    schema:dateModified "2020-12-21T09:39:33+00:00"^^xsd:dateTime ;
+    schema:version 16293 .
+
+onamaObject:Q1736 a onama:Animal ;
+    rdfs:label "Esel, n."@de,
+        "ass, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q19707> ;
+    schema:dateModified "2020-12-21T09:41:59+00:00"^^xsd:dateTime ;
+    schema:version 16297 .
+
+onamaObject:Q1737 a onama:TextualRealisation ;
+    rdfs:label "CHH Ochse und Esel erkennen das Christkind"@de,
+        "CHH Ox and ass recognise the Christ-child"@en ;
+    onama:hasAction onamaObject:Q1737-0d816f68-4761-b75d-753c-2d410f460721 ;
+    onama:hasSemanticRole onamaObject:Q1737-3e0389c6-4400-e38f-0334-2f10e2133d83,
+        onamaObject:Q1737-b3fd4a3e-420e-9ab2-e528-2c6b6d6103bd,
+        onamaObject:Q1737-d3f15710-4c21-b63e-f6ae-3f659818e07d,
+        onamaObject:Q1737-e3954812-42c3-3375-a817-cc466fabd86d ;
+    onama:hasTextPassage onamaObject:Q1737-a6949359-4237-2dbf-a2dc-6a1c535c3818 ;
+    onama:partOfCollection onamaObject:Q1734 ;
+    onama:realises onamaObject:Q1728 ;
+    schema:dateModified "2020-12-21T09:47:53+00:00"^^xsd:dateTime ;
+    schema:version 16311 .
+
+onamaObject:Q1737-0d816f68-4761-b75d-753c-2d410f460721 a onama:Action ;
+    onama:hasVerb onamaObject:Q1735 .
+
+onamaObject:Q1737-3e0389c6-4400-e38f-0334-2f10e2133d83 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1292 .
+
+onamaObject:Q1737-a6949359-4237-2dbf-a2dc-6a1c535c3818 a onama:TextPassage ;
+    onama:fromToken "CHH_353_0"^^xsd:string ;
+    onama:toToken "CHH_354_5"^^xsd:string .
+
+onamaObject:Q1737-b3fd4a3e-420e-9ab2-e528-2c6b6d6103bd a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1717 .
+
+onamaObject:Q1737-d3f15710-4c21-b63e-f6ae-3f659818e07d a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1736 .
+
+onamaObject:Q1737-e3954812-42c3-3375-a817-cc466fabd86d a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1719 .
+
+onamaObject:Q1738 a onama:Concept ;
+    rdfs:label "Hirten finden Christkind im Stall"@de,
+        "Shepherds find Christ-child in the stable"@en ;
+    onama:hasAction onamaObject:Q1738-dc6e52a6-4388-13d1-ccc8-05202c89df87 ;
+    onama:hasSemanticRole onamaObject:Q1738-201c76a8-4dd9-aa32-65e3-93f039a48690,
+        onamaObject:Q1738-42c63c3f-4ba6-5173-bec5-f7f33f706549,
+        onamaObject:Q1738-5d8b8af3-479e-abb9-85d7-03975135ccba ;
+    onama:isRealisedBy onamaObject:Q1739 ;
+    schema:dateModified "2020-12-21T09:50:31+00:00"^^xsd:dateTime ;
+    schema:version 16318 .
+
+onamaObject:Q1738-201c76a8-4dd9-aa32-65e3-93f039a48690 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1717 .
+
+onamaObject:Q1738-42c63c3f-4ba6-5173-bec5-f7f33f706549 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1719 .
+
+onamaObject:Q1738-5d8b8af3-479e-abb9-85d7-03975135ccba a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1086 .
+
+onamaObject:Q1738-dc6e52a6-4388-13d1-ccc8-05202c89df87 a onama:Action ;
+    onama:hasVerb onamaObject:Q218 .
+
+onamaObject:Q1739 a onama:TextualRealisation ;
+    rdfs:label "CHH Hirten finden Christkind im Stall"@de,
+        "CHH Shepherds find Christ-child in the stable"@en ;
+    onama:hasAction onamaObject:Q1739-ae7db889-45a5-eded-1ed6-6df0504a7418 ;
+    onama:hasSemanticRole onamaObject:Q1739-1f5114b6-4573-f082-b47d-e5d3f0e91ab0,
+        onamaObject:Q1739-7b21a1ab-483d-6c36-cd96-5ba1d2508344,
+        onamaObject:Q1739-7d299f32-41d1-a198-238e-27445e6f6ca0 ;
+    onama:hasTextPassage onamaObject:Q1739-d570dc99-441c-3188-288b-368017871a21 ;
+    onama:partOfCollection onamaObject:Q1734 ;
+    onama:realises onamaObject:Q1738 ;
+    schema:dateModified "2020-12-21T09:54:19+00:00"^^xsd:dateTime ;
+    schema:version 16329 .
+
+onamaObject:Q1739-1f5114b6-4573-f082-b47d-e5d3f0e91ab0 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1717 .
+
+onamaObject:Q1739-7b21a1ab-483d-6c36-cd96-5ba1d2508344 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1086 .
+
+onamaObject:Q1739-7d299f32-41d1-a198-238e-27445e6f6ca0 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1719 .
+
+onamaObject:Q1739-ae7db889-45a5-eded-1ed6-6df0504a7418 a onama:Action ;
+    onama:hasVerb onamaObject:Q218 .
+
+onamaObject:Q1739-d570dc99-441c-3188-288b-368017871a21 a onama:TextPassage ;
+    onama:fromToken "CHH_354_0"^^xsd:string ;
+    onama:toToken "CHH_354_4"^^xsd:string .
+
+onamaObject:Q1740-54f4c973-4270-ee75-1759-d4ab1c8c24bb a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q1744 .
+
+onamaObject:Q1740-5b9697a1-4955-a7e1-5e0e-07cb5488491d a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q1745 .
+
+onamaObject:Q1740-64ca68e8-473d-f5e5-6339-03fb14830ecb a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1389 .
+
+onamaObject:Q1740-6fd4ee25-4ae1-6ff6-afea-cbea529e8222 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1384 .
+
+onamaObject:Q1740-94e4b046-4824-ac42-a27e-20f117fcd5e7 a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q1743 .
+
+onamaObject:Q1740-e002c73c-434c-b021-4e02-b021625cdb5b a onama:Action ;
+    onama:hasVerb onamaObject:Q1676 .
+
+onamaObject:Q1741-b23a7819-4517-c723-e829-f146eca6f4bf a onama:PatientRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1741-ee61c8d4-492e-3127-bc42-f59a793f7d8f a onama:Action ;
+    onama:hasVerb onamaObject:Q1742 .
+
+onamaObject:Q1741-f1775a3e-454a-1015-aca3-cac6b5c94b69 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1742 a onama:Verb ;
+    rdfs:label "belagern, v."@de,
+        "lay siege to so./sth., v."@en ;
+    schema:dateModified "2021-01-25T11:20:36+00:00"^^xsd:dateTime ;
+    schema:version 16341 ;
+    skos:altLabel "jmd./etw. belagern, v."@de .
+
+onamaObject:Q1744 a onama:Thing ;
+    rdfs:label "Silber"@de,
+        "silver"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1090> ;
+    schema:dateModified "2021-01-25T11:25:30+00:00"^^xsd:dateTime ;
+    schema:version 16355 .
+
+onamaObject:Q1745 a onama:Thing ;
+    rdfs:label "Korn"@de,
+        "grain"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2995529> ;
+    schema:dateModified "2021-01-25T11:26:39+00:00"^^xsd:dateTime ;
+    schema:version 16361 ;
+    skos:altLabel "Getreide"@de .
+
+onamaObject:Q1746-3b3cac90-495b-e6fb-2813-09697ff30807 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E66> .
+
+onamaObject:Q1746-5303fd87-43c6-52e5-5d4c-93c03bd3151c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1747 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E58> ;
+    onama:hasThing onamaObject:Q1747 .
+
+onamaObject:Q1746-849b1c2b-4f43-82a3-8dc3-7554fd34dc4d a onama:Action ;
+    onama:hasVerb onamaObject:Q427 .
+
+onamaObject:Q1746-c06c8dda-4ff1-547a-119a-3bc408d553d6 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1389 .
+
+onamaObject:Q1746-ef3a7d54-4c03-9626-7519-ed8f07010872 a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E59> ;
+    onama:hasThing onamaObject:Q1743 .
+
+onamaObject:Q1748-8881463b-4f96-ef2d-de26-53cbdee08e8b a onama:Action ;
+    onama:hasVerb onamaObject:Q1749 .
+
+onamaObject:Q1748-ea7003ce-45c5-ffc3-98fd-71301f6dfdd3 a onama:PatientRole ;
+    onama:hasThing onamaObject:Q418 .
+
+onamaObject:Q1749 a onama:Verb ;
+    rdfs:label "erlöschen, v."@de,
+        "go out, v."@en ;
+    schema:dateModified "2021-01-25T12:30:27+00:00"^^xsd:dateTime ;
+    schema:version 16397 ;
+    skos:altLabel "ausgehen, v."@de .
+
+onamaObject:Q1750-5ffd96f4-4a56-ed15-175d-b3626ceada25 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q506 .
+
+onamaObject:Q1750-848a65c3-49ce-4d21-3e28-8902dcbef721 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1391 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E30> .
+
+onamaObject:Q1750-89b0615a-4b38-1a62-8f30-f0aa44053d01 a onama:SourceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E52> ;
+    onama:hasThing onamaObject:Q1752 .
+
+onamaObject:Q1750-9e4debe9-4f8e-b43d-b734-740300dd2ffd a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1390 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E3> .
+
+onamaObject:Q1750-f31bf7ea-4865-f0cd-d24d-530fe4428d88 a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E53> ;
+    onama:hasThing onamaObject:Q678 .
+
+onamaObject:Q1750-f9f786e7-4ed4-3f3c-f87b-7860319f9ab0 a onama:Action ;
+    onama:hasVerb onamaObject:Q1751 .
+
+onamaObject:Q1750-fa822b30-41fe-80f5-c188-915bfc6bb95c a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006467_8338_E51> ;
+    onama:hasThing onamaObject:Q1387 .
+
+onamaObject:Q1751 a onama:Verb ;
+    rdfs:label "aufsteigen, v."@de,
+        "rise, v."@en ;
+    schema:dateModified "2021-01-25T12:39:34+00:00"^^xsd:dateTime ;
+    schema:version 16406 .
+
+onamaObject:Q1752 a onama:Thing ;
+    rdfs:label "Holzscheit"@de,
+        "log"@en ;
+    schema:dateModified "2021-01-25T12:43:03+00:00"^^xsd:dateTime ;
+    schema:version 16415 .
+
+onamaObject:Q1753-172b0f03-4bd4-6d99-3f66-0b3368b4dee5 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1755 .
+
+onamaObject:Q1753-1eed5a75-47ee-27a5-9b28-592c75901f9e a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1754 .
+
+onamaObject:Q1753-3ac4386c-4480-3935-fb60-4610cb8364b1 a onama:Action ;
+    onama:hasVerb onamaObject:Q388 .
+
+onamaObject:Q1753-9aae527d-47e5-24ea-44eb-6688fbea2e9b a onama:SourceRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1753-e915f269-4a79-feb2-7d30-d0358054c9a7 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1756 .
+
+onamaObject:Q1757-009ab16b-4adc-a882-2b16-504c26dc03ff a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1754 .
+
+onamaObject:Q1757-557ff304-4935-2cb6-7306-12796bcfbef4 a onama:Action ;
+    onama:hasVerb onamaObject:Q388 .
+
+onamaObject:Q1757-572bd838-43bf-981a-a7fb-3d0534a367ba a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1757-59bb07c0-4751-d6c0-a60a-488a248fc8b8 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q552 .
+
+onamaObject:Q1757-96583094-4209-9058-ba97-e11275f1d79f a onama:ModeRole ;
+    onama:hasActor onamaObject:Q558 .
+
+onamaObject:Q1757-a1e98247-48b9-f7a8-f381-199cbad3d54a a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1756 .
+
+onamaObject:Q1757-d5bb1857-4c40-47ca-eacf-a227c9d98d04 a onama:SourceRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1757-f978d01e-4add-cd79-d840-7b48783695c7 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1755 .
+
+onamaObject:Q1758-2195d766-4429-dfd2-7a32-17cc333bc11d a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1758-b126aefd-457d-24f0-8cef-7389b72c3095 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1384 .
+
+onamaObject:Q1758-dbc25155-47af-b463-7ae5-5eefa4bb5384 a onama:Action ;
+    onama:hasVerb onamaObject:Q344 .
+
+onamaObject:Q1758-f303cc6d-4954-7fbf-2c3a-f08b4a7dd52a a onama:PatientRole .
+
+onamaObject:Q1760-1339999a-413f-7dbf-97c0-118974c3d0ca a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1762 .
+
+onamaObject:Q1760-1af5389c-41a1-84d7-68e3-6b12baec68e4 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1760-366991a4-4a2e-a848-360e-585154132113 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1391 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006469_8340_E41> .
+
+onamaObject:Q1760-5c4806f8-4a8b-a82a-91ff-703daa295144 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q695 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006469_8340_E94> ;
+    onama:hasThing onamaObject:Q695 .
+
+onamaObject:Q1760-69e6e103-4efc-9ee6-36d6-40f5285bc4da a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1761 .
+
+onamaObject:Q1760-852547d0-43c0-a0f3-e074-01959aef5155 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q506 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006469_8340_E79> .
+
+onamaObject:Q1760-aaa9f90f-44a4-51e9-ddbd-656cddbcb129 a onama:PatientRole ;
+    onama:hasThing onamaObject:Q345 .
+
+onamaObject:Q1760-cbd8c502-405d-83c7-7f3f-6ec2baa70f84 a onama:Action ;
+    onama:hasVerb onamaObject:Q344 .
+
+onamaObject:Q1760-d51ccc00-4e94-6c16-2555-663535fdfc09 a onama:InstrumentRole ;
+    onama:hasThing onamaObject:Q1159 .
+
+onamaObject:Q1760-d679b2f4-434b-5d06-22a8-0d7732dd45f1 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1390 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006469_8340_E25> .
+
+onamaObject:Q1761 a onama:Person ;
+    rdfs:label "Priamus"@de,
+        "Priam"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q170473> ;
+    schema:dateModified "2021-01-25T15:01:42+00:00"^^xsd:dateTime ;
+    schema:version 16507 .
+
+onamaObject:Q1763-59d332c5-4c6a-9407-cb59-ffcf3e3c69fd a onama:Action ;
+    onama:hasVerb onamaObject:Q799 .
+
+onamaObject:Q1763-660dbfef-4092-c13a-b9f2-0ba4d17a48c6 a onama:PatientRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1763-673338eb-4c94-ae4d-3cc7-cfdbe2f52d37 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1764-0adae2e5-48b3-bca9-b3f8-ff14736693e5 a onama:Action ;
+    onama:hasVerb onamaObject:Q1765 .
+
+onamaObject:Q1764-16fcef75-44ac-48ae-ec61-4588b0b9d1ec a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1764-279a04e8-4ed3-4b95-d796-8e8580cee913 a onama:RecipientRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1764-44d75e3e-4b92-c8ae-f84a-c7b810a3942f a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q1766 .
+
+onamaObject:Q1765 a onama:Verb ;
+    rdfs:label "übergeben, v."@de,
+        "hand sth. over to so., v."@en ;
+    schema:dateModified "2021-01-25T15:44:09+00:00"^^xsd:dateTime ;
+    schema:version 16544 ;
+    skos:altLabel "jmd. etw. übergeben, v."@de .
+
+onamaObject:Q1767-4e1d5471-4f0a-97c6-a7d7-409c1a1fb58a a onama:Action ;
+    onama:hasVerb onamaObject:Q105 .
+
+onamaObject:Q1767-690ecf5c-48d9-7a44-b8a8-76d50cdaf9ea a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006470_8341_E115> ;
+    onama:hasThing onamaObject:Q1766 .
+
+onamaObject:Q1767-91f5a88f-4fb7-2eda-4a4f-fc4d37bd02fb a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1767-a1e3dabd-425f-dfec-1c05-ffba30e8b783 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1393 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006470_8341_E16> .
+
+onamaObject:Q1767-cb1acead-40f9-701a-ef5c-92611775579e a onama:GoalRole ;
+    onama:hasThing onamaObject:Q1768 .
+
+onamaObject:Q1767-e9aede2c-49d7-8d54-3367-e7ef620b2bb2 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1767-fa53e91e-4196-46cc-94b8-8fdbead64a72 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1505 .
+
+onamaObject:Q1769-02545005-4f82-131b-0dfc-656c2b15359b a onama:Action ;
+    onama:hasVerb onamaObject:Q1770 .
+
+onamaObject:Q1769-3bb4c1c8-4231-55c7-439b-64add66fd28a a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1384 .
+
+onamaObject:Q1769-6eecb721-4500-6000-c79f-8307f20d578b a onama:PatientRole ;
+    onama:hasThing onamaObject:Q1768 .
+
 onamaObject:Q177-50c48b4b-43e7-c944-b5b7-d0305325f39f a onama:AgentRole ;
     onama:hasActor onamaObject:Q77 .
 
@@ -10011,6 +10479,109 @@ onamaObject:Q177-ebbe134a-42be-a356-c65c-73a203eec25d a onama:Action ;
 
 onamaObject:Q177-f1e24aa2-423d-3671-38d0-6c4978d227a2 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1771-0c028a65-4ffc-d767-7c12-dd014d1f4ee1 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1771-1b98e7fc-4c12-bcad-f7fd-1e4071306b20 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1618 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006470_8341_E27> .
+
+onamaObject:Q1771-3456912d-4748-350a-7367-91a2c24bab8d a onama:Action ;
+    onama:hasVerb onamaObject:Q1770 .
+
+onamaObject:Q1771-3a1e2e5f-41c3-53f2-24b3-1c800f3b462c a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1391 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006470_8341_E16> .
+
+onamaObject:Q1771-4bcfdc24-4ad0-8808-c35c-f74acb657ecf a onama:PatientRole ;
+    onama:hasThing onamaObject:Q1772 .
+
+onamaObject:Q1771-581a08ee-43c9-cb29-7d9a-72a438fa06c9 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q516 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006470_8341_E68> .
+
+onamaObject:Q1771-95f887b2-4f5c-3efc-f51d-74bf96ae5c71 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1505 .
+
+onamaObject:Q1771-dbb72c94-486e-80f8-57a7-28749e5dac49 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1771-ea3372f6-4555-49ff-9d0a-68c7e0c5a244 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q506 .
+
+onamaObject:Q1772 a onama:Thing ;
+    rdfs:label "Torbogen"@de,
+        "archway"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q40097962> ;
+    schema:dateModified "2021-01-25T16:23:03+00:00"^^xsd:dateTime ;
+    schema:version 16596 .
+
+onamaObject:Q1773-5e198589-46e6-d065-0a5f-250ed53c5eca a onama:Co-AgentRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1773-6818fd37-43f0-ef92-706e-18f150a9444f a onama:Action ;
+    onama:hasVerb onamaObject:Q1775 .
+
+onamaObject:Q1773-8e6d39ee-4597-94e1-95b0-21ff878aa6dd a onama:PatientRole ;
+    onama:hasTemporalEntity onamaObject:Q1776 .
+
+onamaObject:Q1773-902e02cd-48db-2f99-24ab-c7d29627e854 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1774 .
+
+onamaObject:Q1775 a onama:Verb ;
+    rdfs:label "verhandeln, v."@de,
+        "negotiate, v."@en ;
+    schema:dateModified "2021-01-27T09:47:29+00:00"^^xsd:dateTime ;
+    schema:version 16620 .
+
+onamaObject:Q1776 a onama:TemporalEntity ;
+    rdfs:label "Frieden"@de,
+        "peace"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q454> ;
+    schema:dateModified "2021-01-27T11:06:00+00:00"^^xsd:dateTime ;
+    schema:version 16625 .
+
+onamaObject:Q1777-469c915e-4f75-352c-793b-5a10b081dbc8 a onama:Action ;
+    onama:hasVerb onamaObject:Q95 .
+
+onamaObject:Q1777-5460cb6b-4194-9165-d01f-4208a3c83b1f a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1774 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E20> .
+
+onamaObject:Q1777-d77e4307-490d-9fc7-7fb1-dc105b19fea0 a onama:Co-AgentRole ;
+    onama:hasActor onamaObject:Q1778 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E10> .
+
+onamaObject:Q1777-d9552c0d-480b-8d67-76fd-9fa1b4d1dd4e a onama:Co-AgentRole ;
+    onama:hasActor onamaObject:Q1762 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E2> .
+
+onamaObject:Q1777-ea952247-4180-b7ac-69cc-9419e8b1c25d a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1778 a onama:Person ;
+    rdfs:label "Diomedes"@de,
+        "Diomedes"@en ;
+    schema:dateModified "2021-01-27T12:35:44+00:00"^^xsd:dateTime ;
+    schema:description "Griechischer Held in mittelalterlichen Adaptionen des Trojaromans"@de,
+        "Greek hero in medieval adaptations of the troy story"@en ;
+    schema:version 16639 .
+
+onamaObject:Q1779-0325709a-473a-6bee-29f3-b2bfa7cfe801 a onama:ModeRole ;
+    onama:hasThing onamaObject:Q319 .
+
+onamaObject:Q1779-47841549-4c39-9eec-0ba4-f10c2af3630a a onama:SourceRole ;
+    onama:hasThing onamaObject:Q1781 .
+
+onamaObject:Q1779-89438a4d-4b50-ad80-55c2-464e0db38675 a onama:Action ;
+    onama:hasVerb onamaObject:Q1780 .
+
+onamaObject:Q1779-8f58dda2-446e-a7ea-823c-f6e36f1de9f8 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1774 .
+
+onamaObject:Q1779-902299c2-451a-37b3-f1b7-e44f8da7da77 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1384 .
 
 onamaObject:Q178-10a9f791-458d-09da-d469-e6300776007f a onama:PatientRole ;
     onama:hasThing onamaObject:Q180 .
@@ -10026,6 +10597,260 @@ onamaObject:Q178-a6f6ef11-4a64-95f7-82c4-956d542de911 a onama:Action ;
 
 onamaObject:Q178-ce673064-4d7c-183a-6804-3cf74a21d75a a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
+
+onamaObject:Q1780 a onama:Verb ;
+    rdfs:label "etw. herunterlassen, v."@de,
+        "lower sth., v."@en ;
+    schema:dateModified "2021-01-27T12:47:07+00:00"^^xsd:dateTime ;
+    schema:version 16652 .
+
+onamaObject:Q1782-688d674a-4d99-eaef-7dfe-d1d031e0b04a a onama:Action ;
+    onama:hasVerb onamaObject:Q1783 .
+
+onamaObject:Q1782-b9699615-4aa4-1c18-194a-919b3397ad55 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1782-ca8f6217-4555-5458-ec1e-fce7edd7aaef a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E77> ;
+    onama:hasThing onamaObject:Q1781 .
+
+onamaObject:Q1782-d95295a3-40f5-a49c-129b-ea89bed1ac7f a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E78> ;
+    onama:hasThing onamaObject:Q319 .
+
+onamaObject:Q1783 a onama:Verb ;
+    rdfs:label "hängen, v."@de,
+        "hang, v."@en ;
+    schema:dateModified "2021-01-27T12:58:13+00:00"^^xsd:dateTime ;
+    schema:version 16673 .
+
+onamaObject:Q1784-59cd213c-4ebc-971f-cb58-3ec15a0f66a0 a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q1786 .
+
+onamaObject:Q1784-828ea1bc-43f0-dcf2-2ad2-d6e81c307b8f a onama:Action ;
+    onama:hasVerb onamaObject:Q1785 .
+
+onamaObject:Q1784-a4e6bbac-4913-bbf2-2acf-a6dffa9fb25f a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1384 .
+
+onamaObject:Q1784-ac95e054-4adf-2452-307f-a4d8417203ad a onama:Co-AgentRole ;
+    onama:hasActor onamaObject:Q1393 .
+
+onamaObject:Q1787-0722b2a8-4a8f-0e68-da64-9f8c329f66e7 a onama:ThemeRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E70> ;
+    onama:hasThing onamaObject:Q1786 .
+
+onamaObject:Q1787-30361b76-4a0e-6e73-2e54-ceb740283c6d a onama:Co-AgentRole ;
+    onama:hasActor onamaObject:Q1393 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E29> .
+
+onamaObject:Q1787-75d3d315-4625-e8c7-c2b2-c1def0e5428b a onama:Action ;
+    onama:hasVerb onamaObject:Q1785 .
+
+onamaObject:Q1787-a2272061-4ce6-8bf0-bf56-d95b06f6c0c4 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q213 .
+
+onamaObject:Q1787-a5a33f2d-46d0-b882-70c3-73b51fb40c1e a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1384 ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E69> .
+
+onamaObject:Q1787-c300689c-4d95-f4ac-97c7-07f17e3a90a0 a onama:PlaceRole ;
+    onama:hasSceneNode <http://realonline.imareal.sbg.ac.at/rdf/v1/description/entity/006465_8336_E77> ;
+    onama:hasThing onamaObject:Q1781 .
+
+onamaObject:Q1789-34c9cb6f-4cf1-3202-d651-a792a3225f52 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1790-2e73d5c0-4e38-adb0-a217-5c12284456c6 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1791 .
+
+onamaObject:Q1790-76c2acb9-4b67-0fbf-5333-9daa3d19d156 a onama:Action ;
+    onama:hasVerb onamaObject:Q1792 .
+
+onamaObject:Q1790-882cbab8-4543-e823-37c4-40c744c24915 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1790-ad2b6864-4a34-2980-8c40-18bc75720a7b a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1790-f38ec881-4b2c-5ff9-1616-cfdb43f14abb a onama:PredicativeRole ;
+    onama:hasActor onamaObject:Q1415 .
+
+onamaObject:Q1792 a onama:Verb ;
+    rdfs:label "wählen, v."@de,
+        "elect, v."@en ;
+    schema:dateModified "2021-03-04T13:52:14+00:00"^^xsd:dateTime ;
+    schema:version 16743 ;
+    skos:altLabel "erwählen, v."@de .
+
+onamaObject:Q1793-78c85081-4bba-3c65-daf2-562690f572c1 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1793-bf6e9266-43ba-37cb-d5f5-b29959874e31 a onama:Action ;
+    onama:hasVerb onamaObject:Q1794 .
+
+onamaObject:Q1793-dc13a169-4201-f6a6-05dd-741ec6d76dfa a onama:SourceRole ;
+    onama:hasPlace onamaObject:Q1795 ;
+    onama:hasThing onamaObject:Q1795 .
+
+onamaObject:Q1793-e3a0fd8b-42fb-93dd-0f54-cc8142758ae9 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1797-4179198b-4ac4-f4e8-426b-c82ebc6ef446 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1797-6f3241dd-4157-ff25-8cc5-247e11044808 a onama:SourceRole ;
+    onama:hasPlace onamaObject:Q1795 ;
+    onama:hasThing onamaObject:Q1795 .
+
+onamaObject:Q1797-8291f247-4c10-c461-693d-b0a7bbdaa10b a onama:AgentRole ;
+    onama:hasActor onamaObject:Q506 .
+
+onamaObject:Q1797-91d7c1b6-474d-62c3-764a-856e431471f1 a onama:Action ;
+    onama:hasVerb onamaObject:Q1628 .
+
+onamaObject:Q1797-9f974551-4b49-bb55-e64e-1b4d9cd0d636 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1797-cb4dc4b5-4044-e1a0-e7e0-5482fc53c45b a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1797-e1048684-41fa-2fa6-ff44-e4f288a65054 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1799-0783239e-4854-db7a-e7ac-c36a1203bfef a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1799-158c5c1f-4079-ae3f-ef22-0aa13bd12261 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1799-5fb56a74-4b0b-7fda-2761-6e0e7d2d5e18 a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1791 .
+
+onamaObject:Q1799-6af1d51a-40d9-6149-a45e-104e946f4f07 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q785 .
+
+onamaObject:Q1799-a6500d5d-4e65-4fd7-72fd-e721937388e6 a onama:Action ;
+    onama:hasVerb onamaObject:Q1800 .
+
+onamaObject:Q1799-d81d894f-4176-7ed5-8d0d-2e12324e54e6 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1801-21262e4c-4f8a-3718-f796-a9331587f5cb a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1803 .
+
+onamaObject:Q1801-45e70977-4c01-2c85-31b0-03cdede94a2c a onama:Action ;
+    onama:hasVerb onamaObject:Q176 .
+
+onamaObject:Q1801-ab3445ce-4fc2-4fdf-5bce-b86b629bd817 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1801-c7cd44a6-4f2e-2593-f94a-71f2bcce2ea9 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1801-cdbd57a3-4c05-8790-2123-a4755ed4ce89 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1801-eabc9fb4-4408-7432-d351-724c58b08d8f a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1387 .
+
+onamaObject:Q1802-07af5993-423e-c4b1-e61c-62a011255cbe a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1803 .
+
+onamaObject:Q1802-76e4c587-4719-c02b-7bc8-6169bfe9b593 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1387 .
+
+onamaObject:Q1802-9c6ffdae-46b8-985f-0b16-66a73b7dbafe a onama:Action ;
+    onama:hasVerb onamaObject:Q176 .
+
+onamaObject:Q1804-38ae261d-48d3-8a9d-c872-434a8af81ba1 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1804-53032b85-4707-681d-7b37-ebe5339281d4 a onama:SourceRole ;
+    onama:hasPlace onamaObject:Q1795 ;
+    onama:hasThing onamaObject:Q1795 .
+
+onamaObject:Q1804-c6a4c408-4355-9bca-c24b-b728893e736b a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1804-f12d559f-43c2-f5b5-7126-29ff57b78790 a onama:Action ;
+    onama:hasVerb onamaObject:Q1794 .
+
+onamaObject:Q1805-22a970ae-4dd5-14bb-d778-5ac0636f5f07 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q506 .
+
+onamaObject:Q1805-35e023ff-4e35-42f3-50ca-4900ab683fa0 a onama:SourceRole ;
+    onama:hasPlace onamaObject:Q1795 ;
+    onama:hasThing onamaObject:Q1795 .
+
+onamaObject:Q1805-5522ffd9-4a0f-b955-5a39-10c2ec30fe8d a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1805-90c2c271-4fd9-f9ae-5dcd-2dcb17d3088e a onama:Action ;
+    onama:hasVerb onamaObject:Q1628 .
+
+onamaObject:Q1805-a7ea6bfa-4eca-2193-3e90-af43dc399474 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1805-beebfa53-4be0-0c65-8600-b7ffc0ae250c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1805-fbd72d9f-4d80-e4ea-d14e-b9eecc7bae2d a onama:ThemeRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1806-30dc2027-4aba-7cc7-8b49-87bb91832ccc a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1806-389cc397-4605-94d2-f181-840ee3a117b1 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1791 .
+
+onamaObject:Q1806-650d9d91-403f-e6c4-6191-e0914d4c936f a onama:Action ;
+    onama:hasVerb onamaObject:Q1800 .
+
+onamaObject:Q1806-eb4041cc-49f5-cbd8-3a7d-f5663ef4af78 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1806-f23b7bda-446b-e704-f937-9ed543a0b7f8 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q785 .
+
+onamaObject:Q1806-f2a4a3c6-462e-1835-3270-fb4f884741dd a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1807-01773ed9-4adf-4ad6-61ae-791f9f590220 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1807-227bf6cd-4ac4-758f-721a-3f2b5f1761b7 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1807-5dd0cfe9-46ba-523a-99cf-c987da5f9148 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1807-73745345-4f18-4306-3683-46b85c1e1149 a onama:Action ;
+    onama:hasVerb onamaObject:Q1809 .
+
+onamaObject:Q1807-95ce9903-44c8-ccf6-b7b2-9fd4ed1a556c a onama:StimulusRole ;
+    onama:hasActor onamaObject:Q1791 .
+
+onamaObject:Q1807-c2b287d5-4265-5039-24b0-f1616ba451ae a onama:StimulusRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1807-f00ec033-463a-c2d2-dbe2-ecd7e8d80967 a onama:ExperiencerRole ;
+    onama:hasActor onamaObject:Q1803 .
+
+onamaObject:Q1808-2aa6e0cc-4583-7726-b575-4e093b9def07 a onama:Action ;
+    onama:hasVerb onamaObject:Q1809 .
+
+onamaObject:Q1808-31a87c10-4c55-abbf-b0c1-a8b647182ff4 a onama:StimulusRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1808-3f6ab5e3-4449-e0b3-c894-8cee04b73f69 a onama:StimulusRole ;
+    onama:hasActor onamaObject:Q1791 .
+
+onamaObject:Q1808-6ee79bae-4f69-bab4-b0db-3a8617f61560 a onama:ExperiencerRole ;
+    onama:hasActor onamaObject:Q1803 .
+
+onamaObject:Q1808-ec63c12c-4e95-2ac2-77c1-3962fbee9b09 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
 
 onamaObject:Q181-124f0bcc-4c4f-8413-5417-df1d2c22e49f a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q130 .
@@ -10052,6 +10877,196 @@ onamaObject:Q181-d1092d2a-493b-25b3-5134-74b81c0abb98 a onama:ThemeRole ;
 
 onamaObject:Q181-e04a790b-466d-e3be-e7e5-6c93b150fab2 a onama:ThemeRole ;
     onama:hasThing onamaObject:Q727 .
+
+onamaObject:Q1810-125236de-490f-319a-45bc-724644b8032a a onama:Action ;
+    onama:hasVerb onamaObject:Q158 .
+
+onamaObject:Q1810-13b9c6f4-4f53-69e8-0651-c8b222b1c1d9 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1810-d922974a-4118-572c-4f44-8f9bc6eb4bb7 a onama:PredicativeRole ;
+    onama:hasActor onamaObject:Q1415 .
+
+onamaObject:Q1810-e8a230da-49f0-224a-b3fe-98a6c34d99c7 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1811-32b75734-40c1-b0b0-047a-c63f6b2bfc8d a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1811-4f7af24e-4901-ee23-f39e-341a9192d651 a onama:PatientRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1811-8fcd73b5-4791-26b5-a32f-cb5e00ece2ca a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1811-993963e2-4f27-b543-47a2-5ff743d7e541 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1803 .
+
+onamaObject:Q1811-cd27f2f1-4e11-ae8e-5aae-5b0f444cce6e a onama:AgentRole ;
+    onama:hasActor onamaObject:Q506 .
+
+onamaObject:Q1811-d2c76509-40bd-7bc5-fb76-e06170721ef7 a onama:Action ;
+    onama:hasVerb onamaObject:Q107 .
+
+onamaObject:Q1811-e7d7f45b-4e9d-e2db-0083-75f844344c84 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1812-99852bdd-4197-ab22-fa08-533137a0d682 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1791 .
+
+onamaObject:Q1812-9bc71c46-4bf9-8b23-072c-898a93c00b3a a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1812-b6b8be79-4560-1d10-b5c7-f653949c6228 a onama:Action ;
+    onama:hasVerb onamaObject:Q1800 .
+
+onamaObject:Q1812-d9fafc6c-43be-cd31-6f1e-76c4d009cbc0 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q785 .
+
+onamaObject:Q1812-df0f8564-4045-150f-2638-0e4200464231 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1812-fab2c8f9-4212-0c1f-77da-00f263a4ef1c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1813-4f98c6db-48b6-d9a7-7eea-c753020a7819 a onama:BenefactiveRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1813-67c04df3-400c-8331-9025-253d139834d5 a onama:Action ;
+    onama:hasVerb onamaObject:Q1614 .
+
+onamaObject:Q1813-7b141807-4878-94ee-61f4-f2b46c2cd536 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1813-dd8c4fcd-4689-2219-b3b1-70b664960501 a onama:PredicativeRole ;
+    onama:hasActor onamaObject:Q1415 .
+
+onamaObject:Q1814-3a704378-4dcc-159c-4426-6aaae84c7fd0 a onama:GoalRole ;
+    onama:hasActor onamaObject:Q1788 .
+
+onamaObject:Q1814-5395f226-49b8-8235-6cb4-15c32862d189 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1814-6980e7f1-4e8f-93a9-4b14-b14ce96658ec a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1387 .
+
+onamaObject:Q1814-76b954e8-4245-44fd-ca53-67d9640e3df8 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1815 .
+
+onamaObject:Q1814-95e79e5a-4c35-6da5-7cfc-59c4c9993ba9 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1803 .
+
+onamaObject:Q1814-a4726c3f-40dc-9a45-cfc9-acff63d389f0 a onama:ThemeRole ;
+    onama:hasThing onamaObject:Q1617 .
+
+onamaObject:Q1814-b1cac364-4b89-f117-627f-780353c824cd a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1814-b8c3efdc-4cac-9671-ad5c-f0f2808516b3 a onama:GoalRole ;
+    onama:hasThing onamaObject:Q785 .
+
+onamaObject:Q1814-cc10ce74-47b6-0e9c-be32-c4d210d0be8e a onama:Action ;
+    onama:hasVerb onamaObject:Q509 .
+
+onamaObject:Q1814-d400ca9d-483c-bbc1-72bd-e260d8f547ca a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1388 .
+
+onamaObject:Q1814-d6b13904-43b8-7e60-d6fd-87d9c6b5fa01 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1616 .
+
+onamaObject:Q1815 a onama:Person ;
+    rdfs:label "Messdiener"@de,
+        "altar server"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q139627> ;
+    schema:dateModified "2021-03-09T15:28:47+00:00"^^xsd:dateTime ;
+    schema:version 16984 ;
+    skos:altLabel "Ministrant"@de .
+
+onamaObject:Q1816-0f0e2138-47ca-81b0-63bc-8d14d0d9a079 a onama:PatientRole ;
+    onama:hasTemporalEntity onamaObject:Q1818 .
+
+onamaObject:Q1816-1722d6d5-4cae-0351-4837-4ea023d6ab28 a onama:Action ;
+    onama:hasVerb onamaObject:Q152 .
+
+onamaObject:Q1816-45375494-422d-a220-0b6e-96665417f655 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1816-7b87034b-4417-1d3a-6e06-ca73cfcb7d96 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q498 .
+
+onamaObject:Q1816-af82de11-4449-6613-cb3e-17eb29468f3d a onama:RecipientRole ;
+    onama:hasActor onamaObject:Q1817 .
+
+onamaObject:Q1819-1e3c9a0d-401c-7157-d42c-17234030fdbe a onama:Action ;
+    onama:hasVerb onamaObject:Q152 .
+
+onamaObject:Q1819-39187896-4a6b-30bf-df3e-4f7bceb60967 a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1819-3a987b20-4a76-5564-e0ef-1fb9b0cbbc95 a onama:WitnessRole ;
+    onama:hasActor onamaObject:Q1820 .
+
+onamaObject:Q1819-40b1e3ad-4e22-9551-41e8-b5053378dfc6 a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1212 .
+
+onamaObject:Q1819-557ca655-46b2-a631-fe5d-83ef69a2ff22 a onama:PatientRole ;
+    onama:hasTemporalEntity onamaObject:Q1818 .
+
+onamaObject:Q1819-811901be-41ee-3cba-a900-de64fce2ffed a onama:RecipientRole ;
+    onama:hasActor onamaObject:Q1817 .
+
+onamaObject:Q1819-9bbebc16-4e5b-79fb-7931-5e0773e12b77 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q498 .
+
+onamaObject:Q1819-d1ab6232-452a-2999-9851-6f4abd6da5bc a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1821-102f5983-4184-3b2f-94a9-428571cc9f4a a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
+
+onamaObject:Q1821-11f26b29-43af-ac6e-a26d-735a0fdc0235 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1820 .
+
+onamaObject:Q1821-3fc823d9-4681-401f-2ce0-ef844e91d4e0 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1817 .
+
+onamaObject:Q1821-452fa0f7-49e2-4fda-1a61-12315a0723a2 a onama:Action ;
+    onama:hasVerb onamaObject:Q976 .
+
+onamaObject:Q1822 a onama:VisualRealisation ;
+    rdfs:label "RO 018735 Frau und Tochter des Hl. Severus beim Spinnen"@de,
+        "RO 018735 Wife and daughter of St. Severus spinning"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018735> ;
+    onama:hasAction onamaObject:Q1822-9a057112-4f9c-b6fb-7f8f-7a86801c5fe8 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018735> ;
+    onama:hasSemanticRole onamaObject:Q1822-02666de7-4b63-dcdb-dfc5-a03223e6a4ad,
+        onamaObject:Q1822-8b783ce2-4027-c41e-421d-e7b8e4a8440c,
+        onamaObject:Q1822-b8313467-40e2-f152-8379-101839cb1f66,
+        onamaObject:Q1822-f1e47cfd-41ee-4513-5099-f5cde45a759d,
+        onamaObject:Q1822-f9403fc6-4f9d-38a9-fe43-a9970bccb53a ;
+    onama:occursSimultaneously onamaObject:Q1819 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1821 ;
+    schema:dateModified "2021-03-09T16:09:50+00:00"^^xsd:dateTime ;
+    schema:version 17047 .
+
+onamaObject:Q1822-02666de7-4b63-dcdb-dfc5-a03223e6a4ad a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1817 .
+
+onamaObject:Q1822-8b783ce2-4027-c41e-421d-e7b8e4a8440c a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q507 .
+
+onamaObject:Q1822-9a057112-4f9c-b6fb-7f8f-7a86801c5fe8 a onama:Action ;
+    onama:hasVerb onamaObject:Q976 .
+
+onamaObject:Q1822-b8313467-40e2-f152-8379-101839cb1f66 a onama:AgentRole ;
+    onama:hasActor onamaObject:Q1820 .
+
+onamaObject:Q1822-f1e47cfd-41ee-4513-5099-f5cde45a759d a onama:PlaceRole ;
+    onama:hasThing onamaObject:Q1212 .
+
+onamaObject:Q1822-f9403fc6-4f9d-38a9-fe43-a9970bccb53a a onama:PlaceRole ;
+    onama:hasPlace onamaObject:Q1796 .
 
 onamaObject:Q185-2e19270d-4d3a-5b5a-8ff2-f3e7e3539228 a onama:AgentRole ;
     onama:hasActor onamaObject:Q126 .
@@ -11300,13 +12315,6 @@ onamaObject:Q318 a onama:Verb ;
         "weave, v."@en ;
     schema:dateModified "2020-02-03T13:01:40+00:00"^^xsd:dateTime ;
     schema:version 11804 .
-
-onamaObject:Q319 a onama:Thing ;
-    rdfs:label "Korb"@de,
-        "basket"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q201097> ;
-    schema:dateModified "2019-08-30T12:14:21+00:00"^^xsd:dateTime ;
-    schema:version 2045 .
 
 onamaObject:Q321-52f1bb60-407a-86e3-0d56-5e8150a0d611 a onama:PlaceRole ;
     onama:hasPlace onamaObject:Q82 .
@@ -14831,13 +15839,6 @@ onamaObject:Q676-d4ec09ad-49b6-9612-c581-6fb4b9d61c2d a onama:TextPassage ;
 onamaObject:Q676-f6266f2f-45b3-12c3-9e2d-5388c1db19e2 a onama:Action ;
     onama:hasVerb onamaObject:Q671 .
 
-onamaObject:Q678 a onama:Thing ;
-    rdfs:label "Rauch, n."@de,
-        "smoke, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q130768> ;
-    schema:dateModified "2019-10-02T11:39:33+00:00"^^xsd:dateTime ;
-    schema:version 5055 .
-
 onamaObject:Q68-824e6f68-4533-17b3-6add-140e2882be02 a onama:PatientRole ;
     onama:hasThing onamaObject:Q70 .
 
@@ -15725,27 +16726,31 @@ onamaObject:Q741-f1143280-4a78-20ab-af16-182e96623d83 a onama:TextPassage ;
     onama:fromToken "TR_9202_0"^^xsd:string ;
     onama:toToken "TR_9206_4"^^xsd:string .
 
+onamaObject:Q743 a onama:EntityFunction,
+        onama:Person ;
+    rdfs:label "Entitätsfunktion Antagonist"@de,
+        "Entity Function Antagonist"@en ;
+    schema:dateModified "2020-07-07T07:34:30+00:00"^^xsd:dateTime ;
+    schema:version 14714 ;
+    skos:altLabel "Entitätsfunktion Gegenspieler"@de .
+
 onamaObject:Q744 a onama:Concept ;
     rdfs:label "Truchseß behauptet, den Drachen getötet zu haben"@de,
         "Senechal claims to have killed the dragon"@en ;
     onama:hasAction onamaObject:Q744-d7f62547-4bd9-7705-3d5a-c1bd82fe2fca,
         onamaObject:Q744-dff26b6f-45c5-4205-c632-430c6389b320 ;
-    onama:hasSemanticRole onamaObject:Q744-1f3a42c7-4e4b-bd36-4f75-abd1bf024c1e,
-        onamaObject:Q744-91018fbe-4ac9-fbbe-b1c6-4402c5c7e40f,
+    onama:hasSemanticRole onamaObject:Q744-91018fbe-4ac9-fbbe-b1c6-4402c5c7e40f,
         onamaObject:Q744-9b50569a-4a11-b56d-3254-c3800fe3fbbe ;
     onama:isRealisedBy onamaObject:Q746 ;
-    schema:dateModified "2019-10-03T13:45:05+00:00"^^xsd:dateTime ;
-    schema:version 5593 .
-
-onamaObject:Q744-1f3a42c7-4e4b-bd36-4f75-abd1bf024c1e a onama:AgentRole ;
-    onama:hasActor onamaObject:Q743 ;
-    onama:hasTemporaryEntityFunction onamaObject:Q743 .
+    schema:dateModified "2020-11-19T13:00:01+00:00"^^xsd:dateTime ;
+    schema:version 16082 .
 
 onamaObject:Q744-91018fbe-4ac9-fbbe-b1c6-4402c5c7e40f a onama:PatientRole ;
     onama:hasActor onamaObject:Q452 .
 
 onamaObject:Q744-9b50569a-4a11-b56d-3254-c3800fe3fbbe a onama:AgentRole ;
-    onama:hasActor onamaObject:Q714 .
+    onama:hasActor onamaObject:Q714 ;
+    onama:hasTemporaryEntityFunction onamaObject:Q743 .
 
 onamaObject:Q744-d7f62547-4bd9-7705-3d5a-c1bd82fe2fca a onama:Action ;
     onama:hasVerb onamaObject:Q471 .
@@ -18500,12 +19505,6 @@ onamaObject:Q94-691b66bc-403c-4a77-51fa-36d8b0bdba91 a onama:AgentRole ;
 onamaObject:Q94-a8921b2f-4582-415f-48c1-11ff47cfb8cf a onama:Action ;
     onama:hasVerb onamaObject:Q95 .
 
-onamaObject:Q946 a onama:Verb ;
-    rdfs:label "knien vor jem./etw., v."@de,
-        "kneel before so./sth., v."@en ;
-    schema:dateModified "2019-11-09T11:05:36+00:00"^^xsd:dateTime ;
-    schema:version 7938 .
-
 onamaObject:Q96-69b3ebb1-4905-4197-34ed-6cec7eaf7712 a onama:Action ;
     onama:hasVerb onamaObject:Q87 .
 
@@ -18840,13 +19839,6 @@ onamaObject:Q1083 a onama:Person ;
     schema:dateModified "2019-11-18T15:53:30+00:00"^^xsd:dateTime ;
     schema:version 9032 .
 
-onamaObject:Q1086 a onama:Person ;
-    rdfs:label "Hirte, n."@de,
-        "shepherd, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q81710> ;
-    schema:dateModified "2019-11-18T16:22:26+00:00"^^xsd:dateTime ;
-    schema:version 9054 .
-
 onamaObject:Q1087 a onama:Person ;
     rdfs:label "Paris"@de,
         "Paris"@en ;
@@ -19158,13 +20150,6 @@ onamaObject:Q1151 a onama:Concept ;
     schema:dateModified "2020-01-27T16:18:48+00:00"^^xsd:dateTime ;
     schema:version 11308 .
 
-onamaObject:Q1159 a onama:Thing ;
-    rdfs:label "Statuette"@de,
-        "statuette"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q16738862> ;
-    schema:dateModified "2019-12-12T16:34:42+00:00"^^xsd:dateTime ;
-    schema:version 9921 .
-
 onamaObject:Q1166 a onama:Concept ;
     rdfs:label "Medea beobachtet den abreisenden Jason von einem Turm aus"@de,
         "Medea watches the departing Jason from a tower"@en ;
@@ -19436,13 +20421,6 @@ onamaObject:Q1210 a onama:Concept ;
     schema:dateModified "2020-01-27T16:30:44+00:00"^^xsd:dateTime ;
     schema:version 11322 .
 
-onamaObject:Q1212 a onama:Thing ;
-    rdfs:label "Bank, n."@de,
-        "bench, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q204776> ;
-    schema:dateModified "2020-01-16T11:30:43+00:00"^^xsd:dateTime ;
-    schema:version 10543 .
-
 onamaObject:Q1224 a onama:VisualRealisation ;
     rdfs:label "RO 006372 Seemann trägt Sack von der Argo"@de,
         "RO 006372 Sailor carries bag off the Argo"@en ;
@@ -19696,13 +20674,6 @@ onamaObject:Q1291 a onama:Concept ;
     onama:isRealisedBy onamaObject:Q1293 ;
     schema:dateModified "2020-01-30T13:32:00+00:00"^^xsd:dateTime ;
     schema:version 11734 .
-
-onamaObject:Q1292 a onama:Animal ;
-    rdfs:label "Ochse, n."@de,
-        "ox, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q473194> ;
-    schema:dateModified "2020-01-30T11:06:23+00:00"^^xsd:dateTime ;
-    schema:version 11646 .
 
 onamaObject:Q1293 a onama:VisualRealisation ;
     rdfs:label "RO 008149 Die Ochsen bringen den Leichnam des Jakobus von selbst vor Königin Lupa"@de,
@@ -19995,65 +20966,6 @@ onamaObject:Q1383 a onama:Verb ;
     schema:dateModified "2020-02-17T09:53:26+00:00"^^xsd:dateTime ;
     schema:version 12486 .
 
-onamaObject:Q1385 a onama:VisualRealisation ;
-    rdfs:label "RO 006467 Adler raubt Trojanern ihr Opfertier vom Altar"@de,
-        "RO 006467 Eagle robs Trojan animal sacrifice from altar"@en ;
-    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006467> ;
-    onama:hasAction onamaObject:Q1385-2d34267b-497a-dca1-c471-4d1d0c9d9d08 ;
-    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006467> ;
-    onama:hasSemanticRole onamaObject:Q1385-0fa707bd-4f98-892c-56a4-b2f2a95e936f,
-        onamaObject:Q1385-1f6307a5-4c57-bb46-a301-6538539efeb8,
-        onamaObject:Q1385-572f9d7a-479f-6e32-24c5-8974debd050f,
-        onamaObject:Q1385-9123ff66-4a7d-e936-8eb3-58f40835a022,
-        onamaObject:Q1385-a852c936-41e9-5eab-8a44-20c62d87d522,
-        onamaObject:Q1385-a87ed1c2-4639-d31e-bf71-4042c2f781c3,
-        onamaObject:Q1385-bbd04085-4d3b-47a5-7d54-a44861f4d2a3,
-        onamaObject:Q1385-c8acfe19-4265-f7ef-7bc1-2f1f630997c8,
-        onamaObject:Q1385-d4e673ac-4520-a5fd-4bd7-50275d7647a0,
-        onamaObject:Q1385-f1949b92-4914-44de-a125-cf5068cce398 ;
-    onama:nextFabula onamaObject:Q1394 ;
-    onama:partOfCollection onamaObject:Q1155 ;
-    onama:realises onamaObject:Q1382 ;
-    schema:dateModified "2020-02-17T15:20:50+00:00"^^xsd:dateTime ;
-    schema:version 12591 .
-
-onamaObject:Q1390 a onama:Person ;
-    rdfs:label "Priester"@de,
-        "priest"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q42603> ;
-    schema:dateModified "2020-02-17T13:44:47+00:00"^^xsd:dateTime ;
-    schema:version 12538 ;
-    skos:altLabel "Priesterin"@de .
-
-onamaObject:Q1391 a onama:Person ;
-    rdfs:label "König"@de,
-        "king"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q12097> ;
-    schema:dateModified "2020-02-17T13:47:51+00:00"^^xsd:dateTime ;
-    schema:version 12545 .
-
-onamaObject:Q1394 a onama:VisualRealisation ;
-    rdfs:label "RO 006468 Adler bringt geraubtes Opfertier der Trojaner auf den Altar der Griechen"@de,
-        "RO 006468 Eagle brings Trojan animal sacrifice to the altar of the Greeks"@en ;
-    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006468> ;
-    onama:hasAction onamaObject:Q1394-b28cdb36-4552-bcac-94e2-791b2f53e5cb ;
-    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006468> ;
-    onama:hasSemanticRole onamaObject:Q1394-08cfe3d0-4a91-581a-2b6c-41a681689cef,
-        onamaObject:Q1394-12948b32-4a16-4593-888f-014f1ae6303e,
-        onamaObject:Q1394-4b05d503-4321-fa0e-bfd7-50f678da1cb2,
-        onamaObject:Q1394-4c44d401-4d8c-5c01-663d-d9fbfcd9152e,
-        onamaObject:Q1394-5ab8ed1a-4bbc-9347-7e95-c0b15aa1e3cf,
-        onamaObject:Q1394-6fd87e96-45c5-7f46-2e1d-8a5afcdce945,
-        onamaObject:Q1394-79e4f38c-4ef7-8061-d720-467f02f76765,
-        onamaObject:Q1394-9020bfed-4e78-c6b7-1b92-17d26384dad0,
-        onamaObject:Q1394-e41c3222-4636-f397-4ce6-37da0d07155b,
-        onamaObject:Q1394-e5c5f67f-48bf-79d6-eb28-4272fa811c55 ;
-    onama:partOfCollection onamaObject:Q1155 ;
-    onama:previousFabula onamaObject:Q1385 ;
-    onama:realises onamaObject:Q1392 ;
-    schema:dateModified "2020-02-18T14:03:54+00:00"^^xsd:dateTime ;
-    schema:version 12595 .
-
 onamaObject:Q1400 a onama:MythicalBeing ;
     rdfs:label "Riese"@de,
         "giant"@en ;
@@ -20096,13 +21008,6 @@ onamaObject:Q1411 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1409 ;
     schema:dateModified "2020-02-20T11:41:50+00:00"^^xsd:dateTime ;
     schema:version 12762 .
-
-onamaObject:Q1415 a onama:Person ;
-    rdfs:label "Bischof"@de,
-        "bishop"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q29182> ;
-    schema:dateModified "2020-02-20T11:45:28+00:00"^^xsd:dateTime ;
-    schema:version 12770 .
 
 onamaObject:Q1420 a onama:TextualRealisation ;
     rdfs:label "TRO Trojaner opfern Apollo auf dem Altar"@de,
@@ -20379,13 +21284,6 @@ onamaObject:Q1504 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1502 ;
     schema:dateModified "2020-04-01T17:18:34+00:00"^^xsd:dateTime ;
     schema:version 13945 .
-
-onamaObject:Q1505 a onama:Place ;
-    rdfs:label "Stadt"@de,
-        "city"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q515> ;
-    schema:dateModified "2020-04-01T17:11:14+00:00"^^xsd:dateTime ;
-    schema:version 13924 .
 
 onamaObject:Q1506 a onama:Collection ;
     rdfs:label "Bonaventura. Leben des Hl. Franziskus, Prag, Narodni Muzeum, Ms. C. 13"@de,
@@ -20881,6 +21779,12 @@ onamaObject:Q1613 a onama:Concept ;
     schema:dateModified "2020-07-31T09:05:11+00:00"^^xsd:dateTime ;
     schema:version 15226 .
 
+onamaObject:Q1614 a onama:Verb ;
+    rdfs:label "jmd./etw. weihen, v."@de,
+        "consecrate so./sth., v."@en ;
+    schema:dateModified "2020-07-31T09:00:51+00:00"^^xsd:dateTime ;
+    schema:version 15222 .
+
 onamaObject:Q1615 a onama:VisualRealisation ;
     rdfs:label "RO 016282 Konsekrator setzt Hl. Blasius die Mitra auf"@de,
         "RO 016282 Consecrator puts mitre on the head of St. Blaise"@en ;
@@ -20901,6 +21805,28 @@ onamaObject:Q1615 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1613 ;
     schema:dateModified "2020-07-31T10:38:55+00:00"^^xsd:dateTime ;
     schema:version 15262 .
+
+onamaObject:Q1616 a onama:Person ;
+    rdfs:label "Konsekrator"@de,
+        "consecrator"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4231232> ;
+    schema:dateModified "2020-07-31T09:28:36+00:00"^^xsd:dateTime ;
+    schema:version 15234 .
+
+onamaObject:Q1617 a onama:Thing ;
+    rdfs:label "Mitra"@de,
+        "mitre"@en ;
+    onama:hasRelatedIconClassEntry ic:11P31131 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q193888> ;
+    schema:dateModified "2020-07-31T09:33:28+00:00"^^xsd:dateTime ;
+    schema:version 15243 .
+
+onamaObject:Q1618 a onama:Person ;
+    rdfs:label "Geistlicher"@de,
+        "clergyman"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2259532> ;
+    schema:dateModified "2020-07-31T10:35:10+00:00"^^xsd:dateTime ;
+    schema:version 15258 .
 
 onamaObject:Q1619 a onama:Concept ;
     rdfs:label "Diokletian zwingt Christen zur Götzenanbetung"@de,
@@ -20926,12 +21852,6 @@ onamaObject:Q1621 a onama:Verb ;
         "force, v."@en ;
     schema:dateModified "2020-07-31T10:51:12+00:00"^^xsd:dateTime ;
     schema:version 15272 .
-
-onamaObject:Q1624 a onama:Verb ;
-    rdfs:label "anbeten, v."@de,
-        "worship, v."@en ;
-    schema:dateModified "2020-07-31T11:08:52+00:00"^^xsd:dateTime ;
-    schema:version 15294 .
 
 onamaObject:Q1629 a onama:Concept ;
     rdfs:label "Hl. Blasius versteckt sich in einer Höhle im Wald"@de,
@@ -21108,12 +22028,6 @@ onamaObject:Q1675 a onama:Concept ;
     schema:dateModified "2020-11-04T09:50:16+00:00"^^xsd:dateTime ;
     schema:version 15831 .
 
-onamaObject:Q1676 a onama:Verb ;
-    rdfs:label "sammeln, v."@de,
-        "collect, v."@en ;
-    schema:dateModified "2020-10-02T14:53:16+00:00"^^xsd:dateTime ;
-    schema:version 15752 .
-
 onamaObject:Q1679 a onama:Verb ;
     rdfs:label "foltern, v."@de,
         "torture, v."@en ;
@@ -21263,6 +22177,385 @@ onamaObject:Q1713 a onama:Verb ;
         "point, v."@en ;
     schema:dateModified "2020-11-06T11:24:10+00:00"^^xsd:dateTime ;
     schema:version 16065 .
+
+onamaObject:Q1716 a onama:Person ;
+    rdfs:label "Joseph von Nazareth"@de,
+        "Joseph"@en ;
+    onama:hasIconClassEquivalent <http://iconclass.org/11H%28JOSEPH%29> ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q128267> ;
+    schema:dateModified "2020-12-09T08:39:36+00:00"^^xsd:dateTime ;
+    schema:description "Ehemann Marias, der Mutter Jesu"@de,
+        "Husband of Mary and father of Jesus"@en ;
+    schema:version 16095 .
+
+onamaObject:Q1725 a onama:Concept ;
+    rdfs:label "Ochs und Esel an der Krippe"@de,
+        "Ox and ass at the manger"@en ;
+    onama:broader onamaObject:Q1726 ;
+    onama:hasAction onamaObject:Q1725-d300e82c-4e06-bce6-aff5-3805b328cc81 ;
+    onama:hasIconClassEquivalent ic:73B281 ;
+    onama:hasSemanticRole onamaObject:Q1725-50cc6806-4ecb-4ce5-78f2-9015e6c95989,
+        onamaObject:Q1725-5930ddde-40d9-fa42-05dd-e16ca4c586cc,
+        onamaObject:Q1725-598f6603-453b-1906-9cf1-3178c6fe5a2c,
+        onamaObject:Q1725-8336b5d6-4ecc-5723-5620-d11fd5d40ae1 ;
+    onama:narrower onamaObject:Q1728 ;
+    schema:dateModified "2020-12-09T16:15:00+00:00"^^xsd:dateTime ;
+    schema:version 16282 .
+
+onamaObject:Q1731 a onama:Concept ;
+    rdfs:label "Engel des Herrn verkündigt Geburt Christi an Hirten/Hirtinnen"@de,
+        "Angel of the Lord announces birth of Christ to shepherds/shepherdesses"@en ;
+    onama:broader onamaObject:Q1726 ;
+    onama:hasAction onamaObject:Q1731-eb279991-4d71-1379-64a9-4f2d7517baca ;
+    onama:hasIconClassEquivalent ic:73B14 ;
+    onama:hasSemanticRole onamaObject:Q1731-4e4cf6da-4443-3512-5c24-992da4884971,
+        onamaObject:Q1731-7862de70-490d-df7a-60e2-37abdeff52a7,
+        onamaObject:Q1731-a77b50fe-4858-161e-9731-83b34211f9c6 ;
+    onama:isRealisedBy onamaObject:Q1733 ;
+    schema:dateModified "2020-12-09T15:45:39+00:00"^^xsd:dateTime ;
+    schema:version 16259 .
+
+onamaObject:Q1734 a onama:Collection ;
+    rdfs:label "Gundacker von Judenburg: Christi Hort"@de,
+        "Gundacker of Judenburg: Christi Hort"@en ;
+    onama:hasMhdbdbSigilURL <http://www.mhdbdb.sbg.ac.at:8000/mhdbdb/App?action=TextInfoEdit&text=CHH> ;
+    onama:hasSigil "CHH"^^xsd:string ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1554554> ;
+    schema:dateModified "2020-12-21T09:38:16+00:00"^^xsd:dateTime ;
+    schema:version 16289 .
+
+onamaObject:Q1740 a onama:Concept ;
+    rdfs:label "Trojaner sammeln Gold, Silber und Getreide im Minervatempel"@de,
+        "Trojans collect gold, silver and grain in the Temple of Minerva"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1740-e002c73c-434c-b021-4e02-b021625cdb5b ;
+    onama:hasSemanticRole onamaObject:Q1740-54f4c973-4270-ee75-1759-d4ab1c8c24bb,
+        onamaObject:Q1740-5b9697a1-4955-a7e1-5e0e-07cb5488491d,
+        onamaObject:Q1740-64ca68e8-473d-f5e5-6339-03fb14830ecb,
+        onamaObject:Q1740-6fd4ee25-4ae1-6ff6-afea-cbea529e8222,
+        onamaObject:Q1740-94e4b046-4824-ac42-a27e-20f117fcd5e7 ;
+    onama:isRealisedBy onamaObject:Q1746 ;
+    schema:dateModified "2021-01-25T11:26:56+00:00"^^xsd:dateTime ;
+    schema:version 16363 .
+
+onamaObject:Q1743 a onama:Thing ;
+    rdfs:label "Gold"@de,
+        "gold"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q897> ;
+    schema:dateModified "2021-01-25T11:23:57+00:00"^^xsd:dateTime ;
+    schema:version 16350 .
+
+onamaObject:Q1747 a onama:Place,
+        onama:Thing ;
+    rdfs:label "Fußboden"@de,
+        "floor"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q217164> ;
+    schema:dateModified "2021-01-25T12:17:07+00:00"^^xsd:dateTime ;
+    schema:description "begehbare Fläche in einem Gebäude"@de,
+        "walking surface of a room"@en ;
+    schema:version 16381 ;
+    skos:altLabel "Boden"@de .
+
+onamaObject:Q1748 a onama:Concept ;
+    rdfs:label "Das Feuer auf dem trojanischen Altar erlischt plötzlich"@de,
+        "The fire on the Trojan altar suddenly goes out"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1748-8881463b-4f96-ef2d-de26-53cbdee08e8b ;
+    onama:hasSemanticRole onamaObject:Q1748-ea7003ce-45c5-ffc3-98fd-71301f6dfdd3 ;
+    onama:isRealisedBy onamaObject:Q1750 ;
+    schema:dateModified "2021-01-25T12:32:02+00:00"^^xsd:dateTime ;
+    schema:version 16399 .
+
+onamaObject:Q1753 a onama:Concept ;
+    rdfs:label "Pylaemenes und seine Krieger verlassen Troja gemeinsam mit den Amazonen, die den Leichnam der Penthesilea mitnehmen"@de,
+        "Pylaemenes and his warriors leave Troy together with the Amazons, who take Penthesilea's body with them"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1753-3ac4386c-4480-3935-fb60-4610cb8364b1 ;
+    onama:hasSemanticRole onamaObject:Q1753-172b0f03-4bd4-6d99-3f66-0b3368b4dee5,
+        onamaObject:Q1753-1eed5a75-47ee-27a5-9b28-592c75901f9e,
+        onamaObject:Q1753-9aae527d-47e5-24ea-44eb-6688fbea2e9b,
+        onamaObject:Q1753-e915f269-4a79-feb2-7d30-d0358054c9a7 ;
+    onama:isRealisedBy onamaObject:Q1757 ;
+    schema:dateModified "2021-01-25T14:34:48+00:00"^^xsd:dateTime ;
+    schema:version 16483 .
+
+onamaObject:Q1754 a onama:Person ;
+    rdfs:label "Pylaemenes"@de,
+        "Pylaemenes"@en ;
+    onama:hasGeneralEntityFunction onamaObject:Q232 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1241841> ;
+    schema:dateModified "2021-01-25T14:19:56+00:00"^^xsd:dateTime ;
+    schema:description "König aus der griechischen Mythologie"@de,
+        "mythical Greek king"@en ;
+    schema:version 16463 .
+
+onamaObject:Q1755 a onama:Group ;
+    rdfs:label "Amazonen"@de,
+        "Amazons"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q134154> ;
+    schema:dateModified "2021-01-25T14:17:40+00:00"^^xsd:dateTime ;
+    schema:version 16454 .
+
+onamaObject:Q1756 a onama:Person ;
+    rdfs:label "Penthesilea"@de,
+        "Penthesilea"@en ;
+    onama:hasGeneralEntityFunction onamaObject:Q232 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q379828> ;
+    schema:dateModified "2021-01-25T14:21:25+00:00"^^xsd:dateTime ;
+    schema:version 16466 .
+
+onamaObject:Q1758 a onama:Concept ;
+    rdfs:label "Trojaner und Griechen schwören, den Frieden zu wahren"@de,
+        "Trojans and Greeks swar to uphold the peace"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1758-dbc25155-47af-b463-7ae5-5eefa4bb5384 ;
+    onama:hasSemanticRole onamaObject:Q1758-2195d766-4429-dfd2-7a32-17cc333bc11d,
+        onamaObject:Q1758-b126aefd-457d-24f0-8cef-7389b72c3095,
+        onamaObject:Q1758-f303cc6d-4954-7fbf-2c3a-f08b4a7dd52a ;
+    onama:isRealisedBy onamaObject:Q1760 ;
+    schema:dateModified "2021-01-25T14:51:50+00:00"^^xsd:dateTime ;
+    schema:version 16499 .
+
+onamaObject:Q1762 a onama:Person ;
+    rdfs:label "Agamemnon"@de,
+        "Agamemnon"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q128176> ;
+    schema:dateModified "2021-01-25T15:03:25+00:00"^^xsd:dateTime ;
+    schema:version 16513 .
+
+onamaObject:Q1763 a onama:Concept ;
+    rdfs:label "Der Fall Trojas: Das griechische Heer zerstört Troja"@de,
+        "The fall of Troy: The Greek army destroys Troy"@en ;
+    onama:hasAction onamaObject:Q1763-59d332c5-4c6a-9407-cb59-ffcf3e3c69fd ;
+    onama:hasSemanticRole onamaObject:Q1763-660dbfef-4092-c13a-b9f2-0ba4d17a48c6,
+        onamaObject:Q1763-673338eb-4c94-ae4d-3cc7-cfdbe2f52d37 ;
+    onama:narrower onamaObject:Q1764,
+        onamaObject:Q1769 ;
+    schema:dateModified "2021-01-25T15:29:08+00:00"^^xsd:dateTime ;
+    schema:version 16535 .
+
+onamaObject:Q1764 a onama:Concept ;
+    rdfs:label "Die Griechen übergeben das trojanische Pferd an die Stadt Troja"@de,
+        "The Greeks hand over the Trojan horse to the city of Troy"@en ;
+    onama:broader onamaObject:Q1763 ;
+    onama:hasAction onamaObject:Q1764-0adae2e5-48b3-bca9-b3f8-ff14736693e5 ;
+    onama:hasSemanticRole onamaObject:Q1764-16fcef75-44ac-48ae-ec61-4588b0b9d1ec,
+        onamaObject:Q1764-279a04e8-4ed3-4b95-d796-8e8580cee913,
+        onamaObject:Q1764-44d75e3e-4b92-c8ae-f84a-c7b810a3942f ;
+    onama:hasSupplementaryConcept onamaObject:Q1769 ;
+    onama:isRealisedBy onamaObject:Q1767 ;
+    schema:dateModified "2021-01-25T16:11:25+00:00"^^xsd:dateTime ;
+    schema:version 16585 .
+
+onamaObject:Q1766 a onama:Thing ;
+    rdfs:label "Trojanisches Pferd"@de,
+        "Trojan horse"@en ;
+    schema:dateModified "2021-01-25T15:46:02+00:00"^^xsd:dateTime ;
+    schema:version 16549 .
+
+onamaObject:Q1768 a onama:Thing ;
+    rdfs:label "Stadttor"@de,
+        "city gate"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q82117> ;
+    schema:dateModified "2021-01-25T16:04:00+00:00"^^xsd:dateTime ;
+    schema:version 16567 .
+
+onamaObject:Q1770 a onama:Verb ;
+    rdfs:label "demolieren, v."@de,
+        "demolish, v."@en ;
+    schema:dateModified "2021-01-25T16:10:48+00:00"^^xsd:dateTime ;
+    schema:version 16582 .
+
+onamaObject:Q1771 a onama:VisualRealisation ;
+    rdfs:label "RO 006470 Handwerker demoliert Torbogen des trojanischen Stadttors"@de,
+        "RO 006470 Craftsman demolioshes archway of Trojan city gate"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006470> ;
+    onama:hasAction onamaObject:Q1771-3456912d-4748-350a-7367-91a2c24bab8d ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006470> ;
+    onama:hasSemanticRole onamaObject:Q1771-0c028a65-4ffc-d767-7c12-dd014d1f4ee1,
+        onamaObject:Q1771-1b98e7fc-4c12-bcad-f7fd-1e4071306b20,
+        onamaObject:Q1771-3a1e2e5f-41c3-53f2-24b3-1c800f3b462c,
+        onamaObject:Q1771-4bcfdc24-4ad0-8808-c35c-f74acb657ecf,
+        onamaObject:Q1771-581a08ee-43c9-cb29-7d9a-72a438fa06c9,
+        onamaObject:Q1771-95f887b2-4f5c-3efc-f51d-74bf96ae5c71,
+        onamaObject:Q1771-dbb72c94-486e-80f8-57a7-28749e5dac49,
+        onamaObject:Q1771-ea3372f6-4555-49ff-9d0a-68c7e0c5a244 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:previousFabula onamaObject:Q1767 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1769 ;
+    schema:dateModified "2021-01-25T16:27:52+00:00"^^xsd:dateTime ;
+    schema:version 16606 .
+
+onamaObject:Q1773 a onama:Concept ;
+    rdfs:label "Antenor verhandelt vorgeblich den Frieden mit den Griechen"@de,
+        "Antenor ostensibly negotiates peace with the Greeks"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1773-6818fd37-43f0-ef92-706e-18f150a9444f ;
+    onama:hasSemanticRole onamaObject:Q1773-5e198589-46e6-d065-0a5f-250ed53c5eca,
+        onamaObject:Q1773-8e6d39ee-4597-94e1-95b0-21ff878aa6dd,
+        onamaObject:Q1773-902e02cd-48db-2f99-24ab-c7d29627e854 ;
+    onama:hasSupplementaryConcept onamaObject:Q1779 ;
+    onama:isRealisedBy onamaObject:Q1777 ;
+    schema:dateModified "2021-01-27T12:50:10+00:00"^^xsd:dateTime ;
+    schema:version 16661 .
+
+onamaObject:Q1782 a onama:VisualRealisation ;
+    rdfs:label "RO 006464 Leerer Korb hängt an trojanischer Stadtmauer"@de,
+        "RO 006464 Empty basket hangs on Trojan city wall"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006464> ;
+    onama:hasAction onamaObject:Q1782-688d674a-4d99-eaef-7dfe-d1d031e0b04a ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006464> ;
+    onama:hasSemanticRole onamaObject:Q1782-b9699615-4aa4-1c18-194a-919b3397ad55,
+        onamaObject:Q1782-ca8f6217-4555-5458-ec1e-fce7edd7aaef,
+        onamaObject:Q1782-d95295a3-40f5-a49c-129b-ea89bed1ac7f ;
+    onama:occursSimultaneously onamaObject:Q1777 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1779 ;
+    schema:dateModified "2021-01-27T13:00:21+00:00"^^xsd:dateTime ;
+    schema:version 16679 .
+
+onamaObject:Q1784 a onama:Concept ;
+    rdfs:label "Trojaner und Griechen halten als Friedenszeichen Ölzweige in die Höhe"@de,
+        "Trojans and Greeks hold up olive branches as a sign of peace"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1784-828ea1bc-43f0-dcf2-2ad2-d6e81c307b8f ;
+    onama:hasSemanticRole onamaObject:Q1784-59cd213c-4ebc-971f-cb58-3ec15a0f66a0,
+        onamaObject:Q1784-a4e6bbac-4913-bbf2-2acf-a6dffa9fb25f,
+        onamaObject:Q1784-ac95e054-4adf-2452-307f-a4d8417203ad ;
+    onama:isRealisedBy onamaObject:Q1787 ;
+    schema:dateModified "2021-01-27T13:12:14+00:00"^^xsd:dateTime ;
+    schema:version 16698 .
+
+onamaObject:Q1785 a onama:Verb ;
+    rdfs:label "etw. hochhalten, v."@de,
+        "hold sth. up, v."@en ;
+    schema:dateModified "2021-01-27T13:10:41+00:00"^^xsd:dateTime ;
+    schema:version 16691 .
+
+onamaObject:Q1786 a onama:Thing ;
+    rdfs:label "Ölzweig"@de,
+        "olive branch"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q138550> ;
+    schema:dateModified "2021-01-27T13:12:07+00:00"^^xsd:dateTime ;
+    schema:version 16697 ;
+    skos:altLabel "Olivenzweig"@de .
+
+onamaObject:Q1787 a onama:VisualRealisation ;
+    rdfs:label "RO 006464 Trojaner und Griechen halten als Friedenszeichen Ölzweige in die Höhe"@de,
+        "RO 006464 Trojans and Greeks hold up olive branches as a sign of peace"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006464> ;
+    onama:hasAction onamaObject:Q1787-75d3d315-4625-e8c7-c2b2-c1def0e5428b ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006464> ;
+    onama:hasSemanticRole onamaObject:Q1787-0722b2a8-4a8f-0e68-da64-9f8c329f66e7,
+        onamaObject:Q1787-30361b76-4a0e-6e73-2e54-ceb740283c6d,
+        onamaObject:Q1787-a2272061-4ce6-8bf0-bf56-d95b06f6c0c4,
+        onamaObject:Q1787-a5a33f2d-46d0-b882-70c3-73b51fb40c1e,
+        onamaObject:Q1787-c300689c-4d95-f4ac-97c7-07f17e3a90a0 ;
+    onama:nextFabula onamaObject:Q1777 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:realises onamaObject:Q1784 ;
+    schema:dateModified "2021-01-27T13:19:14+00:00"^^xsd:dateTime ;
+    schema:version 16712 .
+
+onamaObject:Q1794 a onama:Verb ;
+    rdfs:label "jmd./etw. hinauswerfen, v."@de,
+        "throw so./sth. out, v."@en ;
+    schema:dateModified "2021-03-04T14:03:17+00:00"^^xsd:dateTime ;
+    schema:version 16755 ;
+    skos:altLabel "hinauswerfen, v."@de .
+
+onamaObject:Q1802 a onama:Concept ;
+    rdfs:label "Chorherren beten am Altar"@de,
+        "Canons pray at the altar"@en ;
+    onama:hasAction onamaObject:Q1802-9c6ffdae-46b8-985f-0b16-66a73b7dbafe ;
+    onama:hasSemanticRole onamaObject:Q1802-07af5993-423e-c4b1-e61c-62a011255cbe,
+        onamaObject:Q1802-76e4c587-4719-c02b-7bc8-6169bfe9b593 ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1801 ;
+    schema:dateModified "2021-03-04T15:11:47+00:00"^^xsd:dateTime ;
+    schema:version 16820 .
+
+onamaObject:Q1807 a onama:VisualRealisation ;
+    rdfs:label "RO 018732 Chorherren werden auf Hl. Severus und die Taube aufmerksam"@de,
+        "RO 018732 Canons become aware of St. Severus and the dove"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018732> ;
+    onama:hasAction onamaObject:Q1807-73745345-4f18-4306-3683-46b85c1e1149 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018732> ;
+    onama:hasSemanticRole onamaObject:Q1807-01773ed9-4adf-4ad6-61ae-791f9f590220,
+        onamaObject:Q1807-227bf6cd-4ac4-758f-721a-3f2b5f1761b7,
+        onamaObject:Q1807-5dd0cfe9-46ba-523a-99cf-c987da5f9148,
+        onamaObject:Q1807-95ce9903-44c8-ccf6-b7b2-9fd4ed1a556c,
+        onamaObject:Q1807-c2b287d5-4265-5039-24b0-f1616ba451ae,
+        onamaObject:Q1807-f00ec033-463a-c2d2-dbe2-ecd7e8d80967 ;
+    onama:occursSimultaneously onamaObject:Q1805,
+        onamaObject:Q1806 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1808 ;
+    schema:dateModified "2021-03-09T11:09:12+00:00"^^xsd:dateTime ;
+    schema:version 16903 .
+
+onamaObject:Q1808 a onama:Concept ;
+    rdfs:label "Chorherren werden auf Hl. Severus und die Taube aufmerksam"@de,
+        "Canons become aware of St. Severus and the dove"@en ;
+    onama:hasAction onamaObject:Q1808-2aa6e0cc-4583-7726-b575-4e093b9def07 ;
+    onama:hasSemanticRole onamaObject:Q1808-31a87c10-4c55-abbf-b0c1-a8b647182ff4,
+        onamaObject:Q1808-3f6ab5e3-4449-e0b3-c894-8cee04b73f69,
+        onamaObject:Q1808-6ee79bae-4f69-bab4-b0db-3a8617f61560,
+        onamaObject:Q1808-ec63c12c-4e95-2ac2-77c1-3962fbee9b09 ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1807 ;
+    schema:dateModified "2021-03-09T11:05:06+00:00"^^xsd:dateTime ;
+    schema:version 16889 .
+
+onamaObject:Q1809 a onama:Verb ;
+    rdfs:label "aufmerksam werden, v."@de,
+        "become aware, v."@en ;
+    schema:dateModified "2021-03-09T11:04:25+00:00"^^xsd:dateTime ;
+    schema:version 16885 .
+
+onamaObject:Q1813 a onama:Concept ;
+    rdfs:label "St. Severus wird zum Bischof geweiht"@de,
+        "St. Severus is consecrated bishop"@en ;
+    onama:broader onamaObject:Q1789 ;
+    onama:hasAction onamaObject:Q1813-67c04df3-400c-8331-9025-253d139834d5 ;
+    onama:hasIconClassEquivalent <http://iconclass.org/11H%28SEVERUS%2932> ;
+    onama:hasSemanticRole onamaObject:Q1813-4f98c6db-48b6-d9a7-7eea-c753020a7819,
+        onamaObject:Q1813-7b141807-4878-94ee-61f4-f2b46c2cd536,
+        onamaObject:Q1813-dd8c4fcd-4689-2219-b3b1-70b664960501 ;
+    onama:isRealisedBy onamaObject:Q1814 ;
+    schema:dateModified "2021-03-09T15:00:51+00:00"^^xsd:dateTime ;
+    schema:version 16955 .
+
+onamaObject:Q1816 a onama:Concept ;
+    rdfs:label "Boten berichten der Frau des Hl. Severus von der Bischofsweihe"@de,
+        "Messengers tell the wife of St. Severus about the episcopal consecration"@en ;
+    onama:broader onamaObject:Q1789 ;
+    onama:hasAction onamaObject:Q1816-1722d6d5-4cae-0351-4837-4ea023d6ab28 ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28SEVERUS%294> ;
+    onama:hasSemanticRole onamaObject:Q1816-0f0e2138-47ca-81b0-63bc-8d14d0d9a079,
+        onamaObject:Q1816-45375494-422d-a220-0b6e-96665417f655,
+        onamaObject:Q1816-7b87034b-4417-1d3a-6e06-ca73cfcb7d96,
+        onamaObject:Q1816-af82de11-4449-6613-cb3e-17eb29468f3d ;
+    onama:hasSupplementaryConcept onamaObject:Q1821 ;
+    onama:isRealisedBy onamaObject:Q1819 ;
+    schema:dateModified "2021-03-09T16:05:28+00:00"^^xsd:dateTime ;
+    schema:version 17034 .
+
+onamaObject:Q1818 a onama:TemporalEntity ;
+    rdfs:label "Bischofsweihe"@de,
+        "episcopal consecration"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q40092973> ;
+    schema:dateModified "2021-03-09T15:46:36+00:00"^^xsd:dateTime ;
+    schema:version 17002 .
+
+onamaObject:Q1821 a onama:Concept ;
+    rdfs:label "Frau und Tochter des Hl. Severus beim Spinnen"@de,
+        "Wife and daughter of St. Severus spinning"@en ;
+    onama:hasAction onamaObject:Q1821-452fa0f7-49e2-4fda-1a61-12315a0723a2 ;
+    onama:hasSemanticRole onamaObject:Q1821-102f5983-4184-3b2f-94a9-428571cc9f4a,
+        onamaObject:Q1821-11f26b29-43af-ac6e-a26d-735a0fdc0235,
+        onamaObject:Q1821-3fc823d9-4681-401f-2ce0-ef844e91d4e0 ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1822 ;
+    schema:dateModified "2021-03-09T16:04:19+00:00"^^xsd:dateTime ;
+    schema:version 17032 .
 
 onamaObject:Q198 a onama:Concept ;
     rdfs:label "Jason fragt Herakles um Begleitung"@de,
@@ -21666,12 +22959,6 @@ onamaObject:Q492 a onama:Concept ;
     schema:dateModified "2019-10-18T13:35:12+00:00"^^xsd:dateTime ;
     schema:version 6841 .
 
-onamaObject:Q516 a onama:Person ;
-    rdfs:label "Handwerker"@de,
-        "craftsman"@en ;
-    schema:dateModified "2019-09-18T12:23:28+00:00"^^xsd:dateTime ;
-    schema:version 3689 .
-
 onamaObject:Q521 a onama:Verb ;
     rdfs:label "ziehen, v,"@de,
         "pull, v."@en ;
@@ -22012,6 +23299,13 @@ onamaObject:Q672 a onama:Concept ;
     schema:dateModified "2019-10-31T14:58:16+00:00"^^xsd:dateTime ;
     schema:version 7848 .
 
+onamaObject:Q678 a onama:Thing ;
+    rdfs:label "Rauch, n."@de,
+        "smoke, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q130768> ;
+    schema:dateModified "2019-10-02T11:39:33+00:00"^^xsd:dateTime ;
+    schema:version 5055 .
+
 onamaObject:Q679 a onama:Thing ;
     rdfs:label "Wind, n."@de,
         "wind, n."@en ;
@@ -22219,27 +23513,12 @@ onamaObject:Q742 a onama:Verb ;
     schema:version 14612 ;
     skos:altLabel "fordern, v."@de .
 
-onamaObject:Q743 a onama:EntityFunction,
-        onama:Person ;
-    rdfs:label "Entitätsfunktion Antagonist"@de,
-        "Entity Function Antagonist"@en ;
-    schema:dateModified "2020-07-07T07:34:30+00:00"^^xsd:dateTime ;
-    schema:version 14714 ;
-    skos:altLabel "Entitätsfunktion Gegenspieler"@de .
-
 onamaObject:Q748 a onama:Verb ;
     rdfs:label "(etw.) ablegen, v."@de,
         "take (sth.) off, v."@en ;
     schema:dateModified "2019-10-03T13:53:22+00:00"^^xsd:dateTime ;
     schema:version 5620 ;
     skos:altLabel "(etw.) ausziehen, v."@de .
-
-onamaObject:Q749 a onama:Thing ;
-    rdfs:label "Hut"@de,
-        "hat"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q80151> ;
-    schema:dateModified "2019-10-03T14:03:51+00:00"^^xsd:dateTime ;
-    schema:version 5624 .
 
 onamaObject:Q752 a onama:Verb ;
     rdfs:label "schicken, v."@de,
@@ -22285,13 +23564,6 @@ onamaObject:Q777 a onama:Concept ;
         onamaObject:Q800 ;
     schema:dateModified "2019-10-04T11:51:04+00:00"^^xsd:dateTime ;
     schema:version 5990 .
-
-onamaObject:Q785 a onama:Thing ;
-    rdfs:label "Kopf, n."@de,
-        "head, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q23640> ;
-    schema:dateModified "2019-10-04T14:55:07+00:00"^^xsd:dateTime ;
-    schema:version 6056 .
 
 onamaObject:Q788 a onama:Thing ;
     rdfs:label "Klaue; Kralle"@de,
@@ -22470,6 +23742,18 @@ onamaObject:Q815 a onama:Verb ;
     schema:dateModified "2020-06-22T11:14:00+00:00"^^xsd:dateTime ;
     schema:version 14634 ;
     skos:altLabel "sich sonnen, v."@de .
+
+onamaObject:Q832 a onama:Person ;
+    rdfs:label "Maria"@de,
+        "Mary"@en ;
+    onama:hasIconClassEquivalent ic:11F ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q345> ;
+    schema:dateModified "2020-12-09T08:43:01+00:00"^^xsd:dateTime ;
+    schema:description "Mutter von Jesus"@de,
+        "Mother of Jesus of Nazareth"@en ;
+    schema:version 16099 ;
+    skos:altLabel "Muttergottes"@de,
+        "Mother of God"@en .
 
 onamaObject:Q835 a onama:Verb ;
     rdfs:label "wegschicken, v."@de,
@@ -22847,6 +24131,12 @@ onamaObject:Q93 a onama:MythicalBeing ;
     schema:dateModified "2020-05-20T09:34:55+00:00"^^xsd:dateTime ;
     schema:version 14138 .
 
+onamaObject:Q946 a onama:Verb ;
+    rdfs:label "knien vor jem./etw., v."@de,
+        "kneel before so./sth., v."@en ;
+    schema:dateModified "2019-11-09T11:05:36+00:00"^^xsd:dateTime ;
+    schema:version 7938 .
+
 onamaObject:Q96 a onama:Concept ;
     rdfs:label "Wolf zeigt dem hl. Antonius Abbas den Weg zum hl. Paulus Eremita"@de,
         "Wolf shows St. Antony Abbot the way to St. Paul the Hermit"@en ;
@@ -22859,6 +24149,12 @@ onamaObject:Q96 a onama:Concept ;
     onama:isRealisedBy onamaObject:Q100 ;
     schema:dateModified "2020-05-20T09:33:48+00:00"^^xsd:dateTime ;
     schema:version 14135 .
+
+onamaObject:Q976 a onama:Verb ;
+    rdfs:label "spinnen, v."@de,
+        "spin, v."@en ;
+    schema:dateModified "2019-11-11T15:12:48+00:00"^^xsd:dateTime ;
+    schema:version 8149 .
 
 onamaObject:Q982 a onama:Verb ;
     rdfs:label "rasten, v."@de,
@@ -23214,6 +24510,13 @@ onamaObject:Q1158 a onama:VisualRealisation ;
     onama:realises onamaObject:Q1156 ;
     schema:dateModified "2020-01-22T10:32:34+00:00"^^xsd:dateTime ;
     schema:version 10865 .
+
+onamaObject:Q1159 a onama:Thing ;
+    rdfs:label "Statuette"@de,
+        "statuette"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q16738862> ;
+    schema:dateModified "2019-12-12T16:34:42+00:00"^^xsd:dateTime ;
+    schema:version 9921 .
 
 onamaObject:Q1165 a onama:Concept ;
     rdfs:label "Jason reist zur Insel des Goldenen Vlieses"@de,
@@ -23980,6 +25283,13 @@ onamaObject:Q1362 a onama:TextualRealisation ;
     schema:dateModified "2020-03-18T15:29:04+00:00"^^xsd:dateTime ;
     schema:version 13585 .
 
+onamaObject:Q1364 a onama:Animal ;
+    rdfs:label "Esel"@de,
+        "donkey"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q3537778> ;
+    schema:dateModified "2020-02-13T15:53:18+00:00"^^xsd:dateTime ;
+    schema:version 12332 .
+
 onamaObject:Q1374 a onama:Concept ;
     rdfs:label "Fisch bietet sich dem Hl. Korbinian und seinem Gefolgsmann als Brücke an"@de,
         "Fish offers itself to St. Corbinian and his retainer as a bridge"@en ;
@@ -23994,12 +25304,13 @@ onamaObject:Q1374 a onama:Concept ;
     schema:dateModified "2020-02-14T10:35:08+00:00"^^xsd:dateTime ;
     schema:version 12443 .
 
-onamaObject:Q1388 a onama:Place ;
-    rdfs:label "Kirchenraum"@de,
-        "church interior"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q30062483> ;
-    schema:dateModified "2020-02-17T13:20:34+00:00"^^xsd:dateTime ;
-    schema:version 12526 .
+onamaObject:Q1389 a onama:Place ;
+    rdfs:label "Minervatempel"@de,
+        "Temple of Minerva"@en ;
+    schema:dateModified "2020-02-17T13:38:57+00:00"^^xsd:dateTime ;
+    schema:description "Tempel in Troja, Schauplatz in Narrativen des trojanischen Krieges"@de,
+        "Temple in Troy appearing in narratives of the Trojan War"@en ;
+    schema:version 12532 .
 
 onamaObject:Q139 a onama:TextualRealisation ;
     rdfs:label "TRY Pelias befieht den Bau eines Schiffes"@de,
@@ -24096,7 +25407,7 @@ onamaObject:Q1425 a onama:TextualRealisation ;
     schema:version 15565 .
 
 onamaObject:Q1426 a onama:TextualRealisation ;
-    rdfs:label "TRO Adler brings gestohlenes Trojanisches Opfer zu den Griechen"@de,
+    rdfs:label "TRO Adler bringt gestohlenes Trojanisches Opfer zu den Griechen"@de,
         "TRO Eagle brings robbed Trojan sacrifice to the Greeks"@en ;
     onama:hasAction onamaObject:Q1426-b39dfa34-4d89-185b-5572-8d091cdc15e2 ;
     onama:hasSemanticRole onamaObject:Q1426-1d6f3669-4462-cd45-8828-98899f6b767c,
@@ -24109,8 +25420,8 @@ onamaObject:Q1426 a onama:TextualRealisation ;
     onama:partOfCollection onamaObject:Q271 ;
     onama:previousFabula onamaObject:Q1425 ;
     onama:realises onamaObject:Q1392 ;
-    schema:dateModified "2020-03-18T15:31:29+00:00"^^xsd:dateTime ;
-    schema:version 13593 .
+    schema:dateModified "2021-05-06T08:30:52+00:00"^^xsd:dateTime ;
+    schema:version 17048 .
 
 onamaObject:Q1429 a onama:Thing ;
     rdfs:label "Schiff"@de,
@@ -24586,6 +25897,14 @@ onamaObject:Q1626 a onama:VisualRealisation ;
     schema:dateModified "2020-07-31T14:47:52+00:00"^^xsd:dateTime ;
     schema:version 15432 .
 
+onamaObject:Q1628 a onama:Verb ;
+    rdfs:label "ziehen, v."@de,
+        "drag, v."@en ;
+    schema:dateModified "2020-07-31T12:13:49+00:00"^^xsd:dateTime ;
+    schema:version 15316 ;
+    skos:altLabel "schleifen, v."@de,
+        "zerren, v."@de .
+
 onamaObject:Q1631 a onama:VisualRealisation ;
     rdfs:label "RO 016284 Hl. Blasius macht vor der Höhle einen Segensgestus"@de,
         "RO 016284 St. Blaise makes a blessing gesture in front of the cave"@en ;
@@ -24741,6 +26060,12 @@ onamaObject:Q1669 a onama:VisualRealisation ;
     schema:dateModified "2020-10-02T14:03:49+00:00"^^xsd:dateTime ;
     schema:version 15700 .
 
+onamaObject:Q1676 a onama:Verb ;
+    rdfs:label "sammeln, v."@de,
+        "collect, v."@en ;
+    schema:dateModified "2020-10-02T14:53:16+00:00"^^xsd:dateTime ;
+    schema:version 15752 .
+
 onamaObject:Q1678 a onama:Concept ;
     rdfs:label "Hl. Blasius wird mit Klauen gefoltert"@de,
         "St. Blaise is tortured with iron claws"@en ;
@@ -24788,6 +26113,24 @@ onamaObject:Q171 a onama:TextualRealisation ;
     schema:dateModified "2020-03-18T09:34:48+00:00"^^xsd:dateTime ;
     schema:version 13358 .
 
+onamaObject:Q1715 a onama:Concept ;
+    rdfs:label "Maria und Joseph beten das Christuskind an"@de,
+        "Mary and Joseph adore the Christ-child"@en ;
+    onama:broader onamaObject:Q1726 ;
+    onama:hasAction onamaObject:Q1715-949a5c9e-499d-2783-c617-8969b49893a3 ;
+    onama:hasIconClassEquivalent ic:73B23 ;
+    onama:hasSemanticRole onamaObject:Q1715-2fffe2a9-4856-ac8b-c22a-e50995684ec0,
+        onamaObject:Q1715-8f72e140-4c5e-34bf-d0da-410733dfe5e6,
+        onamaObject:Q1715-e69a9497-4a18-ea4c-548f-bea5df38eef3 ;
+    onama:hasSupplementaryConcept onamaObject:Q1728 ;
+    onama:isRealisedBy onamaObject:Q1718,
+        onamaObject:Q1721 ;
+    schema:dateModified "2020-12-09T15:13:13+00:00"^^xsd:dateTime ;
+    schema:version 16238 ;
+    skos:altLabel "Geburt Christi"@de,
+        "Christ's birth"@en,
+        "Nativity"@en .
+
 onamaObject:Q172 a onama:TextualRealisation ;
     rdfs:label "TRY Jason wählt Argonauten aus"@de,
         "TRY Jason chooses Argonauts"@en ;
@@ -24803,6 +26146,30 @@ onamaObject:Q172 a onama:TextualRealisation ;
     schema:dateModified "2020-03-18T09:35:11+00:00"^^xsd:dateTime ;
     schema:version 13359 .
 
+onamaObject:Q1720 a onama:Collection ;
+    rdfs:label "Flügelaltar in Ossiach"@de,
+        "Winged altarpiece in Ossiach"@en ;
+    schema:dateModified "2020-12-09T12:15:05+00:00"^^xsd:dateTime ;
+    schema:version 16133 .
+
+onamaObject:Q1729 a onama:VisualRealisation ;
+    rdfs:label "RO 001041 Ochs und Esel beten das Christuskind an"@de,
+        "RO 001041 Ox and ass adore the Christ-child"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/001041> ;
+    onama:hasAction onamaObject:Q1729-b4833456-4cd5-f9d5-9837-dd8376f0facd ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=001041> ;
+    onama:hasSemanticRole onamaObject:Q1729-316280e3-450f-b1d4-ccec-4534bb07a819,
+        onamaObject:Q1729-7243eac7-4120-d770-3423-171f6df5b916,
+        onamaObject:Q1729-9df64c09-428d-c62f-23f7-8ed89ac14759,
+        onamaObject:Q1729-af535657-47fc-5724-3076-f846400dc4cd,
+        onamaObject:Q1729-b68c3fc1-4ef0-1a35-0a64-ae31f6ec111d,
+        onamaObject:Q1729-bc0fa743-4b01-bbfa-950d-c73c5ed4bb1e ;
+    onama:occursSimultaneously onamaObject:Q1718,
+        onamaObject:Q1721 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1728 ;
+    schema:dateModified "2020-12-09T15:32:03+00:00"^^xsd:dateTime ;
+    schema:version 16244 .
+
 onamaObject:Q173 a onama:Concept ;
     rdfs:label "Hl. Antonius Abbas begräbt den hl. Paulus Eremita"@de,
         "St. Antony Abbot buries St. Paul the hermit"@en ;
@@ -24815,6 +26182,259 @@ onamaObject:Q173 a onama:Concept ;
         onamaObject:Q178 ;
     schema:dateModified "2020-05-19T08:52:06+00:00"^^xsd:dateTime ;
     schema:version 14119 .
+
+onamaObject:Q1733 a onama:VisualRealisation ;
+    rdfs:label "RO 001041 Engel am Himmel erscheint einem Hirten"@de,
+        "RO 001041 Angel in the sky appears to shepherd"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/001041> ;
+    onama:hasAction onamaObject:Q1733-dfa3f24f-42fd-1818-34b1-8931582c603a ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=001041> ;
+    onama:hasSemanticRole onamaObject:Q1733-0113ee2e-4036-c9be-bce8-42f898010226,
+        onamaObject:Q1733-0ad71658-4f16-5219-4aa0-e286625b7743,
+        onamaObject:Q1733-59628da7-46fa-70c3-39e7-770ce6ac8911,
+        onamaObject:Q1733-9314d1f4-43af-4073-e970-e8d8d7f82144 ;
+    onama:partOfCollection onamaObject:Q1720 ;
+    onama:previousFabula onamaObject:Q1718,
+        onamaObject:Q1721 ;
+    onama:realises onamaObject:Q1731 ;
+    schema:dateModified "2020-12-09T16:21:07+00:00"^^xsd:dateTime ;
+    schema:version 16284 .
+
+onamaObject:Q1757 a onama:VisualRealisation ;
+    rdfs:label "RO x015 Pylaemenes und seine Krieger verlassen Troja zu Pferd gemeinsam mit den Amazonen, die den Leichnam der Penthesilea mitnehmen"@de,
+        "RO x015 Pylaemenes and his warriors leave Troy on horseback together with the Amazons, who take Penthesilea's body with them"@en ;
+    onama:hasAction onamaObject:Q1757-557ff304-4935-2cb6-7306-12796bcfbef4 ;
+    onama:hasSemanticRole onamaObject:Q1757-009ab16b-4adc-a882-2b16-504c26dc03ff,
+        onamaObject:Q1757-572bd838-43bf-981a-a7fb-3d0534a367ba,
+        onamaObject:Q1757-59bb07c0-4751-d6c0-a60a-488a248fc8b8,
+        onamaObject:Q1757-96583094-4209-9058-ba97-e11275f1d79f,
+        onamaObject:Q1757-a1e98247-48b9-f7a8-f381-199cbad3d54a,
+        onamaObject:Q1757-d5bb1857-4c40-47ca-eacf-a227c9d98d04,
+        onamaObject:Q1757-f978d01e-4add-cd79-d840-7b48783695c7 ;
+    onama:nextFabula onamaObject:Q1760 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:previousFabula onamaObject:Q1394 ;
+    onama:realises onamaObject:Q1753 ;
+    schema:dateModified "2021-01-25T15:14:32+00:00"^^xsd:dateTime ;
+    schema:version 16529 .
+
+onamaObject:Q1760 a onama:VisualRealisation ;
+    rdfs:label "RO 006469 Priamus und Agamemnon schwören einen Eid auf eine goldene Statuette"@de,
+        "RO 006469 Priam and Agamemnon swear an oath on a golden statuette"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006469> ;
+    onama:hasAction onamaObject:Q1760-cbd8c502-405d-83c7-7f3f-6ec2baa70f84 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006469> ;
+    onama:hasSemanticRole onamaObject:Q1760-1339999a-413f-7dbf-97c0-118974c3d0ca,
+        onamaObject:Q1760-1af5389c-41a1-84d7-68e3-6b12baec68e4,
+        onamaObject:Q1760-366991a4-4a2e-a848-360e-585154132113,
+        onamaObject:Q1760-5c4806f8-4a8b-a82a-91ff-703daa295144,
+        onamaObject:Q1760-69e6e103-4efc-9ee6-36d6-40f5285bc4da,
+        onamaObject:Q1760-852547d0-43c0-a0f3-e074-01959aef5155,
+        onamaObject:Q1760-aaa9f90f-44a4-51e9-ddbd-656cddbcb129,
+        onamaObject:Q1760-d51ccc00-4e94-6c16-2555-663535fdfc09,
+        onamaObject:Q1760-d679b2f4-434b-5d06-22a8-0d7732dd45f1 ;
+    onama:nextFabula onamaObject:Q1767 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:previousFabula onamaObject:Q1757 ;
+    onama:realises onamaObject:Q1758 ;
+    schema:dateModified "2021-01-25T15:13:41+00:00"^^xsd:dateTime ;
+    schema:version 16528 .
+
+onamaObject:Q1767 a onama:VisualRealisation ;
+    rdfs:label "RO 006470 In einer Prozession bringen die Griechen das trojanische Pferd zum Stadttor"@de,
+        "RO 006470 In a procession, the Greeks bring the Trojan horse to the city gate"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006470> ;
+    onama:hasAction onamaObject:Q1767-4e1d5471-4f0a-97c6-a7d7-409c1a1fb58a ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006470> ;
+    onama:hasSemanticRole onamaObject:Q1767-690ecf5c-48d9-7a44-b8a8-76d50cdaf9ea,
+        onamaObject:Q1767-91f5a88f-4fb7-2eda-4a4f-fc4d37bd02fb,
+        onamaObject:Q1767-a1e3dabd-425f-dfec-1c05-ffba30e8b783,
+        onamaObject:Q1767-cb1acead-40f9-701a-ef5c-92611775579e,
+        onamaObject:Q1767-e9aede2c-49d7-8d54-3367-e7ef620b2bb2,
+        onamaObject:Q1767-fa53e91e-4196-46cc-94b8-8fdbead64a72 ;
+    onama:nextFabula onamaObject:Q1771 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:previousFabula onamaObject:Q1760 ;
+    onama:realises onamaObject:Q1764 ;
+    schema:dateModified "2021-01-25T16:06:03+00:00"^^xsd:dateTime ;
+    schema:version 16575 .
+
+onamaObject:Q1769 a onama:Concept ;
+    rdfs:label "Die Trojaner demolieren ihr Stadttor, damit das Pferd hindurchpasst"@de,
+        "The Trojans demolish their city gate so that the horse fits through it"@en ;
+    onama:broader onamaObject:Q1763 ;
+    onama:hasAction onamaObject:Q1769-02545005-4f82-131b-0dfc-656c2b15359b ;
+    onama:hasSemanticRole onamaObject:Q1769-3bb4c1c8-4231-55c7-439b-64add66fd28a,
+        onamaObject:Q1769-6eecb721-4500-6000-c79f-8307f20d578b ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1771 ;
+    schema:dateModified "2021-01-25T16:11:37+00:00"^^xsd:dateTime ;
+    schema:version 16586 .
+
+onamaObject:Q1774 a onama:Person ;
+    rdfs:label "Antenor"@de,
+        "Antenor"@en ;
+    schema:dateModified "2021-01-27T09:46:03+00:00"^^xsd:dateTime ;
+    schema:description "Trojanischer Fürst"@de,
+        "Trojan prince"@en ;
+    schema:version 16616 .
+
+onamaObject:Q1777 a onama:VisualRealisation ;
+    rdfs:label "RO 006464 Antenor spricht mit Diomedes und Agamemnon"@de,
+        "RO 006464 Antenor talks to Diomedes and Agamemnon"@en ;
+    onama:hasAction onamaObject:Q1777-469c915e-4f75-352c-793b-5a10b081dbc8 ;
+    onama:hasSemanticRole onamaObject:Q1777-5460cb6b-4194-9165-d01f-4208a3c83b1f,
+        onamaObject:Q1777-d77e4307-490d-9fc7-7fb1-dc105b19fea0,
+        onamaObject:Q1777-d9552c0d-480b-8d67-76fd-9fa1b4d1dd4e,
+        onamaObject:Q1777-ea952247-4180-b7ac-69cc-9419e8b1c25d ;
+    onama:occursSimultaneously onamaObject:Q1782 ;
+    onama:previousFabula onamaObject:Q1787 ;
+    onama:realises onamaObject:Q1773 ;
+    schema:dateModified "2021-01-27T13:20:23+00:00"^^xsd:dateTime ;
+    schema:version 16714 .
+
+onamaObject:Q1779 a onama:Concept ;
+    rdfs:label "Trojaner lassen Antenor in einem Korb über die Stadtmauer hinunter"@de,
+        "Trojans lower Antenor in a basket from the city wall"@en ;
+    onama:broader onamaObject:Q1741 ;
+    onama:hasAction onamaObject:Q1779-89438a4d-4b50-ad80-55c2-464e0db38675 ;
+    onama:hasSemanticRole onamaObject:Q1779-0325709a-473a-6bee-29f3-b2bfa7cfe801,
+        onamaObject:Q1779-47841549-4c39-9eec-0ba4-f10c2af3630a,
+        onamaObject:Q1779-8f58dda2-446e-a7ea-823c-f6e36f1de9f8,
+        onamaObject:Q1779-902299c2-451a-37b3-f1b7-e44f8da7da77 ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1782 ;
+    schema:dateModified "2021-01-27T12:52:46+00:00"^^xsd:dateTime ;
+    schema:version 16663 .
+
+onamaObject:Q1781 a onama:Thing ;
+    rdfs:label "Stadtmauer"@de,
+        "city wall"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q16748868> ;
+    schema:dateModified "2021-01-27T12:48:41+00:00"^^xsd:dateTime ;
+    schema:version 16658 .
+
+onamaObject:Q1789 a onama:Concept ;
+    rdfs:label "Leben des Hl. Severus von Ravenna"@de,
+        "Life of St. Severus of Ravenna"@en ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28SEVERUS%29> ;
+    onama:hasSemanticRole onamaObject:Q1789-34c9cb6f-4cf1-3202-d651-a792a3225f52 ;
+    onama:narrower onamaObject:Q1790,
+        onamaObject:Q1813,
+        onamaObject:Q1816 ;
+    schema:dateModified "2021-03-04T13:41:52+00:00"^^xsd:dateTime ;
+    schema:version 16728 .
+
+onamaObject:Q1793 a onama:Concept ;
+    rdfs:label "Hl. Severus wird aus der Kirche geworfen"@de,
+        "St. Severus is thrown out of the church"@en ;
+    onama:broader onamaObject:Q1790 ;
+    onama:hasAction onamaObject:Q1793-bf6e9266-43ba-37cb-d5f5-b29959874e31 ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28SEVERUS%2931> ;
+    onama:hasSemanticRole onamaObject:Q1793-78c85081-4bba-3c65-daf2-562690f572c1,
+        onamaObject:Q1793-dc13a169-4201-f6a6-05dd-741ec6d76dfa,
+        onamaObject:Q1793-e3a0fd8b-42fb-93dd-0f54-cc8142758ae9 ;
+    onama:hasSupplementaryConcept onamaObject:Q1802 ;
+    onama:isRealisedBy onamaObject:Q1797,
+        onamaObject:Q1799 ;
+    schema:dateModified "2021-03-09T15:04:55+00:00"^^xsd:dateTime ;
+    schema:version 16959 .
+
+onamaObject:Q1799 a onama:VisualRealisation ;
+    rdfs:label "RO 018731 Taube schwebt über Kopf des Hl. Severus"@de,
+        "RO 018731 Dove hovering over St. Severus' head"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018731> ;
+    onama:hasAction onamaObject:Q1799-a6500d5d-4e65-4fd7-72fd-e721937388e6 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018731> ;
+    onama:hasSemanticRole onamaObject:Q1799-0783239e-4854-db7a-e7ac-c36a1203bfef,
+        onamaObject:Q1799-158c5c1f-4079-ae3f-ef22-0aa13bd12261,
+        onamaObject:Q1799-5fb56a74-4b0b-7fda-2761-6e0e7d2d5e18,
+        onamaObject:Q1799-6af1d51a-40d9-6149-a45e-104e946f4f07,
+        onamaObject:Q1799-d81d894f-4176-7ed5-8d0d-2e12324e54e6 ;
+    onama:occursSimultaneously onamaObject:Q1797,
+        onamaObject:Q1801 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:realises onamaObject:Q1793 ;
+    schema:dateModified "2021-03-04T15:16:56+00:00"^^xsd:dateTime ;
+    schema:version 16833 .
+
+onamaObject:Q1800 a onama:Verb ;
+    rdfs:label "schweben, v."@de,
+        "hover, v."@en ;
+    schema:dateModified "2021-03-04T14:41:57+00:00"^^xsd:dateTime ;
+    schema:version 16798 .
+
+onamaObject:Q1801 a onama:VisualRealisation ;
+    rdfs:label "RO 018731 Chorherren beten am Altar"@de,
+        "RO 018731 Canons pray at the altar"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018731> ;
+    onama:hasAction onamaObject:Q1801-45e70977-4c01-2c85-31b0-03cdede94a2c ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018731> ;
+    onama:hasSemanticRole onamaObject:Q1801-21262e4c-4f8a-3718-f796-a9331587f5cb,
+        onamaObject:Q1801-ab3445ce-4fc2-4fdf-5bce-b86b629bd817,
+        onamaObject:Q1801-c7cd44a6-4f2e-2593-f94a-71f2bcce2ea9,
+        onamaObject:Q1801-cdbd57a3-4c05-8790-2123-a4755ed4ce89,
+        onamaObject:Q1801-eabc9fb4-4408-7432-d351-724c58b08d8f ;
+    onama:occursSimultaneously onamaObject:Q1797,
+        onamaObject:Q1799 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:realisesAsSupplementaryNarrative onamaObject:Q1802 ;
+    schema:dateModified "2021-03-04T15:16:08+00:00"^^xsd:dateTime ;
+    schema:version 16832 .
+
+onamaObject:Q1804 a onama:Concept ;
+    rdfs:label "Hl. Severus wird ein zweites Mal aus der Kirche geworfen"@de,
+        "St. Severus is thrown out of the church a second time"@en ;
+    onama:broader onamaObject:Q1790 ;
+    onama:hasAction onamaObject:Q1804-f12d559f-43c2-f5b5-7126-29ff57b78790 ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28SEVERUS%2931> ;
+    onama:hasSemanticRole onamaObject:Q1804-38ae261d-48d3-8a9d-c872-434a8af81ba1,
+        onamaObject:Q1804-53032b85-4707-681d-7b37-ebe5339281d4,
+        onamaObject:Q1804-c6a4c408-4355-9bca-c24b-b728893e736b ;
+    onama:hasSupplementaryConcept onamaObject:Q1808 ;
+    onama:isRealisedBy onamaObject:Q1805,
+        onamaObject:Q1806 ;
+    schema:dateModified "2021-03-09T15:05:12+00:00"^^xsd:dateTime ;
+    schema:version 16960 .
+
+onamaObject:Q1810 a onama:Concept ;
+    rdfs:label "Hl. Severus wird als Bischof angenommen"@de,
+        "St. Severus is accepted as bishop"@en ;
+    onama:broader onamaObject:Q1790 ;
+    onama:hasAction onamaObject:Q1810-125236de-490f-319a-45bc-724644b8032a ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28SEVERUS%2931> ;
+    onama:hasSemanticRole onamaObject:Q1810-13b9c6f4-4f53-69e8-0651-c8b222b1c1d9,
+        onamaObject:Q1810-d922974a-4118-572c-4f44-8f9bc6eb4bb7,
+        onamaObject:Q1810-e8a230da-49f0-224a-b3fe-98a6c34d99c7 ;
+    onama:isRealisedBy onamaObject:Q1811,
+        onamaObject:Q1812 ;
+    schema:dateModified "2021-03-09T15:03:28+00:00"^^xsd:dateTime ;
+    schema:version 16957 .
+
+onamaObject:Q1819 a onama:VisualRealisation ;
+    rdfs:label "Boten berichten der Frau des Hl. Severus von der Bischofsweihe"@de,
+        "RO 018735 Messengers tell the wife of St. Severus about the episcopal consecration"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018735> ;
+    onama:hasAction onamaObject:Q1819-1e3c9a0d-401c-7157-d42c-17234030fdbe ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018735> ;
+    onama:hasSemanticRole onamaObject:Q1819-39187896-4a6b-30bf-df3e-4f7bceb60967,
+        onamaObject:Q1819-3a987b20-4a76-5564-e0ef-1fb9b0cbbc95,
+        onamaObject:Q1819-40b1e3ad-4e22-9551-41e8-b5053378dfc6,
+        onamaObject:Q1819-557ca655-46b2-a631-fe5d-83ef69a2ff22,
+        onamaObject:Q1819-811901be-41ee-3cba-a900-de64fce2ffed,
+        onamaObject:Q1819-9bbebc16-4e5b-79fb-7931-5e0773e12b77,
+        onamaObject:Q1819-d1ab6232-452a-2999-9851-6f4abd6da5bc ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:previousFabula onamaObject:Q1814 ;
+    onama:realises onamaObject:Q1816 ;
+    schema:dateModified "2021-03-09T16:05:12+00:00"^^xsd:dateTime ;
+    schema:version 17033 .
+
+onamaObject:Q1820 a onama:Person ;
+    rdfs:label "Innocentia"@de,
+        "Innocentia"@en ;
+    schema:dateModified "2021-03-09T15:58:01+00:00"^^xsd:dateTime ;
+    schema:description "Tochter des Hl. Severus von Ravenna"@de,
+        "daughter of St. Severus of Ravenna"@en ;
+    schema:version 17019 .
 
 onamaObject:Q185 a onama:Concept ;
     rdfs:label "Pelias hasst Jason"@de,
@@ -25038,13 +26658,6 @@ onamaObject:Q230 a onama:Verb ;
         "fear, v."@en ;
     schema:dateModified "2019-08-27T12:10:45+00:00"^^xsd:dateTime ;
     schema:version 1495 .
-
-onamaObject:Q232 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion König"@de,
-        "Entity Function King"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q12097> ;
-    schema:dateModified "2020-07-07T07:39:41+00:00"^^xsd:dateTime ;
-    schema:version 14731 .
 
 onamaObject:Q236 a onama:TextualRealisation ;
     rdfs:label "TRO Laomedon fürchtet Argonauten"@de,
@@ -25556,6 +27169,13 @@ onamaObject:Q312 a onama:Concept ;
         onamaObject:Q317 ;
     schema:dateModified "2020-01-30T09:56:35+00:00"^^xsd:dateTime ;
     schema:version 11635 .
+
+onamaObject:Q319 a onama:Thing ;
+    rdfs:label "Korb"@de,
+        "basket"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q201097> ;
+    schema:dateModified "2019-08-30T12:14:21+00:00"^^xsd:dateTime ;
+    schema:version 2045 .
 
 onamaObject:Q320 a onama:Concept ;
     rdfs:label "Hl. Antonius Abbas wird in Versuchung geführt"@de,
@@ -26537,6 +28157,12 @@ onamaObject:Q510 a onama:Thing ;
     schema:dateModified "2020-02-03T09:47:05+00:00"^^xsd:dateTime ;
     schema:version 11793 .
 
+onamaObject:Q516 a onama:Person ;
+    rdfs:label "Handwerker"@de,
+        "craftsman"@en ;
+    schema:dateModified "2019-09-18T12:23:28+00:00"^^xsd:dateTime ;
+    schema:version 3689 .
+
 onamaObject:Q535 a onama:Verb ;
     rdfs:label "blasen, v."@de,
         "blow, v."@en ;
@@ -26962,6 +28588,13 @@ onamaObject:Q745 a onama:Person ;
     schema:dateModified "2019-10-03T13:48:39+00:00"^^xsd:dateTime ;
     schema:version 5598 ;
     skos:altLabel "Iseult"@en .
+
+onamaObject:Q749 a onama:Thing ;
+    rdfs:label "Hut"@de,
+        "hat"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q80151> ;
+    schema:dateModified "2019-10-03T14:03:51+00:00"^^xsd:dateTime ;
+    schema:version 5624 .
 
 onamaObject:Q763 a onama:VisualRealisation ;
     rdfs:label "RO 006361 Medea beobachtet am Fenster das Hereinbrechen der Nacht"@de,
@@ -27502,6 +29135,13 @@ onamaObject:Q1211 a onama:VisualRealisation ;
     schema:dateModified "2020-01-16T11:41:36+00:00"^^xsd:dateTime ;
     schema:version 10561 .
 
+onamaObject:Q1212 a onama:Thing ;
+    rdfs:label "Bank, n."@de,
+        "bench, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q204776> ;
+    schema:dateModified "2020-01-16T11:30:43+00:00"^^xsd:dateTime ;
+    schema:version 10543 .
+
 onamaObject:Q1246 a onama:Thing ;
     rdfs:label "Leim, Kleber, n."@de,
         "glue, n."@en ;
@@ -27594,6 +29234,30 @@ onamaObject:Q1349 a onama:Concept ;
     schema:dateModified "2020-02-13T09:49:49+00:00"^^xsd:dateTime ;
     schema:version 12194 .
 
+onamaObject:Q1385 a onama:VisualRealisation ;
+    rdfs:label "RO 006467 Adler raubt Trojanern ihr Opfertier vom Altar"@de,
+        "RO 006467 Eagle robs Trojan animal sacrifice from altar"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006467> ;
+    onama:hasAction onamaObject:Q1385-2d34267b-497a-dca1-c471-4d1d0c9d9d08 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006467> ;
+    onama:hasSemanticRole onamaObject:Q1385-0fa707bd-4f98-892c-56a4-b2f2a95e936f,
+        onamaObject:Q1385-1f6307a5-4c57-bb46-a301-6538539efeb8,
+        onamaObject:Q1385-572f9d7a-479f-6e32-24c5-8974debd050f,
+        onamaObject:Q1385-9123ff66-4a7d-e936-8eb3-58f40835a022,
+        onamaObject:Q1385-a852c936-41e9-5eab-8a44-20c62d87d522,
+        onamaObject:Q1385-a87ed1c2-4639-d31e-bf71-4042c2f781c3,
+        onamaObject:Q1385-bbd04085-4d3b-47a5-7d54-a44861f4d2a3,
+        onamaObject:Q1385-c8acfe19-4265-f7ef-7bc1-2f1f630997c8,
+        onamaObject:Q1385-d4e673ac-4520-a5fd-4bd7-50275d7647a0,
+        onamaObject:Q1385-f1949b92-4914-44de-a125-cf5068cce398 ;
+    onama:nextFabula onamaObject:Q1394 ;
+    onama:occursSimultaneously onamaObject:Q1746,
+        onamaObject:Q1750 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:realises onamaObject:Q1382 ;
+    schema:dateModified "2021-01-25T12:49:26+00:00"^^xsd:dateTime ;
+    schema:version 16431 .
+
 onamaObject:Q1386 a onama:Animal,
         onama:Thing ;
     rdfs:label "Opfertier"@de,
@@ -27601,6 +29265,14 @@ onamaObject:Q1386 a onama:Animal,
     schema:dateModified "2020-02-17T12:55:36+00:00"^^xsd:dateTime ;
     schema:version 12508 ;
     skos:altLabel "sacrificial animal"@en .
+
+onamaObject:Q1390 a onama:Person ;
+    rdfs:label "Priester"@de,
+        "priest"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q42603> ;
+    schema:dateModified "2020-02-17T13:44:47+00:00"^^xsd:dateTime ;
+    schema:version 12538 ;
+    skos:altLabel "Priesterin"@de .
 
 onamaObject:Q1418 a onama:MythicalBeing ;
     rdfs:label "Apollo"@de,
@@ -27637,6 +29309,13 @@ onamaObject:Q1503 a onama:Place ;
     schema:dateModified "2020-04-01T17:02:37+00:00"^^xsd:dateTime ;
     schema:version 13909 .
 
+onamaObject:Q1505 a onama:Place ;
+    rdfs:label "Stadt"@de,
+        "city"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q515> ;
+    schema:dateModified "2020-04-01T17:11:14+00:00"^^xsd:dateTime ;
+    schema:version 13924 .
+
 onamaObject:Q1531 a onama:MythicalBeing ;
     rdfs:label "Gott"@de,
         "God"@en ;
@@ -27657,6 +29336,13 @@ onamaObject:Q1611 a onama:Place,
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q417175> ;
     schema:dateModified "2020-07-08T14:53:55+00:00"^^xsd:dateTime ;
     schema:version 15202 .
+
+onamaObject:Q1624 a onama:Verb ;
+    rdfs:label "anbeten, v."@de,
+        "worship, v."@en ;
+    schema:dateModified "2020-12-09T08:45:33+00:00"^^xsd:dateTime ;
+    schema:version 16102 ;
+    skos:altLabel "adore, v."@en .
 
 onamaObject:Q1634 a onama:VisualRealisation ;
     rdfs:label "RO 016285 Hirsch, Schaf, Hund, Bär und Vögel schließen sich dem Hl. Blasius an"@de,
@@ -27790,11 +29476,105 @@ onamaObject:Q1711 a onama:VisualRealisation ;
     schema:dateModified "2020-11-06T11:21:38+00:00"^^xsd:dateTime ;
     schema:version 16058 .
 
+onamaObject:Q1718 a onama:VisualRealisation ;
+    rdfs:label "RO 001041 Maria kniet vor dem Christuskind"@de,
+        "RO 001041 Mary kneels before the Christ-child"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/001041> ;
+    onama:hasAction onamaObject:Q1718-68f20185-447f-5ea7-6c8c-dbf7f245bb4f ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=001041> ;
+    onama:hasSemanticRole onamaObject:Q1718-07120153-43e1-c015-4c2d-b36feb335abb,
+        onamaObject:Q1718-40b715ca-49ab-9a8f-9c20-3f1f59de7593,
+        onamaObject:Q1718-cb120947-450d-e442-5403-9121a563ceac,
+        onamaObject:Q1718-ebf33a5d-4f7b-7149-5d40-35fb9db0284a,
+        onamaObject:Q1718-f091cc1d-497d-eada-120d-9f3975eec838,
+        onamaObject:Q1718-ff63e0c2-4a43-52c5-b191-f6fd1a5b4d6c ;
+    onama:nextFabula onamaObject:Q1733 ;
+    onama:occursSimultaneously onamaObject:Q1721,
+        onamaObject:Q1729 ;
+    onama:partOfCollection onamaObject:Q1720 ;
+    onama:realises onamaObject:Q1715 ;
+    schema:dateModified "2020-12-09T15:22:15+00:00"^^xsd:dateTime ;
+    schema:version 16241 .
+
+onamaObject:Q1721 a onama:VisualRealisation ;
+    rdfs:label "RO 001041 Joseph lüftet den Hut"@de,
+        "RO 001041 Joseph raises his hat"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/001041> ;
+    onama:hasAction onamaObject:Q1721-666b5004-4cb3-bef7-f1d6-d93e26801c7f ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=001041> ;
+    onama:hasSemanticRole onamaObject:Q1721-06af3013-43fe-7fca-0566-f834e2b6b4c8,
+        onamaObject:Q1721-2d6ae2d5-4fe0-3ff0-2934-b02105178630,
+        onamaObject:Q1721-30fd7964-48ed-73cb-45be-5c6b6420b1b7,
+        onamaObject:Q1721-82aef1c5-41be-c04c-c9ff-3b4e74d722e2,
+        onamaObject:Q1721-9138a09f-4de4-5429-04e1-546e6a2b5e01,
+        onamaObject:Q1721-f52aee9d-4783-18b9-05e0-351d0e59145d ;
+    onama:nextFabula onamaObject:Q1733 ;
+    onama:occursSimultaneously onamaObject:Q1718,
+        onamaObject:Q1729 ;
+    onama:partOfCollection onamaObject:Q1720 ;
+    onama:realises onamaObject:Q1715 ;
+    schema:dateModified "2020-12-09T15:31:10+00:00"^^xsd:dateTime ;
+    schema:version 16243 .
+
+onamaObject:Q1723 a onama:Thing ;
+    rdfs:label "Krippe"@de,
+        "manger"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q25207165> ;
+    schema:dateModified "2020-12-09T12:43:53+00:00"^^xsd:dateTime ;
+    schema:version 16151 .
+
+onamaObject:Q1724 a onama:Place ;
+    rdfs:label "Bethlehem"@de,
+        "Bethlehem"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q5776> ;
+    schema:dateModified "2020-12-09T12:55:42+00:00"^^xsd:dateTime ;
+    schema:version 16168 .
+
+onamaObject:Q1726 a onama:Concept ;
+    rdfs:label "Christus wird geboren - Geschichte der Geburt Christi"@de,
+        "Christ is born - Story of the birth of Christ"@en ;
+    onama:hasAction onamaObject:Q1726-4ede35ad-4e98-191a-4abf-872bbb17f582 ;
+    onama:hasIconClassEquivalent ic:73B1 ;
+    onama:hasRelatedIconClassEntry ic:73B2 ;
+    onama:hasSemanticRole onamaObject:Q1726-16b8a0a2-4d48-3d62-90fd-44a56b210b7c ;
+    onama:narrower onamaObject:Q1715,
+        onamaObject:Q1725,
+        onamaObject:Q1731 ;
+    schema:dateModified "2020-12-09T14:41:02+00:00"^^xsd:dateTime ;
+    schema:version 16195 .
+
+onamaObject:Q1728 a onama:Concept ;
+    rdfs:label "Ochs und Esel beten das Christuskind an"@de,
+        "Ox and ass adore the Christ-child"@en ;
+    onama:broader onamaObject:Q1725 ;
+    onama:isRealisedAsSupplementaryNarrativeBy onamaObject:Q1729 ;
+    onama:isRealisedBy onamaObject:Q1737 ;
+    schema:dateModified "2020-12-09T14:55:14+00:00"^^xsd:dateTime ;
+    schema:version 16213 .
+
 onamaObject:Q174 a onama:Verb ;
     rdfs:label "vorbereiten, v."@de,
         "prepare, v."@en ;
     schema:dateModified "2020-02-26T15:04:22+00:00"^^xsd:dateTime ;
     schema:version 13046 .
+
+onamaObject:Q1746 a onama:VisualRealisation ;
+    rdfs:label "RO 006467 Goldstücke befinden sich auf dem Tempelboden"@de,
+        "RO 006467 There are gold pieces on the temple floor"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006467> ;
+    onama:hasAction onamaObject:Q1746-849b1c2b-4f43-82a3-8dc3-7554fd34dc4d ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006467> ;
+    onama:hasSemanticRole onamaObject:Q1746-3b3cac90-495b-e6fb-2813-09697ff30807,
+        onamaObject:Q1746-5303fd87-43c6-52e5-5d4c-93c03bd3151c,
+        onamaObject:Q1746-c06c8dda-4ff1-547a-119a-3bc408d553d6,
+        onamaObject:Q1746-ef3a7d54-4c03-9626-7519-ed8f07010872 ;
+    onama:nextFabula onamaObject:Q1394 ;
+    onama:occursSimultaneously onamaObject:Q1385,
+        onamaObject:Q1750 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:realises onamaObject:Q1740 ;
+    schema:dateModified "2021-01-25T12:53:58+00:00"^^xsd:dateTime ;
+    schema:version 16433 .
 
 onamaObject:Q175 a onama:Verb ;
     rdfs:label "begraben, v."@de,
@@ -27802,6 +29582,26 @@ onamaObject:Q175 a onama:Verb ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q331055> ;
     schema:dateModified "2020-05-19T08:51:36+00:00"^^xsd:dateTime ;
     schema:version 14118 .
+
+onamaObject:Q1750 a onama:VisualRealisation ;
+    rdfs:label "RO 006467 Rauch steigt von den Holzscheiten auf dem Altar auf"@de,
+        "RO 006467 Smoke rises from the logs on the altar"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006467> ;
+    onama:hasAction onamaObject:Q1750-f9f786e7-4ed4-3f3c-f87b-7860319f9ab0 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006467> ;
+    onama:hasSemanticRole onamaObject:Q1750-5ffd96f4-4a56-ed15-175d-b3626ceada25,
+        onamaObject:Q1750-848a65c3-49ce-4d21-3e28-8902dcbef721,
+        onamaObject:Q1750-89b0615a-4b38-1a62-8f30-f0aa44053d01,
+        onamaObject:Q1750-9e4debe9-4f8e-b43d-b734-740300dd2ffd,
+        onamaObject:Q1750-f31bf7ea-4865-f0cd-d24d-530fe4428d88,
+        onamaObject:Q1750-fa822b30-41fe-80f5-c188-915bfc6bb95c ;
+    onama:nextFabula onamaObject:Q1394 ;
+    onama:occursSimultaneously onamaObject:Q1385,
+        onamaObject:Q1746 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:realises onamaObject:Q1748 ;
+    schema:dateModified "2021-01-25T12:48:38+00:00"^^xsd:dateTime ;
+    schema:version 16428 .
 
 onamaObject:Q177 a onama:VisualRealisation ;
     rdfs:label "RO 012059 Hl. Antonius Abbas betet für den verstorbenen Hl. Paulus Eremita"@de,
@@ -27835,12 +29635,68 @@ onamaObject:Q178 a onama:VisualRealisation ;
     schema:dateModified "2020-06-23T12:31:09+00:00"^^xsd:dateTime ;
     schema:version 14670 .
 
+onamaObject:Q1790 a onama:Concept ;
+    rdfs:label "Taube erwählt Hl. Severus zum Bischof"@de,
+        "Dove elects St. Severus as bishop"@en ;
+    onama:broader onamaObject:Q1789 ;
+    onama:hasAction onamaObject:Q1790-76c2acb9-4b67-0fbf-5333-9daa3d19d156 ;
+    onama:hasRelatedIconClassEntry <http://iconclass.org/11H%28SEVERUS%2931> ;
+    onama:hasSemanticRole onamaObject:Q1790-2e73d5c0-4e38-adb0-a217-5c12284456c6,
+        onamaObject:Q1790-882cbab8-4543-e823-37c4-40c744c24915,
+        onamaObject:Q1790-ad2b6864-4a34-2980-8c40-18bc75720a7b,
+        onamaObject:Q1790-f38ec881-4b2c-5ff9-1616-cfdb43f14abb ;
+    onama:narrower onamaObject:Q1793,
+        onamaObject:Q1804,
+        onamaObject:Q1810 ;
+    schema:dateModified "2021-03-09T15:03:14+00:00"^^xsd:dateTime ;
+    schema:version 16956 .
+
+onamaObject:Q1797 a onama:VisualRealisation ;
+    rdfs:label "RO 018731 Männer zerren Hl. Severus aus der Kirche"@de,
+        "RO 018731 Men drag St. Severus out of the church"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018731> ;
+    onama:hasAction onamaObject:Q1797-91d7c1b6-474d-62c3-764a-856e431471f1 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018731> ;
+    onama:hasSemanticRole onamaObject:Q1797-4179198b-4ac4-f4e8-426b-c82ebc6ef446,
+        onamaObject:Q1797-6f3241dd-4157-ff25-8cc5-247e11044808,
+        onamaObject:Q1797-8291f247-4c10-c461-693d-b0a7bbdaa10b,
+        onamaObject:Q1797-9f974551-4b49-bb55-e64e-1b4d9cd0d636,
+        onamaObject:Q1797-cb4dc4b5-4044-e1a0-e7e0-5482fc53c45b,
+        onamaObject:Q1797-e1048684-41fa-2fa6-ff44-e4f288a65054 ;
+    onama:nextFabula onamaObject:Q1805 ;
+    onama:occursSimultaneously onamaObject:Q1799,
+        onamaObject:Q1801 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:realises onamaObject:Q1793 ;
+    schema:dateModified "2021-03-04T15:17:40+00:00"^^xsd:dateTime ;
+    schema:version 16835 .
+
 onamaObject:Q180 a onama:Thing ;
     rdfs:label "Grab, n."@de,
         "grave, n."@en ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q173387> ;
     schema:dateModified "2019-09-24T16:16:13+00:00"^^xsd:dateTime ;
     schema:version 4139 .
+
+onamaObject:Q1806 a onama:VisualRealisation ;
+    rdfs:label "RO 018732  Taube schwebt über Kopf des Hl. Severus"@de,
+        "RO 018732 Dove hovering over St. Severus' head"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018732> ;
+    onama:hasAction onamaObject:Q1806-650d9d91-403f-e6c4-6191-e0914d4c936f ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018732> ;
+    onama:hasSemanticRole onamaObject:Q1806-30dc2027-4aba-7cc7-8b49-87bb91832ccc,
+        onamaObject:Q1806-389cc397-4605-94d2-f181-840ee3a117b1,
+        onamaObject:Q1806-eb4041cc-49f5-cbd8-3a7d-f5663ef4af78,
+        onamaObject:Q1806-f23b7bda-446b-e704-f937-9ed543a0b7f8,
+        onamaObject:Q1806-f2a4a3c6-462e-1835-3270-fb4f884741dd ;
+    onama:nextFabula onamaObject:Q1811,
+        onamaObject:Q1812 ;
+    onama:occursSimultaneously onamaObject:Q1805,
+        onamaObject:Q1807 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:realises onamaObject:Q1804 ;
+    schema:dateModified "2021-03-09T11:09:28+00:00"^^xsd:dateTime ;
+    schema:version 16904 .
 
 onamaObject:Q181 a onama:TextualRealisation ;
     rdfs:label "TRY Argonauten beladen die Argo mit Nahrungsmitteln, Waffen und Rüstungen"@de,
@@ -27860,6 +29716,58 @@ onamaObject:Q181 a onama:TextualRealisation ;
     onama:realises onamaObject:Q865 ;
     schema:dateModified "2020-03-18T09:42:31+00:00"^^xsd:dateTime ;
     schema:version 13382 .
+
+onamaObject:Q1812 a onama:VisualRealisation ;
+    rdfs:label "RO 018733 Taube schwebt über Kopf des Hl. Severus"@de,
+        "RO 018733 Dove hovering over St. Severus' head"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018733> ;
+    onama:hasAction onamaObject:Q1812-b6b8be79-4560-1d10-b5c7-f653949c6228 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018733> ;
+    onama:hasSemanticRole onamaObject:Q1812-99852bdd-4197-ab22-fa08-533137a0d682,
+        onamaObject:Q1812-9bc71c46-4bf9-8b23-072c-898a93c00b3a,
+        onamaObject:Q1812-d9fafc6c-43be-cd31-6f1e-76c4d009cbc0,
+        onamaObject:Q1812-df0f8564-4045-150f-2638-0e4200464231,
+        onamaObject:Q1812-fab2c8f9-4212-0c1f-77da-00f263a4ef1c ;
+    onama:nextFabula onamaObject:Q1814 ;
+    onama:occursSimultaneously onamaObject:Q1811 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:previousFabula onamaObject:Q1805,
+        onamaObject:Q1806 ;
+    onama:realises onamaObject:Q1810 ;
+    schema:dateModified "2021-03-09T14:46:46+00:00"^^xsd:dateTime ;
+    schema:version 16946 .
+
+onamaObject:Q1814 a onama:VisualRealisation ;
+    rdfs:label "RO 018734 Konsekrator setzt Hl. Severus die Mitra auf"@de,
+        "RO 018734 Consecrator puts mitre on the head of St. Severus"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018734> ;
+    onama:hasAction onamaObject:Q1814-cc10ce74-47b6-0e9c-be32-c4d210d0be8e ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018734> ;
+    onama:hasSemanticRole onamaObject:Q1814-3a704378-4dcc-159c-4426-6aaae84c7fd0,
+        onamaObject:Q1814-5395f226-49b8-8235-6cb4-15c32862d189,
+        onamaObject:Q1814-6980e7f1-4e8f-93a9-4b14-b14ce96658ec,
+        onamaObject:Q1814-76b954e8-4245-44fd-ca53-67d9640e3df8,
+        onamaObject:Q1814-95e79e5a-4c35-6da5-7cfc-59c4c9993ba9,
+        onamaObject:Q1814-a4726c3f-40dc-9a45-cfc9-acff63d389f0,
+        onamaObject:Q1814-b1cac364-4b89-f117-627f-780353c824cd,
+        onamaObject:Q1814-b8c3efdc-4cac-9671-ad5c-f0f2808516b3,
+        onamaObject:Q1814-d400ca9d-483c-bbc1-72bd-e260d8f547ca,
+        onamaObject:Q1814-d6b13904-43b8-7e60-d6fd-87d9c6b5fa01 ;
+    onama:nextFabula onamaObject:Q1819 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:previousFabula onamaObject:Q1811,
+        onamaObject:Q1812 ;
+    onama:realises onamaObject:Q1813 ;
+    schema:dateModified "2021-03-09T15:29:03+00:00"^^xsd:dateTime ;
+    schema:version 16985 .
+
+onamaObject:Q1817 a onama:Person ;
+    rdfs:label "Vincentia"@de,
+        "Vincentia"@en ;
+    schema:dateModified "2021-03-09T15:42:15+00:00"^^xsd:dateTime ;
+    schema:description "Ehefrau des Hl. Severus von Ravenna"@de,
+        "wife of St. Severus of Ravenna"@en ;
+    schema:version 16996 .
 
 onamaObject:Q182 a onama:Verb ;
     rdfs:label "beladen, v."@de,
@@ -28661,6 +30569,13 @@ onamaObject:Q127 a onama:Verb ;
     schema:dateModified "2019-08-27T12:03:20+00:00"^^xsd:dateTime ;
     schema:version 1473 .
 
+onamaObject:Q1292 a onama:Animal ;
+    rdfs:label "Ochse, n."@de,
+        "ox, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q473194> ;
+    schema:dateModified "2020-01-30T11:06:23+00:00"^^xsd:dateTime ;
+    schema:version 11646 .
+
 onamaObject:Q1323 a onama:Person ;
     rdfs:label "Hl. Vitus"@de,
         "St. Vitus"@en ;
@@ -28669,11 +30584,44 @@ onamaObject:Q1323 a onama:Person ;
     schema:version 11940 ;
     skos:altLabel "Hl. Veit"@de .
 
-onamaObject:Q1393 a onama:Group ;
-    rdfs:label "Griechen"@de,
-        "Greeks"@en ;
-    schema:dateModified "2020-02-17T14:37:18+00:00"^^xsd:dateTime ;
-    schema:version 12568 .
+onamaObject:Q1391 a onama:Person ;
+    rdfs:label "König"@de,
+        "king"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q12097> ;
+    schema:dateModified "2020-02-17T13:47:51+00:00"^^xsd:dateTime ;
+    schema:version 12545 .
+
+onamaObject:Q1394 a onama:VisualRealisation ;
+    rdfs:label "RO 006468 Adler bringt geraubtes Opfertier der Trojaner auf den Altar der Griechen"@de,
+        "RO 006468 Eagle brings Trojan animal sacrifice to the altar of the Greeks"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/006468> ;
+    onama:hasAction onamaObject:Q1394-b28cdb36-4552-bcac-94e2-791b2f53e5cb ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=006468> ;
+    onama:hasSemanticRole onamaObject:Q1394-08cfe3d0-4a91-581a-2b6c-41a681689cef,
+        onamaObject:Q1394-12948b32-4a16-4593-888f-014f1ae6303e,
+        onamaObject:Q1394-4b05d503-4321-fa0e-bfd7-50f678da1cb2,
+        onamaObject:Q1394-4c44d401-4d8c-5c01-663d-d9fbfcd9152e,
+        onamaObject:Q1394-5ab8ed1a-4bbc-9347-7e95-c0b15aa1e3cf,
+        onamaObject:Q1394-6fd87e96-45c5-7f46-2e1d-8a5afcdce945,
+        onamaObject:Q1394-79e4f38c-4ef7-8061-d720-467f02f76765,
+        onamaObject:Q1394-9020bfed-4e78-c6b7-1b92-17d26384dad0,
+        onamaObject:Q1394-e41c3222-4636-f397-4ce6-37da0d07155b,
+        onamaObject:Q1394-e5c5f67f-48bf-79d6-eb28-4272fa811c55 ;
+    onama:nextFabula onamaObject:Q1757 ;
+    onama:partOfCollection onamaObject:Q1155 ;
+    onama:previousFabula onamaObject:Q1385,
+        onamaObject:Q1746,
+        onamaObject:Q1750 ;
+    onama:realises onamaObject:Q1392 ;
+    schema:dateModified "2021-01-25T12:57:21+00:00"^^xsd:dateTime ;
+    schema:version 16437 .
+
+onamaObject:Q1415 a onama:Person ;
+    rdfs:label "Bischof"@de,
+        "bishop"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q29182> ;
+    schema:dateModified "2020-02-20T11:45:28+00:00"^^xsd:dateTime ;
+    schema:version 12770 .
 
 onamaObject:Q1489 a onama:Thing ;
     rdfs:label "Kuchen"@de,
@@ -28681,12 +30629,6 @@ onamaObject:Q1489 a onama:Thing ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q13276> ;
     schema:dateModified "2020-03-31T14:02:08+00:00"^^xsd:dateTime ;
     schema:version 13797 .
-
-onamaObject:Q158 a onama:Verb ;
-    rdfs:label "annehmen, v."@de,
-        "accept, v."@en ;
-    schema:dateModified "2019-08-27T11:56:37+00:00"^^xsd:dateTime ;
-    schema:version 1460 .
 
 onamaObject:Q159 a onama:Concept ;
     rdfs:label "Jason nimmt die Quest des Goldenen Vlieses an"@de,
@@ -28889,11 +30831,25 @@ onamaObject:Q1709 a onama:VisualRealisation ;
     schema:dateModified "2020-11-06T11:00:33+00:00"^^xsd:dateTime ;
     schema:version 16033 .
 
-onamaObject:Q176 a onama:Verb ;
-    rdfs:label "beten, v."@de,
-        "pray, v."@en ;
-    schema:dateModified "2020-05-19T08:51:15+00:00"^^xsd:dateTime ;
-    schema:version 14117 .
+onamaObject:Q1811 a onama:VisualRealisation ;
+    rdfs:label "RO 018733 Chorherren und weltlich gekleidete Männer halten Hl. Severus fest"@de,
+        "RO 018733 Canons and secular men hold St. Severus"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018733> ;
+    onama:hasAction onamaObject:Q1811-d2c76509-40bd-7bc5-fb76-e06170721ef7 ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018733> ;
+    onama:hasSemanticRole onamaObject:Q1811-32b75734-40c1-b0b0-047a-c63f6b2bfc8d,
+        onamaObject:Q1811-4f7af24e-4901-ee23-f39e-341a9192d651,
+        onamaObject:Q1811-8fcd73b5-4791-26b5-a32f-cb5e00ece2ca,
+        onamaObject:Q1811-993963e2-4f27-b543-47a2-5ff743d7e541,
+        onamaObject:Q1811-cd27f2f1-4e11-ae8e-5aae-5b0f444cce6e,
+        onamaObject:Q1811-e7d7f45b-4e9d-e2db-0083-75f844344c84 ;
+    onama:nextFabula onamaObject:Q1814 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:previousFabula onamaObject:Q1805,
+        onamaObject:Q1806 ;
+    onama:realises onamaObject:Q1810 ;
+    schema:dateModified "2021-03-09T14:41:53+00:00"^^xsd:dateTime ;
+    schema:version 16929 .
 
 onamaObject:Q210 a onama:Concept ;
     rdfs:label "Argonauten reisen auf dem Meer"@de,
@@ -28929,6 +30885,15 @@ onamaObject:Q221 a onama:Concept ;
         onamaObject:Q223 ;
     schema:dateModified "2019-12-12T11:25:02+00:00"^^xsd:dateTime ;
     schema:version 9696 .
+
+onamaObject:Q232 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion König"@de,
+        "Entity Function King"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q12097> ;
+    schema:dateModified "2021-01-25T14:21:20+00:00"^^xsd:dateTime ;
+    schema:version 16465 ;
+    skos:altLabel "Entitätsfunktion Königin"@de,
+        "Entity Function Queen"@en .
 
 onamaObject:Q238 a onama:Verb ;
     rdfs:label "vertreiben, v."@de,
@@ -29027,12 +30992,6 @@ onamaObject:Q424 a onama:Person ;
         "court lady"@en ;
     schema:dateModified "2020-02-03T10:11:25+00:00"^^xsd:dateTime ;
     schema:version 11800 .
-
-onamaObject:Q427 a onama:Verb ;
-    rdfs:label "sein, v."@de,
-        "be, v."@en ;
-    schema:dateModified "2020-02-03T10:11:01+00:00"^^xsd:dateTime ;
-    schema:version 11799 .
 
 onamaObject:Q483 a onama:Thing ;
     rdfs:label "Drachenzahn, n."@de,
@@ -29216,13 +31175,6 @@ onamaObject:Q74 a onama:VisualRealisation ;
     schema:dateModified "2020-07-07T10:49:00+00:00"^^xsd:dateTime ;
     schema:version 14885 .
 
-onamaObject:Q84 a onama:Verb ;
-    rdfs:label "erscheinen, v."@de,
-        "appear, v."@en ;
-    onama:hasIconClassEquivalent ic:13A35 ;
-    schema:dateModified "2020-02-03T13:04:53+00:00"^^xsd:dateTime ;
-    schema:version 11813 .
-
 onamaObject:Q853 a onama:Person ;
     rdfs:label "Michael"@de,
         "Michael"@en ;
@@ -29246,14 +31198,6 @@ onamaObject:Q902 a onama:Verb ;
         "save, v."@en ;
     schema:dateModified "2019-10-30T11:12:55+00:00"^^xsd:dateTime ;
     schema:version 7540 .
-
-onamaObject:Q1016 a onama:Place,
-        onama:Thing ;
-    rdfs:label "Himmel, n."@de,
-        "sky, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q527> ;
-    schema:dateModified "2019-11-15T11:13:59+00:00"^^xsd:dateTime ;
-    schema:version 8471 .
 
 onamaObject:Q1042 a onama:VisualRealisation ;
     rdfs:label "RO 016286 Jäger finden Hl. Blasius"@de,
@@ -29281,6 +31225,13 @@ onamaObject:Q1077 a onama:Place,
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q486972> ;
     schema:dateModified "2019-11-18T15:04:31+00:00"^^xsd:dateTime ;
     schema:version 8991 .
+
+onamaObject:Q1086 a onama:Person ;
+    rdfs:label "Hirte, n."@de,
+        "shepherd, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q81710> ;
+    schema:dateModified "2019-11-18T16:22:26+00:00"^^xsd:dateTime ;
+    schema:version 9054 .
 
 onamaObject:Q1124 a onama:Place,
         onama:Thing ;
@@ -29398,6 +31349,12 @@ onamaObject:Q1540 a onama:Thing ;
     schema:dateModified "2020-06-10T10:23:47+00:00"^^xsd:dateTime ;
     schema:version 14329 .
 
+onamaObject:Q158 a onama:Verb ;
+    rdfs:label "annehmen, v."@de,
+        "accept, v."@en ;
+    schema:dateModified "2019-08-27T11:56:37+00:00"^^xsd:dateTime ;
+    schema:version 1460 .
+
 onamaObject:Q1625 a onama:Thing ;
     rdfs:label "Götzenbild"@de,
         "idol"@en ;
@@ -29405,6 +31362,49 @@ onamaObject:Q1625 a onama:Thing ;
     schema:dateModified "2020-07-31T11:12:02+00:00"^^xsd:dateTime ;
     schema:version 15300 ;
     skos:altLabel "cult image"@en .
+
+onamaObject:Q1719 a onama:Thing ;
+    rdfs:label "Stall"@de,
+        "stable"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q214252> ;
+    schema:dateModified "2020-12-09T11:39:18+00:00"^^xsd:dateTime ;
+    schema:version 16128 .
+
+onamaObject:Q1791 a onama:Animal ;
+    rdfs:label "Taube"@de,
+        "dove"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q2984138> ;
+    schema:dateModified "2021-03-04T13:47:12+00:00"^^xsd:dateTime ;
+    schema:version 16737 ;
+    skos:altLabel "pigeon"@en .
+
+onamaObject:Q1803 a onama:Person ;
+    rdfs:label "Chorherr"@de,
+        "canon"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1104153> ;
+    schema:dateModified "2021-03-04T15:11:20+00:00"^^xsd:dateTime ;
+    schema:version 16817 ;
+    skos:altLabel "Kanoniker"@de .
+
+onamaObject:Q1805 a onama:VisualRealisation ;
+    rdfs:label "RO 018732 Männer zerren Hl. Severus zum zweiten Mal aus der Kirche"@de,
+        "RO 018732 Men drag St. Severus out of the church a second time"@en ;
+    onama:depictedIn <http://realonline.imareal.sbg.ac.at/rdf/v1/work/018732> ;
+    onama:hasAction onamaObject:Q1805-90c2c271-4fd9-f9ae-5dcd-2dcb17d3088e ;
+    onama:hasRoWorkURL <https://realonline.imareal.sbg.ac.at/detail/?archivnr=018732> ;
+    onama:hasSemanticRole onamaObject:Q1805-22a970ae-4dd5-14bb-d778-5ac0636f5f07,
+        onamaObject:Q1805-35e023ff-4e35-42f3-50ca-4900ab683fa0,
+        onamaObject:Q1805-5522ffd9-4a0f-b955-5a39-10c2ec30fe8d,
+        onamaObject:Q1805-a7ea6bfa-4eca-2193-3e90-af43dc399474,
+        onamaObject:Q1805-beebfa53-4be0-0c65-8600-b7ffc0ae250c,
+        onamaObject:Q1805-fbd72d9f-4d80-e4ea-d14e-b9eecc7bae2d ;
+    onama:nextFabula onamaObject:Q1811,
+        onamaObject:Q1812 ;
+    onama:partOfCollection onamaObject:Q1798 ;
+    onama:previousFabula onamaObject:Q1797 ;
+    onama:realises onamaObject:Q1804 ;
+    schema:dateModified "2021-03-09T14:42:27+00:00"^^xsd:dateTime ;
+    schema:version 16931 .
 
 onamaObject:Q204 a onama:TemporalEntity ;
     rdfs:label "Reise"@de,
@@ -29432,19 +31432,6 @@ onamaObject:Q335 a onama:Verb ;
     schema:dateModified "2020-06-22T11:11:53+00:00"^^xsd:dateTime ;
     schema:version 14624 ;
     skos:altLabel "befehlen, v."@de .
-
-onamaObject:Q344 a onama:Verb ;
-    rdfs:label "schwören, v."@de,
-        "swear, v."@en ;
-    schema:dateModified "2019-09-02T09:34:48+00:00"^^xsd:dateTime ;
-    schema:version 2276 .
-
-onamaObject:Q345 a onama:Thing ;
-    rdfs:label "Eid, n."@de,
-        "oath, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q381045> ;
-    schema:dateModified "2019-09-02T09:36:36+00:00"^^xsd:dateTime ;
-    schema:version 2280 .
 
 onamaObject:Q384 a onama:Thing ;
     rdfs:label "Zauberspruch, n."@de,
@@ -29755,6 +31742,20 @@ onamaObject:Q762 a onama:VisualRealisation ;
     schema:dateModified "2020-03-18T14:19:13+00:00"^^xsd:dateTime ;
     schema:version 13489 .
 
+onamaObject:Q785 a onama:Thing ;
+    rdfs:label "Kopf, n."@de,
+        "head, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q23640> ;
+    schema:dateModified "2019-10-04T14:55:07+00:00"^^xsd:dateTime ;
+    schema:version 6056 .
+
+onamaObject:Q84 a onama:Verb ;
+    rdfs:label "erscheinen, v."@de,
+        "appear, v."@en ;
+    onama:hasIconClassEquivalent ic:13A35 ;
+    schema:dateModified "2020-02-03T13:04:53+00:00"^^xsd:dateTime ;
+    schema:version 11813 .
+
 onamaObject:Q862 a onama:Concept ;
     rdfs:label "Personen bauen Argo"@de,
         "Persons build Argo"@en ;
@@ -29824,12 +31825,6 @@ onamaObject:Q1479 a onama:Person ;
         "Protagonist in the Book of Daniel of the Hebrew Bible"@en ;
     schema:version 13735 .
 
-onamaObject:Q152 a onama:Verb ;
-    rdfs:label "erzählen, v."@de,
-        "tell, v."@en ;
-    schema:dateModified "2019-08-27T11:55:30+00:00"^^xsd:dateTime ;
-    schema:version 1458 .
-
 onamaObject:Q160 a onama:Concept ;
     rdfs:label "Quest des Goldenen Vlieses"@de,
         "quest of the Golden Fleece"@en ;
@@ -29842,6 +31837,39 @@ onamaObject:Q1646 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1190123> ;
     schema:dateModified "2020-08-03T14:11:55+00:00"^^xsd:dateTime ;
     schema:version 15496 .
+
+onamaObject:Q1717 a onama:Person ;
+    rdfs:label "Christuskind"@de,
+        "Christ-child"@en ;
+    onama:hasIconClassEquivalent ic:11D2 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q942467> ;
+    schema:dateModified "2020-12-09T08:49:47+00:00"^^xsd:dateTime ;
+    schema:version 16109 ;
+    skos:altLabel "Jesuskind"@de,
+        "Child Jesus"@en .
+
+onamaObject:Q1741 a onama:Concept ;
+    rdfs:label "Die letzten Monate der Belagerung Trojas"@de,
+        "Last months of the siege of Troy"@en ;
+    onama:hasAction onamaObject:Q1741-ee61c8d4-492e-3127-bc42-f59a793f7d8f ;
+    onama:hasIconClassEquivalent ic:94H1 ;
+    onama:hasSemanticRole onamaObject:Q1741-b23a7819-4517-c723-e829-f146eca6f4bf,
+        onamaObject:Q1741-f1775a3e-454a-1015-aca3-cac6b5c94b69 ;
+    onama:narrower onamaObject:Q1740,
+        onamaObject:Q1748,
+        onamaObject:Q1753,
+        onamaObject:Q1758,
+        onamaObject:Q1773,
+        onamaObject:Q1779,
+        onamaObject:Q1784 ;
+    schema:dateModified "2021-01-25T11:20:54+00:00"^^xsd:dateTime ;
+    schema:version 16343 .
+
+onamaObject:Q176 a onama:Verb ;
+    rdfs:label "beten, v."@de,
+        "pray, v."@en ;
+    schema:dateModified "2020-05-19T08:51:15+00:00"^^xsd:dateTime ;
+    schema:version 14117 .
 
 onamaObject:Q239 a onama:Concept ;
     rdfs:label "Laomedon vertreibt Argonauten"@de,
@@ -29867,19 +31895,24 @@ onamaObject:Q310 a onama:Verb ;
     schema:dateModified "2019-08-30T11:42:56+00:00"^^xsd:dateTime ;
     schema:version 2009 .
 
+onamaObject:Q345 a onama:Thing ;
+    rdfs:label "Eid, n."@de,
+        "oath, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q381045> ;
+    schema:dateModified "2019-09-02T09:36:36+00:00"^^xsd:dateTime ;
+    schema:version 2280 .
+
+onamaObject:Q427 a onama:Verb ;
+    rdfs:label "sein, v."@de,
+        "be, v."@en ;
+    schema:dateModified "2020-02-03T10:11:01+00:00"^^xsd:dateTime ;
+    schema:version 11799 .
+
 onamaObject:Q487 a onama:Person ;
     rdfs:label "Magischer Ritter; Zauberritter"@de,
         "Magic knight"@en ;
     schema:dateModified "2019-09-13T12:34:38+00:00"^^xsd:dateTime ;
     schema:version 3469 .
-
-onamaObject:Q509 a onama:Verb ;
-    rdfs:label "legen, v."@de,
-        "put, v."@en ;
-    schema:dateModified "2020-02-03T09:47:39+00:00"^^xsd:dateTime ;
-    schema:version 11794 ;
-    skos:altLabel "setzen, v."@de,
-        "stellen, v."@de .
 
 onamaObject:Q528 a onama:Thing ;
     rdfs:label "Sack, Tasche"@de,
@@ -30195,13 +32228,6 @@ onamaObject:Q758 a onama:VisualRealisation ;
     schema:dateModified "2020-03-18T14:18:54+00:00"^^xsd:dateTime ;
     schema:version 13488 .
 
-onamaObject:Q83 a onama:Thing ;
-    rdfs:label "Engel"@de,
-        "Angel"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q235113> ;
-    schema:dateModified "2020-05-20T09:42:30+00:00"^^xsd:dateTime ;
-    schema:version 14145 .
-
 onamaObject:Q999 a onama:EntityFunction ;
     rdfs:label "Entitätsfunktion Magisches Objekt"@de,
         "Entity Function Magic Object"@en ;
@@ -30214,6 +32240,14 @@ onamaObject:Q1015 a onama:Verb ;
         "fly, v."@en ;
     schema:dateModified "2019-11-15T11:11:09+00:00"^^xsd:dateTime ;
     schema:version 8464 .
+
+onamaObject:Q1016 a onama:Place,
+        onama:Thing ;
+    rdfs:label "Himmel, n."@de,
+        "sky, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q527> ;
+    schema:dateModified "2019-11-15T11:13:59+00:00"^^xsd:dateTime ;
+    schema:version 8471 .
 
 onamaObject:Q1019 a onama:Person ;
     rdfs:label "Bilbo Beutlin"@de,
@@ -30255,6 +32289,16 @@ onamaObject:Q1492 a onama:Animal,
     schema:dateModified "2020-03-31T15:18:21+00:00"^^xsd:dateTime ;
     schema:version 13827 .
 
+onamaObject:Q1795 a onama:Place,
+        onama:Thing ;
+    rdfs:label "Kirche"@de,
+        "church"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q16970> ;
+    schema:dateModified "2021-03-04T14:05:18+00:00"^^xsd:dateTime ;
+    schema:description "Kirchengebäude"@de,
+        "church building"@en ;
+    schema:version 16763 .
+
 onamaObject:Q212 a onama:Verb ;
     rdfs:label "reisen, v."@de,
         "travel, v."@en ;
@@ -30280,12 +32324,26 @@ onamaObject:Q294 a onama:Verb ;
     schema:dateModified "2019-08-28T14:04:45+00:00"^^xsd:dateTime ;
     schema:version 1871 .
 
+onamaObject:Q344 a onama:Verb ;
+    rdfs:label "schwören, v."@de,
+        "swear, v."@en ;
+    schema:dateModified "2019-09-02T09:34:48+00:00"^^xsd:dateTime ;
+    schema:version 2276 .
+
 onamaObject:Q491 a onama:Verb ;
     rdfs:label "zurück kehren, v."@de,
         "return, v."@en ;
     schema:dateModified "2020-06-22T11:16:04+00:00"^^xsd:dateTime ;
     schema:version 14644 ;
     skos:altLabel "Heim kehren, v."@de .
+
+onamaObject:Q509 a onama:Verb ;
+    rdfs:label "legen, v."@de,
+        "put, v."@en ;
+    schema:dateModified "2020-02-03T09:47:39+00:00"^^xsd:dateTime ;
+    schema:version 11794 ;
+    skos:altLabel "setzen, v."@de,
+        "stellen, v."@de .
 
 onamaObject:Q513 a onama:VisualRealisation ;
     rdfs:label "RO 006345 Peleus ordnet Argus an, ein Schiff zu bauen"@de,
@@ -30642,13 +32700,6 @@ onamaObject:Q727 a onama:Thing ;
     schema:dateModified "2019-10-03T11:53:06+00:00"^^xsd:dateTime ;
     schema:version 5449 .
 
-onamaObject:Q799 a onama:Verb ;
-    rdfs:label "zerstören, v."@de,
-        "destroy, v."@en ;
-    schema:dateModified "2019-10-07T11:30:27+00:00"^^xsd:dateTime ;
-    schema:version 6161 ;
-    skos:altLabel "wreck; devastate; demolish, v."@en .
-
 onamaObject:Q809 a onama:Place,
         onama:Thing ;
     rdfs:label "Ring; Kampfplatz, n."@de,
@@ -30704,12 +32755,11 @@ onamaObject:Q1290 a onama:Concept ;
     schema:dateModified "2020-02-03T13:03:26+00:00"^^xsd:dateTime ;
     schema:version 11809 .
 
-onamaObject:Q1384 a onama:Group ;
-    rdfs:label "Trojaner"@de,
-        "Trojans"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q47463094> ;
-    schema:dateModified "2020-02-17T09:58:27+00:00"^^xsd:dateTime ;
-    schema:version 12492 .
+onamaObject:Q152 a onama:Verb ;
+    rdfs:label "erzählen, v."@de,
+        "tell, v."@en ;
+    schema:dateModified "2019-08-27T11:55:30+00:00"^^xsd:dateTime ;
+    schema:version 1458 .
 
 onamaObject:Q283 a onama:Thing ;
     rdfs:label "Bankett; Festmahl"@de,
@@ -30748,13 +32798,6 @@ onamaObject:Q475 a onama:Verb ;
         "behead, v."@en ;
     schema:dateModified "2020-02-03T09:50:23+00:00"^^xsd:dateTime ;
     schema:version 11797 .
-
-onamaObject:Q498 a onama:Person ;
-    rdfs:label "Bote"@de,
-        "messenger"@en ;
-    onama:hasIconClassEquivalent ic:46E1 ;
-    schema:dateModified "2019-09-16T15:32:12+00:00"^^xsd:dateTime ;
-    schema:version 3563 .
 
 onamaObject:Q527 a onama:Person ;
     rdfs:label "Seemann"@de,
@@ -30831,17 +32874,18 @@ onamaObject:Q796 a onama:Verb ;
     schema:version 14620 ;
     skos:altLabel "verbrennen, v."@de .
 
+onamaObject:Q799 a onama:Verb ;
+    rdfs:label "zerstören, v."@de,
+        "destroy, v."@en ;
+    schema:dateModified "2019-10-07T11:30:27+00:00"^^xsd:dateTime ;
+    schema:version 6161 ;
+    skos:altLabel "wreck; devastate; demolish, v."@en .
+
 onamaObject:Q1022 a onama:Verb ;
     rdfs:label "stehlen, v."@de,
         "steal, v."@en ;
     schema:dateModified "2019-11-15T11:40:38+00:00"^^xsd:dateTime ;
     schema:version 8508 .
-
-onamaObject:Q107 a onama:Verb ;
-    rdfs:label "halten, v."@de,
-        "hold, v."@en ;
-    schema:dateModified "2019-09-03T09:02:59+00:00"^^xsd:dateTime ;
-    schema:version 2729 .
 
 onamaObject:Q1327 a onama:Place,
         onama:Thing ;
@@ -30888,13 +32932,12 @@ onamaObject:Q889 a onama:Collection ;
     schema:dateModified "2019-10-30T10:21:54+00:00"^^xsd:dateTime ;
     schema:version 7447 .
 
-onamaObject:Q95 a onama:Verb ;
-    rdfs:label "sprechen, v."@de,
-        "talk, v."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q52946> ;
-    schema:dateModified "2020-07-08T13:49:58+00:00"^^xsd:dateTime ;
-    schema:version 15081 ;
-    skos:altLabel "speak, v."@en .
+onamaObject:Q107 a onama:Verb ;
+    rdfs:label "halten, v."@de,
+        "hold, v."@en ;
+    schema:dateModified "2021-03-09T14:39:40+00:00"^^xsd:dateTime ;
+    schema:version 16920 ;
+    skos:altLabel "festhalten, v."@de .
 
 onamaObject:Q1235 a onama:EntityFunction ;
     rdfs:label "Entitätsfunktion Helfer"@de,
@@ -30911,12 +32954,11 @@ onamaObject:Q1339 a onama:Animal ;
     schema:dateModified "2020-02-12T15:08:06+00:00"^^xsd:dateTime ;
     schema:version 12103 .
 
-onamaObject:Q1387 a onama:Thing ;
-    rdfs:label "Altar"@de,
-        "altar"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q101687> ;
-    schema:dateModified "2020-02-17T13:01:28+00:00"^^xsd:dateTime ;
-    schema:version 12519 .
+onamaObject:Q1798 a onama:Collection ;
+    rdfs:label "Severusaltar"@de,
+        "Altarpiece of St. Severus"@en ;
+    schema:dateModified "2021-03-04T14:27:29+00:00"^^xsd:dateTime ;
+    schema:version 16783 .
 
 onamaObject:Q201 a onama:Verb ;
     rdfs:label "Abschied nehmen, v."@de,
@@ -30968,6 +33010,13 @@ onamaObject:Q484 a onama:Thing ;
     schema:dateModified "2019-09-13T11:59:08+00:00"^^xsd:dateTime ;
     schema:version 3441 .
 
+onamaObject:Q498 a onama:Person ;
+    rdfs:label "Bote"@de,
+        "messenger"@en ;
+    onama:hasIconClassEquivalent ic:46E1 ;
+    schema:dateModified "2019-09-16T15:32:12+00:00"^^xsd:dateTime ;
+    schema:version 3563 .
+
 onamaObject:Q663 a onama:Thing ;
     rdfs:label "Drachenblut, n."@de,
         "dragon's blood, n."@en ;
@@ -30980,6 +33029,13 @@ onamaObject:Q684 a onama:Verb ;
     schema:dateModified "2020-06-22T11:02:19+00:00"^^xsd:dateTime ;
     schema:version 14605 ;
     skos:altLabel "angreifen, v."@de .
+
+onamaObject:Q83 a onama:Thing ;
+    rdfs:label "Engel"@de,
+        "Angel"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q235113> ;
+    schema:dateModified "2020-05-20T09:42:30+00:00"^^xsd:dateTime ;
+    schema:version 14145 .
 
 onamaObject:Q842 a onama:Thing ;
     rdfs:label "Nahrungsmittel; Essen, n."@de,
@@ -30996,6 +33052,14 @@ onamaObject:Q89 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q313798> ;
     schema:dateModified "2020-05-20T09:34:27+00:00"^^xsd:dateTime ;
     schema:version 14136 .
+
+onamaObject:Q95 a onama:Verb ;
+    rdfs:label "sprechen, v."@de,
+        "talk, v."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q52946> ;
+    schema:dateModified "2020-07-08T13:49:58+00:00"^^xsd:dateTime ;
+    schema:version 15081 ;
+    skos:altLabel "speak, v."@en .
 
 onamaObject:Q1309 a onama:Concept ;
     rdfs:label "Geschichte von den Argonauten: Suche nach dem Goldenen Vlies"@de,
@@ -31025,6 +33089,16 @@ onamaObject:Q151 a onama:Thing ;
     schema:dateModified "2020-01-23T10:23:08+00:00"^^xsd:dateTime ;
     schema:version 10952 .
 
+onamaObject:Q1788 a onama:Person ;
+    rdfs:label "Hl. Severus von Ravenna"@de,
+        "St. Severus of Ravenna"@en ;
+    onama:hasGeneralEntityFunction onamaObject:Q656 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1355757> ;
+    schema:dateModified "2021-03-04T13:36:38+00:00"^^xsd:dateTime ;
+    schema:description "Severus, Weber und Bischof von Ravenna"@de,
+        "the weaver Severus, bishop of Ravenna"@en ;
+    schema:version 16721 .
+
 onamaObject:Q374 a onama:Thing ;
     rdfs:label "Zauberring, n."@de,
         "magic ring, n."@en ;
@@ -31032,12 +33106,6 @@ onamaObject:Q374 a onama:Thing ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q27506396> ;
     schema:dateModified "2019-11-15T10:32:03+00:00"^^xsd:dateTime ;
     schema:version 8354 .
-
-onamaObject:Q388 a onama:Verb ;
-    rdfs:label "tragen, befördern, v."@de,
-        "carry, v."@en ;
-    schema:dateModified "2020-02-03T10:12:08+00:00"^^xsd:dateTime ;
-    schema:version 11801 .
 
 onamaObject:Q496 a onama:Person ;
     rdfs:label "Diener"@de,
@@ -31053,27 +33121,18 @@ onamaObject:Q569 a onama:MythicalBeing ;
     schema:dateModified "2019-09-24T16:31:15+00:00"^^xsd:dateTime ;
     schema:version 4167 .
 
-onamaObject:Q695 a onama:Place,
-        onama:Thing ;
-    rdfs:label "Tisch"@de,
-        "table"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q14748> ;
-    schema:dateModified "2019-10-02T12:38:45+00:00"^^xsd:dateTime ;
-    schema:version 5180 .
-
 onamaObject:Q1260 a onama:EntityFunction ;
     rdfs:label "Entitätsfunktion Übermächtiger Gegner"@de,
         "Entity Function Overpowering Opponent"@en ;
     schema:dateModified "2020-07-07T07:32:00+00:00"^^xsd:dateTime ;
     schema:version 14702 .
 
-onamaObject:Q218 a onama:Verb ;
-    rdfs:label "finden, v."@de,
-        "find, v."@en ;
-    schema:dateModified "2019-11-18T14:11:36+00:00"^^xsd:dateTime ;
-    schema:version 8870 ;
-    skos:altLabel "entdecken, v."@de,
-        "discover, v."@en .
+onamaObject:Q1388 a onama:Place ;
+    rdfs:label "Kirchenraum"@de,
+        "church interior"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q30062483> ;
+    schema:dateModified "2020-02-17T13:20:34+00:00"^^xsd:dateTime ;
+    schema:version 12526 .
 
 onamaObject:Q451 a onama:Verb ;
     rdfs:label "bewachen, v."@de,
@@ -31081,12 +33140,11 @@ onamaObject:Q451 a onama:Verb ;
     schema:dateModified "2019-09-12T13:15:10+00:00"^^xsd:dateTime ;
     schema:version 3145 .
 
-onamaObject:Q552 a onama:Person ;
-    rdfs:label "Soldat"@de,
-        "soldier"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4991371> ;
-    schema:dateModified "2019-09-24T10:29:46+00:00"^^xsd:dateTime ;
-    schema:version 3987 .
+onamaObject:Q1393 a onama:Group ;
+    rdfs:label "Griechen"@de,
+        "Greeks"@en ;
+    schema:dateModified "2020-02-17T14:37:18+00:00"^^xsd:dateTime ;
+    schema:version 12568 .
 
 onamaObject:Q229 a onama:EntityFunction ;
     rdfs:label "Entitätsfunktion Bote"@de,
@@ -31103,6 +33161,12 @@ onamaObject:Q358 a onama:Thing ;
     schema:dateModified "2019-09-02T10:43:58+00:00"^^xsd:dateTime ;
     schema:version 2377 .
 
+onamaObject:Q388 a onama:Verb ;
+    rdfs:label "tragen, befördern, v."@de,
+        "carry, v."@en ;
+    schema:dateModified "2020-02-03T10:12:08+00:00"^^xsd:dateTime ;
+    schema:version 11801 .
+
 onamaObject:Q466 a onama:Verb ;
     rdfs:label "verletzen, v."@de,
         "injure, v."@en ;
@@ -31116,11 +33180,48 @@ onamaObject:Q500 a onama:Place,
     schema:dateModified "2019-09-18T09:26:57+00:00"^^xsd:dateTime ;
     schema:version 3645 .
 
+onamaObject:Q552 a onama:Person ;
+    rdfs:label "Soldat"@de,
+        "soldier"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q4991371> ;
+    schema:dateModified "2019-09-24T10:29:46+00:00"^^xsd:dateTime ;
+    schema:version 3987 .
+
 onamaObject:Q621 a onama:Person ;
     rdfs:label "Mitglied des Hofstaats"@de,
         "court member"@en ;
     schema:dateModified "2019-09-27T12:55:19+00:00"^^xsd:dateTime ;
     schema:version 4563 .
+
+onamaObject:Q695 a onama:Place,
+        onama:Thing ;
+    rdfs:label "Tisch"@de,
+        "table"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q14748> ;
+    schema:dateModified "2019-10-02T12:38:45+00:00"^^xsd:dateTime ;
+    schema:version 5180 .
+
+onamaObject:Q1384 a onama:Group ;
+    rdfs:label "Trojaner"@de,
+        "Trojans"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q47463094> ;
+    schema:dateModified "2020-02-17T09:58:27+00:00"^^xsd:dateTime ;
+    schema:version 12492 .
+
+onamaObject:Q1387 a onama:Thing ;
+    rdfs:label "Altar"@de,
+        "altar"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q101687> ;
+    schema:dateModified "2020-02-17T13:01:28+00:00"^^xsd:dateTime ;
+    schema:version 12519 .
+
+onamaObject:Q218 a onama:Verb ;
+    rdfs:label "finden, v."@de,
+        "find, v."@en ;
+    schema:dateModified "2019-11-18T14:11:36+00:00"^^xsd:dateTime ;
+    schema:version 8870 ;
+    skos:altLabel "entdecken, v."@de,
+        "discover, v."@en .
 
 onamaObject:Q419 a onama:Verb ;
     rdfs:label "Feuer speien, v."@de,
@@ -31135,20 +33236,6 @@ onamaObject:Q555 a onama:EntityFunction ;
         "Entity Function female"@en ;
     schema:dateModified "2020-07-07T07:35:58+00:00"^^xsd:dateTime ;
     schema:version 14718 .
-
-onamaObject:Q558 a onama:Animal ;
-    rdfs:label "Pferd, n."@de,
-        "horse, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q726> ;
-    schema:dateModified "2019-10-02T11:56:30+00:00"^^xsd:dateTime ;
-    schema:version 5082 .
-
-onamaObject:Q656 a onama:EntityFunction ;
-    rdfs:label "Entitätsfunktion Heilige*r"@de,
-        "Entity Function Saint"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q43115> ;
-    schema:dateModified "2020-07-07T07:32:20+00:00"^^xsd:dateTime ;
-    schema:version 14704 .
 
 onamaObject:Q888 a onama:Person ;
     rdfs:label "Iwein"@de,
@@ -31165,6 +33252,20 @@ onamaObject:Q179 a onama:Animal ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q140> ;
     schema:dateModified "2020-02-20T12:49:00+00:00"^^xsd:dateTime ;
     schema:version 12787 .
+
+onamaObject:Q558 a onama:Animal ;
+    rdfs:label "Pferd, n."@de,
+        "horse, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q726> ;
+    schema:dateModified "2019-10-02T11:56:30+00:00"^^xsd:dateTime ;
+    schema:version 5082 .
+
+onamaObject:Q656 a onama:EntityFunction ;
+    rdfs:label "Entitätsfunktion Heilige*r"@de,
+        "Entity Function Saint"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q43115> ;
+    schema:dateModified "2020-07-07T07:32:20+00:00"^^xsd:dateTime ;
+    schema:version 14704 .
 
 onamaObject:Q816 a onama:Place ;
     rdfs:label "Anferginan"@de,
@@ -31214,12 +33315,6 @@ onamaObject:Q677 a onama:Collection ;
     schema:dateModified "2019-10-02T11:36:36+00:00"^^xsd:dateTime ;
     schema:version 5051 .
 
-onamaObject:Q105 a onama:Verb ;
-    rdfs:label "bringen"@de,
-        "bring, v."@en ;
-    schema:dateModified "2019-08-30T15:00:55+00:00"^^xsd:dateTime ;
-    schema:version 2155 .
-
 onamaObject:Q1064 a onama:Place,
         onama:Thing ;
     rdfs:label "Wüste, n."@de,
@@ -31257,12 +33352,25 @@ onamaObject:Q533 a onama:Person ;
     schema:dateModified "2019-09-18T15:36:02+00:00"^^xsd:dateTime ;
     schema:version 3815 .
 
+onamaObject:Q105 a onama:Verb ;
+    rdfs:label "bringen"@de,
+        "bring, v."@en ;
+    schema:dateModified "2019-08-30T15:00:55+00:00"^^xsd:dateTime ;
+    schema:version 2155 .
+
 onamaObject:Q1577 a onama:MythicalBeing ;
     rdfs:label "Nixe"@de,
         "mermaid"@en ;
     schema:dateModified "2020-07-07T07:45:03+00:00"^^xsd:dateTime ;
     schema:version 14740 ;
     skos:altLabel "Fischweib, Meerjungfrau"@de .
+
+onamaObject:Q1796 a onama:Place ;
+    rdfs:label "Ravenna"@de,
+        "Ravenna"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q13364> ;
+    schema:dateModified "2021-03-04T14:13:20+00:00"^^xsd:dateTime ;
+    schema:version 16768 .
 
 onamaObject:Q285 a onama:Verb ;
     rdfs:label "geben, v."@de,
@@ -31375,13 +33483,6 @@ onamaObject:Q670 a onama:Thing ;
     schema:dateModified "2019-10-02T09:03:19+00:00"^^xsd:dateTime ;
     schema:version 4992 .
 
-onamaObject:Q213 a onama:Place ;
-    rdfs:label "Troja"@de,
-        "Troy"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q22647> ;
-    schema:dateModified "2019-08-27T12:08:12+00:00"^^xsd:dateTime ;
-    schema:version 1487 .
-
 onamaObject:Q470 a onama:Thing ;
     rdfs:label "Schwert, n."@de,
         "sword, n."@en ;
@@ -31417,12 +33518,6 @@ onamaObject:Q1112 a onama:Collection ;
         "St. Blaise cycle, Kaufbeuren"@en ;
     schema:dateModified "2019-11-28T09:37:40+00:00"^^xsd:dateTime ;
     schema:version 9307 .
-
-onamaObject:Q1155 a onama:Collection ;
-    rdfs:label "Ägidius Colonna. Trojanischer Krieg, Wien, ÖNB, cod. 2773"@de,
-        "Aegidius Colonna. The Trojan war, Wien, ÖNB, cod. 2773"@en ;
-    schema:dateModified "2019-12-12T15:34:09+00:00"^^xsd:dateTime ;
-    schema:version 9894 .
 
 onamaObject:Q1529 a onama:Concept ;
     rdfs:label "Oswalds Weg der Brautwerbung"@de,
@@ -31546,14 +33641,6 @@ onamaObject:Q1000 a onama:MythicalBeing ;
     schema:dateModified "2019-12-05T12:19:22+00:00"^^xsd:dateTime ;
     schema:version 9539 .
 
-onamaObject:Q506 a onama:Person ;
-    rdfs:label "Mann"@de,
-        "man"@en ;
-    onama:hasIconClassEquivalent ic:31D14 ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q8441> ;
-    schema:dateModified "2020-02-03T09:48:01+00:00"^^xsd:dateTime ;
-    schema:version 11795 .
-
 onamaObject:Q77 a onama:Person ;
     rdfs:label "Hl. Antonius Abbas"@de,
         "St. Antony Abbot"@en ;
@@ -31562,6 +33649,19 @@ onamaObject:Q77 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q21657494> ;
     schema:dateModified "2020-05-20T09:50:37+00:00"^^xsd:dateTime ;
     schema:version 14153 .
+
+onamaObject:Q213 a onama:Place ;
+    rdfs:label "Troja"@de,
+        "Troy"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q22647> ;
+    schema:dateModified "2019-08-27T12:08:12+00:00"^^xsd:dateTime ;
+    schema:version 1487 .
+
+onamaObject:Q1155 a onama:Collection ;
+    rdfs:label "Ägidius Colonna. Trojanischer Krieg, Wien, ÖNB, cod. 2773"@de,
+        "Aegidius Colonna. The Trojan war, Wien, ÖNB, cod. 2773"@en ;
+    schema:dateModified "2019-12-12T15:34:09+00:00"^^xsd:dateTime ;
+    schema:version 9894 .
 
 onamaObject:Q207 a onama:Place ;
     rdfs:label "Meer, n."@de,
@@ -31592,13 +33692,6 @@ onamaObject:Q266 a onama:Person ;
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q241971> ;
     schema:dateModified "2019-09-03T08:28:16+00:00"^^xsd:dateTime ;
     schema:version 2696 .
-
-onamaObject:Q507 a onama:Place ;
-    rdfs:label "Innenraum"@de,
-        "interior space"@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1299240> ;
-    schema:dateModified "2020-05-19T08:37:58+00:00"^^xsd:dateTime ;
-    schema:version 14097 .
 
 onamaObject:Q1161 a onama:Concept ;
     rdfs:label "Jasons Aufgaben zur Erringung des Goldenen Vlieses"@de,
@@ -31650,6 +33743,14 @@ onamaObject:Q1161 a onama:Concept ;
     schema:dateModified "2020-05-15T15:06:30+00:00"^^xsd:dateTime ;
     schema:version 14074 .
 
+onamaObject:Q506 a onama:Person ;
+    rdfs:label "Mann"@de,
+        "man"@en ;
+    onama:hasIconClassEquivalent ic:31D14 ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q8441> ;
+    schema:dateModified "2020-02-03T09:48:01+00:00"^^xsd:dateTime ;
+    schema:version 11795 .
+
 onamaObject:Q1040 a onama:Person ;
     rdfs:label "Hl. Blasius"@de,
         "St. Blaise"@en ;
@@ -31693,6 +33794,13 @@ onamaObject:Q792 a onama:Place,
     onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q39816> ;
     schema:dateModified "2019-10-07T11:01:17+00:00"^^xsd:dateTime ;
     schema:version 6090 .
+
+onamaObject:Q507 a onama:Place ;
+    rdfs:label "Innenraum"@de,
+        "interior space"@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q1299240> ;
+    schema:dateModified "2020-05-19T08:37:58+00:00"^^xsd:dateTime ;
+    schema:version 14097 .
 
 onamaObject:Q1261 a onama:EntityFunction ;
     rdfs:label "Entitätsfunktion Liebende*r"@de,
@@ -31756,13 +33864,6 @@ onamaObject:Q262 a onama:Place ;
     schema:dateModified "2019-08-27T12:17:45+00:00"^^xsd:dateTime ;
     schema:version 1510 .
 
-onamaObject:Q82 a onama:Place ;
-    rdfs:label "Landschaft, n."@de,
-        "landscape, n."@en ;
-    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q107425> ;
-    schema:dateModified "2020-02-10T12:12:18+00:00"^^xsd:dateTime ;
-    schema:version 11816 .
-
 onamaObject:Q406 a onama:Place ;
     rdfs:label "Insel des Goldenen Vlieses"@de,
         "Island of the Golden Fleece"@en ;
@@ -31771,6 +33872,13 @@ onamaObject:Q406 a onama:Place ;
     schema:version 14058 ;
     skos:altLabel "Kolchos"@de,
         "Colchos"@en .
+
+onamaObject:Q82 a onama:Place ;
+    rdfs:label "Landschaft, n."@de,
+        "landscape, n."@en ;
+    onama:hasWikiDataEquivalent <http://www.wikidata.org/entity/Q107425> ;
+    schema:dateModified "2020-02-10T12:12:18+00:00"^^xsd:dateTime ;
+    schema:version 11816 .
 
 onamaObject:Q292 a onama:Place,
         onama:Thing ;
